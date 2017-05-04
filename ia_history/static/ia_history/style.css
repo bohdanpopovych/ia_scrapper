@@ -1,0 +1,16 @@
+label {
+    margin-left: 5px;
+}
+
+
+.radio-item {
+    margin-bottom: 5px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    margin-left: 5px;
+}
