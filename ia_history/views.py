@@ -31,7 +31,7 @@ def result(request):
     results = list()
 
     for site in urls_list:
-        results.append(make_snapshots(site, timestamp_from, timestamp_to, mode))
+        results.append(make_snapshots(site, int(timestamp_from), int(timestamp_to), mode))
 
     render(request, 'ia_history/timeline.html', {'date': results})
 

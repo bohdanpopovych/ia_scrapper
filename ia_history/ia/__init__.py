@@ -4,15 +4,11 @@ from urllib.parse import urlparse
 from selenium import webdriver
 
 
-def make_snapshots(site_url, begin_time, end_time, consistensy_mode = 0):
+def make_snapshots(site_url, begin_time, end_time, consistency_mode=0):
     def is_available(url):
         check_url = 'http://archive.org/wayback/available?url=' + url
-
-        try:
-            response = requests.get(check_url).content.get('archived_snapshots').get('closest').get('available')
-            return True
-        except Exception:
-            return False
+        response = str(requests.get(check_url).content)
+        return 'available' in response
 
     def extract_timestamp(item):
         # Here we are extracting timestamp from response
@@ -37,11 +33,11 @@ def make_snapshots(site_url, begin_time, end_time, consistensy_mode = 0):
     # and filtering them to fit begin_time and end_time
     # if mode == 3
     timestamps = list()
-    if consistensy_mode == 3:
-        timestamps = filter(lambda x: begin_time <= x <= end_time, list(map(extract_timestamp, response_list)))
-    elif consistensy_mode == 2:
+    if consistency_mode == 3:
+        timestamps = list(filter(lambda x: begin_time <= x <= end_time, list(map(extract_timestamp, response_list))))
+    elif consistency_mode == 2:
         timestamps = list(map(extract_timestamp, response_list))
-    elif consistensy_mode == 1:
+    elif consistency_mode == 1:
         temp_timestamps = list(map(extract_timestamp, response_list))
         timestamps_dict = dict()
 
@@ -50,7 +46,7 @@ def make_snapshots(site_url, begin_time, end_time, consistensy_mode = 0):
             timestamps_dict[key] = temp_timestamps[i]
 
         timestamps = temp_timestamps
-    elif consistensy_mode == 0:
+    elif consistency_mode == 0:
         temp_timestamps = list(map(extract_timestamp, response_list))
         timestamps_dict = dict()
 
@@ -65,6 +61,7 @@ def make_snapshots(site_url, begin_time, end_time, consistensy_mode = 0):
     parsed_uri = urlparse(site_url)
     domain = '{uri.netloc}'.format(uri=parsed_uri)
 
+    # Creating separate directory for site if not exist
     if not os.path.exists(domain):
         os.makedirs(domain)
 
@@ -83,7 +80,13 @@ def make_snapshots(site_url, begin_time, end_time, consistensy_mode = 0):
             style.setAttribute('type', 'text/css');
             style.appendChild(text);
             document.head.insertBefore(style, document.head.firstChild);
-            document.getElementById('wm-ipp').remove();
+            
+            obj = document.getElementById("wm-ipp");
+            if (document.contains(obj) &&
+                obj !== 'null' &&
+                obj !== 'undefined') {
+                obj.remove();
+            }
         })();""")
         driver.set_window_size(1024, 768)
         file_name = '{}/snapshot_{}.png'.format(domain, timestamp)
