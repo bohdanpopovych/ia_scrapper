@@ -1,4 +1,6 @@
+from django.views.static import serve
 from ia_history import views
+from ia_scrapper import settings
 
 """ia_scrapper URL Configuration
 
@@ -21,5 +23,7 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', views.index, name='index'),
-    url(r'^result/', views.result, name='result')
+    url(r'^result/', views.result, name='result'),
+    url(r'^timelinew*', views.timeline, name='timeline'),
+    url(r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT})
 ]

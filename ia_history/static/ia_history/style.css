@@ -2,15 +2,15 @@ label {
     margin-left: 5px;
 }
 
-
-.radio-item {
-    margin-bottom: 5px;
+.container {
+	display: inline-flex;
+	width: 100%;
+	-webkit-flex-direction: row;
+    flex-direction: row-reverse;
+    flex-flow: row wrap;
 }
 
-.flex-container {
-    display: flex;
-}
-
-.flex-item {
-    margin-left: 5px;
+.item {
+	margin: 10px;
+	text-align: center;
 }

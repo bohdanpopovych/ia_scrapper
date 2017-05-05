@@ -1,6 +1,8 @@
+from urllib.parse import urlparse
+
 from django.shortcuts import render
-from ia_history.ia import make_snapshots
 from .forms import InputForm
+from .models import Snapshooter, TimelineBuilder
 
 
 # Create your views here.
@@ -12,7 +14,17 @@ def index(request):
 
 
 def result(request):
-    urls_list = request.POST.get("urls_List").split('\r\n')
+    def extract_domain(site_url):
+        parsed_uri = urlparse(site_url)
+
+        # If url does not start from http:// or https://, we should add it manually to prevent errors
+        if not parsed_uri.scheme:
+            site_url = "http://" + site_url
+            parsed_uri = urlparse(site_url
+                                  )
+        return '{uri.netloc}'.format(uri=parsed_uri)
+
+    urls_list = list(map(extract_domain, request.POST.get("urls_List").split('\r\n')))
 
     mode = int(request.POST.get("mode"))
 
@@ -31,8 +43,19 @@ def result(request):
     results = list()
 
     for site in urls_list:
-        results.append(make_snapshots(site, int(timestamp_from), int(timestamp_to), mode))
+        if not site:
+            urls_list.remove(site)
+            continue
 
-    render(request, 'ia_history/timeline.html', {'date': results})
+        item = Snapshooter.make_snapshots(site, int(timestamp_from), int(timestamp_to), mode)
+        results.append(item)
 
-    return render(request, 'ia_history/result.html', {'text': urls_list})
+    return render(request, 'ia_history/result.html',
+                  {'sites': urls_list}
+                  )
+
+
+def timeline(request):
+    site = request.GET.get('site')
+    images = TimelineBuilder.get_images_list(site)
+    return render(request, 'ia_history/timeline.html', {'images': images})

@@ -6,30 +6,6 @@
     <h1> Enter URLs Below</h1>
     <form action="/result/" method="post" >
         {% csrf_token %}
-        <!--
-        <label>
-            <textarea name="urls_List" rows="10"></textarea>
-        </label><br>
-            <input class="radio-item" name="type" type="radio" id="opy" value="opy"/>
-            <label for="opy">One per year</label><br>
-
-            <input class="radio-item" name="type" type="radio" id="opm" value="opm"/>
-            <label for="opm">One per month</label><br>
-
-            <input class="radio-item" name="type" type="radio" id="all" value="all"/>
-            <label for="all">All available timestamps</label><br>
-
-            <div class="flex-container">
-                <input class="flex-item" name="type" type="radio" id="fromto" value="fromto"/>
-                <label style="margin-left: 10px;" for="opy">All timestamps: </label><br>
-
-                <label for="datefrom"> From</label>
-                <input class="flex-item" type="date" id="datefrom" value="datefrom"/>
-
-                <label for="dateto"> To</label>
-                <input class="flex-item" type="date" id="dateto" value="dateto"/>
-            </div>
-        -->
         {{ form.as_p }}
         <input type="submit" value="Submit"/>
     </form>
