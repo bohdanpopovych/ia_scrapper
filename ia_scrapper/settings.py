@@ -12,8 +12,6 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 
 import os
 
-import djcelery
-
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -128,4 +126,3 @@ MEDIA_ROOT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file
 MEDIA_URL = '/media/'
 
 SESSION_ENGINE = 'django.contrib.sessions.backends.signed_cookies'
-djcelery.setup_loader()
