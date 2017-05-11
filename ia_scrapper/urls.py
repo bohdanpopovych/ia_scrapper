@@ -1,4 +1,5 @@
 from django.views.static import serve
+
 from ia_history import views
 from ia_scrapper import settings
 
@@ -25,5 +26,6 @@ urlpatterns = [
     url(r'^$', views.index, name='index'),
     url(r'^result/', views.result, name='result'),
     url(r'^timelinew*', views.timeline, name='timeline'),
-    url(r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT})
+    url(r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}),
+    url(r'^resultdiv/$', views.resultdiv, name='resultdiv'),
 ]

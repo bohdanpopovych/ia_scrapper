@@ -1,0 +1,8 @@
+{% load staticfiles %}
+<div id="o_{{ object.id }}">
+    <ol>
+        {% for x in sites %}
+            <li><a href="{% url 'timeline' %}?site={{ x }}">{{x}}'s timeline</a><br></li>
+        {% endfor %}
+    </ol>
+</div>

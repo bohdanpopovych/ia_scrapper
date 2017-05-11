@@ -1,17 +1,46 @@
+import json
+import logging
+import os
 from io import BytesIO
+from urllib.parse import urlparse
+
+import requests
 from PIL import Image
 from django.db import models
-import os
-import logging
-import requests
-from urllib.parse import urlparse
-from os.path import isfile, join
 from selenium import webdriver
 
+from .asyncdecorator import Async
 
-class Snapshooter(models.Model):
-    @staticmethod
-    def make_snapshots(site_url, begin_time, end_time, consistency_mode=0):
+
+class SiteManager(models.Manager):
+    def create_Site(self, site_url):
+        site = Site()
+        site.site_url = site_url
+        return site
+
+
+class Site(models.Model):
+    site_url = models.CharField(max_length=100)
+
+    images_json = models.CharField(max_length=9999)
+
+    ready = models.BooleanField(default=False)
+
+    objects = SiteManager()
+
+    def isReady(self):
+        return self.ready
+
+    def getImages(self):
+        return json.loads(self.images_json)
+
+    @classmethod
+    def create(cls, site_url):
+        site = cls(site_url=site_url)
+        return site
+
+    def __make_snapshots(self, begin_time, end_time, consistency_mode):
+
         def is_available(url):
             check_url = 'http://archive.org/wayback/available?url=' + url
             response = str(requests.get(check_url).content)
@@ -24,6 +53,8 @@ class Snapshooter(models.Model):
             # and replacing quotes then to have a possibility to convert them to numbers
             result = str(item.split(',')[2]).replace('"', '')
             return int(result)
+
+        site_url = self.site_url
 
         FORMAT = '[%(asctime)-15s] %(message)s'
         logging.basicConfig(filename='info.log', level=logging.INFO, format=FORMAT)
@@ -43,7 +74,7 @@ class Snapshooter(models.Model):
         # if not -- we just return empty dictionary
         if not is_available(site_url):
             logging.error('{} not available.'.format(site_url))
-            return dict()
+            return False
 
         # First slice -- [2:-3] -- is to remove incorrect characters at the beginning: "b'" and "'\n"
         # Second slice -- [1:] -- is to remove first element, which contains only field names,
@@ -97,7 +128,6 @@ class Snapshooter(models.Model):
         logger.info("Total snapshots: {}".format(max_value))
 
         for i, timestamp in enumerate(timestamps):
-            logger.info("{}/{} snapshots".format(i + 1, max_value))
             snapshot_url = "https://web-beta.archive.org/web/{}/{}".format(timestamp, site_url)
             driver.set_window_position(0, 0)
             driver.set_window_size(1024, 768)
@@ -110,7 +140,7 @@ class Snapshooter(models.Model):
                 style.setAttribute('type', 'text/css');
                 style.appendChild(text);
                 document.head.insertBefore(style, document.head.firstChild);
-    
+
                 obj = document.getElementById("wm-ipp");
                 if (document.contains(obj) &&
                     obj !== 'null' &&
@@ -128,30 +158,16 @@ class Snapshooter(models.Model):
             im = Image.open(BytesIO(screen))
             region = im.crop(box)
             region.save(file_name, 'JPEG', optimize=True, quality=95)
-            file_names[timestamp] = 'media/' + domain
+            file_names[file_name] = domain
+            logger.info("{}/{} snapshots".format(i + 1, max_value))
 
-        return file_names
+        self.ready = True
+        self.images_json = json.dumps(file_names, ensure_ascii=False)
 
+        return True
 
-class TimelineBuilder(models.Model):
     @staticmethod
-    def get_images_list(site_url):
-
-        # Method, designed to extract link from file name
-        def make_link_to_timestamp(file_name):
-            timestamp = file_name.split('_')[1].split('.')[0]
-            return "https://web-beta.archive.org/web/{}/{}".format(timestamp, site_url)
-
-        if not os.path.exists('media/' + site_url):
-            return list()
-
-        directory_files = [f for f in os.listdir('media/' + site_url) if isfile(join('media/' + site_url, f))]
-
-        images_path = list(map(lambda x: '{}/{}'.format(site_url, x), directory_files))
-
-        # Extracting timestamp from file name
-        timestamps = list(map(make_link_to_timestamp, images_path))
-
-        result = zip(images_path, timestamps)
-
-        return result
+    @Async
+    def make_snapshots_async_and_save(obj, begin_time, end_time, consistency_mode):
+        obj.__make_snapshots(begin_time, end_time, consistency_mode)
+        obj.save()

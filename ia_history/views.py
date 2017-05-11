@@ -1,11 +1,10 @@
+from json import loads
 from urllib.parse import urlparse
 
-from django.shortcuts import render
+from django.shortcuts import render, render_to_response
+
 from .forms import InputForm
-from .models import Snapshooter, TimelineBuilder
-
-
-# Create your views here.
+from .models import Site
 
 
 def index(request):
@@ -24,38 +23,63 @@ def result(request):
                                   )
         return '{uri.netloc}'.format(uri=parsed_uri)
 
+    if request.is_ajax():
+        return resultdiv(request)
+
     urls_list = list(map(extract_domain, request.POST.get("urls_List").split('\r\n')))
 
-    mode = int(request.POST.get("mode"))
+    consistency_mode = int(request.POST.get("mode"))
 
-    timestamp_from = "{:4}{:02}{:02}{}".format(
+    begin_time = int("{:4}{:02}{:02}{}".format(
         int(request.POST.get("start_date_year")),
         int(request.POST.get("start_date_month")),
         int(request.POST.get("start_date_day")),
-        '000000')
+        '000000'))
 
-    timestamp_to = "{:4}{:02}{:02}{}".format(
+    end_time = int("{:4}{:02}{:02}{}".format(
         int(request.POST.get("end_date_year")),
         int(request.POST.get("end_date_month")),
         int(request.POST.get("end_date_day")),
-        '000000')
+        '000000'))
 
-    results = list()
+    # removing all data from operations, made earlier
+    Site.objects.all().delete()
 
     for site in urls_list:
         if not site:
             urls_list.remove(site)
-            continue
+        else:
+            site_obj, created = Site.objects.get_or_create(site_url=site)
 
-        item = Snapshooter.make_snapshots(site, int(timestamp_from), int(timestamp_to), mode)
-        results.append(item)
+            site_obj.make_snapshots_async_and_save(site_obj, begin_time, end_time, consistency_mode)
 
     return render(request, 'ia_history/result.html',
-                  {'sites': urls_list}
+                  {'total_count': len(urls_list)}
                   )
 
 
 def timeline(request):
     site = request.GET.get('site')
-    images = TimelineBuilder.get_images_list(site)
-    return render(request, 'ia_history/timeline.html', {'images': images})
+
+    def make_link_to_timestamp(file_name):
+        timestamp = file_name.split('_')[1].split('.')[0]
+        return "https://web.archive.org/web/{}/{}".format(timestamp, site)
+
+    site_obj = Site.objects.filter(site_url=site)[0]
+    images = loads(site_obj.images_json)
+    links = list(map(make_link_to_timestamp, images))
+
+    zipped_result = zip(images, links)
+
+    return render(request, 'ia_history/timeline.html', {'images': zipped_result})
+
+
+def resultdiv(request):
+    all_sites = Site.objects.all()
+    ready_sites = list()
+    for item in all_sites:
+        if item.isReady():
+            ready_sites.append(item.site_url)
+
+    return render_to_response('ia_history/resultdiv.html',
+                              {'sites': ready_sites})
