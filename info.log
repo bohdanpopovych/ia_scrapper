@@ -1,0 +1,138 @@
+[2017-05-11 01:14:37,127] Getting timemap for 'http://fs.life'...
+[2017-05-11 01:14:37,614] Timemap received!
+[2017-05-11 01:14:37,615] Consistency mode: All available timestamps
+[2017-05-11 01:14:37,615] Starting browser...
+[2017-05-11 01:14:38,665] Browser started!
+[2017-05-11 01:14:38,666] Directory 'media/fs.life' does not exists, creating...
+[2017-05-11 01:14:38,666] Total snapshots: 2
+[2017-05-11 01:14:43,332] 1/2 snapshots
+[2017-05-11 01:14:43,880] 2/2 snapshots
+[2017-05-11 01:15:51,654] Getting timemap for 'http://fs.life'...
+[2017-05-11 01:15:52,580] Timemap received!
+[2017-05-11 01:15:52,580] Consistency mode: All available timestamps
+[2017-05-11 01:15:52,580] Starting browser...
+[2017-05-11 01:15:53,624] Browser started!
+[2017-05-11 01:15:53,625] Total snapshots: 2
+[2017-05-11 01:15:58,940] 1/2 snapshots
+[2017-05-11 01:15:59,434] 2/2 snapshots
+[2017-05-11 01:18:15,038] Getting timemap for 'http://fs.life'...
+[2017-05-11 01:18:15,530] Timemap received!
+[2017-05-11 01:18:15,531] Consistency mode: All available timestamps
+[2017-05-11 01:18:15,531] Starting browser...
+[2017-05-11 01:18:16,565] Browser started!
+[2017-05-11 01:18:16,566] Total snapshots: 2
+[2017-05-11 01:18:20,755] 1/2 snapshots
+[2017-05-11 01:18:21,153] 2/2 snapshots
+[2017-05-11 01:19:06,805] Getting timemap for 'http://fs.life'...
+[2017-05-11 01:19:07,240] Timemap received!
+[2017-05-11 01:19:07,240] Consistency mode: All available timestamps
+[2017-05-11 01:19:07,240] Starting browser...
+[2017-05-11 01:19:08,275] Browser started!
+[2017-05-11 01:19:08,276] Total snapshots: 2
+[2017-05-11 01:19:12,541] 1/2 snapshots
+[2017-05-11 01:19:13,027] 2/2 snapshots
+[2017-05-11 01:19:46,205] Getting timemap for 'http://fs.life'...
+[2017-05-11 01:19:46,638] Timemap received!
+[2017-05-11 01:19:46,638] Consistency mode: All available timestamps
+[2017-05-11 01:19:46,638] Starting browser...
+[2017-05-11 01:19:47,672] Browser started!
+[2017-05-11 01:19:47,672] Total snapshots: 2
+[2017-05-11 01:19:51,075] 1/2 snapshots
+[2017-05-11 01:19:51,499] 2/2 snapshots
+[2017-05-11 01:22:13,380] Getting timemap for 'http://fs.life'...
+[2017-05-11 01:22:13,868] Timemap received!
+[2017-05-11 01:22:13,869] Consistency mode: All available timestamps
+[2017-05-11 01:22:13,869] Starting browser...
+[2017-05-11 01:22:14,889] Browser started!
+[2017-05-11 01:22:14,889] Total snapshots: 2
+[2017-05-11 01:22:19,162] 1/2 snapshots
+[2017-05-11 01:22:19,553] 2/2 snapshots
+[2017-05-11 01:22:21,155] Internal Server Error: /timeline
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 63, in timeline
+    return render(request, 'ia_history/timeline.html', {'images': images})
+  File "/usr/local/lib/python3.5/dist-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.5/dist-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/template/backends/django.py", line 66, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.5/dist-packages/django/template/base.py", line 207, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.5/dist-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.5/dist-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.5/dist-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.5/dist-packages/django/template/defaulttags.py", line 207, in render
+    .format(num_loopvars, len_item),
+ValueError: Need 2 values to unpack in for loop; got 14. 
+[2017-05-11 01:26:57,581] Getting timemap for 'http://fs.life'...
+[2017-05-11 01:26:58,594] Timemap received!
+[2017-05-11 01:26:58,594] Consistency mode: All available timestamps
+[2017-05-11 01:26:58,594] Starting browser...
+[2017-05-11 01:26:59,613] Browser started!
+[2017-05-11 01:26:59,613] Total snapshots: 2
+[2017-05-11 01:27:05,779] 1/2 snapshots
+[2017-05-11 01:27:06,289] 2/2 snapshots
+[2017-05-11 01:27:07,445] Internal Server Error: /timeline
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 68, in timeline
+    links = list(map(make_link_to_timestamp, images))
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 63, in make_link_to_timestamp
+    timestamp = file_name.split('_')[1].split('.')[0]
+IndexError: list index out of range
+[2017-05-11 01:31:48,192] Getting timemap for 'http://fs.life'...
+[2017-05-11 01:31:48,647] Timemap received!
+[2017-05-11 01:31:48,647] Consistency mode: All available timestamps
+[2017-05-11 01:31:48,647] Starting browser...
+[2017-05-11 01:31:49,678] Browser started!
+[2017-05-11 01:31:49,679] Total snapshots: 2
+[2017-05-11 01:31:54,168] 1/2 snapshots
+[2017-05-11 01:31:54,565] 2/2 snapshots
+[2017-05-11 01:32:30,649] Not Found: /media/media/fs.life/snapshot_20170401162615.png
+[2017-05-11 01:32:30,691] Not Found: /media/media/fs.life/snapshot_20170425114945.png
+[2017-05-11 01:33:28,930] Getting timemap for 'http://brb.to'...
+[2017-05-11 01:33:30,197] Timemap received!
+[2017-05-11 01:33:30,198] Consistency mode: One per Year
+[2017-05-11 01:33:30,201] Starting browser...
+[2017-05-11 01:33:31,248] Browser started!
+[2017-05-11 01:33:31,249] Directory 'media/brb.to' does not exists, creating...
+[2017-05-11 01:33:31,251] Total snapshots: 4
+[2017-05-11 01:33:51,293] 1/4 snapshots
+[2017-05-11 01:34:21,148] 2/4 snapshots
+[2017-05-11 01:34:43,257] 3/4 snapshots
+[2017-05-11 01:35:14,057] 4/4 snapshots
+[2017-05-11 01:37:41,905] Getting timemap for 'http://brb.to'...
+[2017-05-11 01:37:42,876] Timemap received!
+[2017-05-11 01:37:42,877] Consistency mode: One per Year
+[2017-05-11 01:37:42,879] Starting browser...
+[2017-05-11 01:37:43,904] Browser started!
+[2017-05-11 01:37:43,904] Total snapshots: 4
+[2017-05-11 01:37:44,610] 1/4 snapshots
+[2017-05-11 01:37:45,382] 2/4 snapshots
+[2017-05-11 01:37:46,144] 3/4 snapshots
+[2017-05-11 01:37:46,931] 4/4 snapshots
+[2017-05-11 01:38:47,522] Getting timemap for 'http://brb.to'...
+[2017-05-11 01:38:48,377] Timemap received!
+[2017-05-11 01:38:48,379] Consistency mode: One per Year
+[2017-05-11 01:38:48,382] Starting browser...
+[2017-05-11 01:38:49,416] Browser started!
+[2017-05-11 01:38:49,417] Total snapshots: 4
+[2017-05-11 01:38:54,831] 1/4 snapshots
+[2017-05-11 01:38:58,835] 2/4 snapshots
+[2017-05-11 01:39:04,414] 3/4 snapshots
+[2017-05-11 01:39:09,055] 4/4 snapshots
