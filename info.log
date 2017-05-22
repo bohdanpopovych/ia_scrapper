@@ -136,3 +136,1073 @@ IndexError: list index out of range
 [2017-05-11 01:38:58,835] 2/4 snapshots
 [2017-05-11 01:39:04,414] 3/4 snapshots
 [2017-05-11 01:39:09,055] 4/4 snapshots
+[2017-05-12 11:17:56,445] Getting timemap for 'http://fs.life'...
+[2017-05-12 11:17:57,162] Timemap received!
+[2017-05-12 11:17:57,162] Consistency mode: All available timestamps
+[2017-05-12 11:17:57,162] Starting browser...
+[2017-05-12 11:17:58,192] Browser started!
+[2017-05-12 11:17:58,192] Directory 'media/fs.life' does not exists, creating...
+[2017-05-12 11:17:58,193] Total snapshots: 2
+[2017-05-12 11:18:05,381] 1/2 snapshots
+[2017-05-12 11:18:06,411] 2/2 snapshots
+[2017-05-12 11:44:58,134] Getting timemap for 'http://fs.life'...
+[2017-05-12 11:44:59,093] Timemap received!
+[2017-05-12 11:44:59,094] Consistency mode: All available timestamps
+[2017-05-12 11:44:59,094] Starting browser...
+[2017-05-12 11:45:00,126] Browser started!
+[2017-05-12 11:45:00,126] Total snapshots: 2
+[2017-05-12 11:45:46,709] Getting timemap for 'http://fs.life'...
+[2017-05-12 11:45:47,222] Timemap received!
+[2017-05-12 11:45:47,222] Consistency mode: All available timestamps
+[2017-05-12 11:45:47,222] Starting browser...
+[2017-05-12 12:15:44,593] Not Found: /static/ia_history/style.css
+[2017-05-12 12:15:45,397] Getting timemap for 'http://fs.life'...
+[2017-05-12 12:15:46,611] Timemap received!
+[2017-05-12 12:15:46,611] Consistency mode: All available timestamps
+[2017-05-12 12:15:46,611] Starting browser...
+[2017-05-12 12:15:47,638] Browser started!
+[2017-05-12 12:15:47,638] Total snapshots: 2
+[2017-05-12 12:15:54,115] 1/2 snapshots
+[2017-05-12 12:15:55,007] 2/2 snapshots
+[2017-05-12 12:15:57,770] Not Found: /static/ia_history/style.css
+[2017-05-12 12:16:24,770] Getting timemap for 'http://fs.life'...
+[2017-05-12 12:16:25,302] Timemap received!
+[2017-05-12 12:16:25,302] Consistency mode: All available timestamps
+[2017-05-12 12:16:25,303] Starting browser...
+[2017-05-12 12:16:26,326] Browser started!
+[2017-05-12 12:16:26,326] Total snapshots: 2
+[2017-05-12 12:16:36,697] 1/2 snapshots
+[2017-05-12 12:16:37,181] 2/2 snapshots
+[2017-05-12 12:33:33,240] Getting timemap for 'http://fs.life'...
+[2017-05-12 12:33:34,762] Timemap received!
+[2017-05-12 12:33:34,762] Consistency mode: All available timestamps
+[2017-05-12 12:33:34,763] Starting browser...
+[2017-05-12 12:33:35,793] Browser started!
+[2017-05-12 12:33:35,793] Total snapshots: 2
+[2017-05-12 12:33:41,787] 1/2 snapshots
+[2017-05-12 12:33:42,891] 2/2 snapshots
+[2017-05-15 13:30:30,687] Getting timemap for 'http://fs.life'...
+[2017-05-15 13:30:32,908] Timemap received!
+[2017-05-15 13:30:32,909] Consistency mode: One per Year
+[2017-05-15 13:30:32,909] Starting browser...
+[2017-05-15 13:30:33,950] Browser started!
+[2017-05-15 13:30:33,950] Total snapshots: 1
+[2017-05-15 13:30:36,204] 1/1 snapshots
+[2017-05-15 13:52:42,244] Not Found: /favicon.ico
+[2017-05-15 14:02:15,596] Not Found: /favicon.ico
+[2017-05-15 14:59:37,610] Not Found: /favicon.ico
+[2017-05-15 16:09:02,790] Not Found: /favicon.ico
+[2017-05-15 17:19:17,628] Not Found: /favicon.ico
+[2017-05-15 17:19:20,383] Not Found: /favicon.ico
+[2017-05-15 17:19:29,287] Getting timemap for 'http://yahoo.com'...
+[2017-05-15 17:24:08,382] Timemap received!
+[2017-05-15 17:24:08,382] Consistency mode: One per Year
+[2017-05-15 17:24:09,762] Starting browser...
+[2017-05-15 17:24:10,798] Browser started!
+[2017-05-15 17:24:10,798] Directory 'media/yahoo.com' does not exists, creating...
+[2017-05-15 17:24:10,801] Total snapshots: 22
+[2017-05-15 17:24:33,293] 1/22 snapshots
+[2017-05-15 17:24:39,674] 2/22 snapshots
+[2017-05-15 17:24:45,705] 3/22 snapshots
+[2017-05-15 17:24:53,934] 4/22 snapshots
+[2017-05-15 17:25:18,683] 5/22 snapshots
+[2017-05-15 17:25:21,459] 6/22 snapshots
+[2017-05-15 17:25:32,077] 7/22 snapshots
+[2017-05-15 17:25:37,282] 8/22 snapshots
+[2017-05-15 17:25:43,321] 9/22 snapshots
+[2017-05-15 17:25:50,647] 10/22 snapshots
+[2017-05-15 17:25:59,410] 11/22 snapshots
+[2017-05-15 17:26:20,608] 12/22 snapshots
+[2017-05-15 17:26:20,773] Getting timemap for 'http://yahoo.com'...
+[2017-05-15 17:26:24,838] Getting timemap for 'http://yahoo.com'...
+[2017-05-15 17:26:39,466] 13/22 snapshots
+[2017-05-15 17:26:53,793] 14/22 snapshots
+[2017-05-15 17:27:10,966] 15/22 snapshots
+[2017-05-15 17:27:15,819] 16/22 snapshots
+[2017-05-15 17:27:22,084] 17/22 snapshots
+[2017-05-15 17:27:31,368] 18/22 snapshots
+[2017-05-15 17:27:57,688] 19/22 snapshots
+[2017-05-15 17:28:00,594] Timemap received!
+[2017-05-15 17:28:00,594] Consistency mode: One per Year
+[2017-05-15 17:28:02,016] Starting browser...
+[2017-05-15 17:28:03,058] Browser started!
+[2017-05-15 17:28:03,058] Total snapshots: 22
+[2017-05-15 17:28:05,720] Getting timemap for 'http://yahoo.com'...
+[2017-05-15 17:28:07,021] 20/22 snapshots
+[2017-05-15 17:28:13,832] 21/22 snapshots
+[2017-05-15 17:28:17,648] 1/22 snapshots
+[2017-05-15 17:28:19,644] 2/22 snapshots
+[2017-05-15 17:28:21,149] 3/22 snapshots
+[2017-05-15 17:28:23,614] 4/22 snapshots
+[2017-05-15 17:28:28,282] 5/22 snapshots
+[2017-05-15 17:28:28,657] 6/22 snapshots
+[2017-05-15 17:28:31,057] 22/22 snapshots
+[2017-05-15 17:28:31,380] 7/22 snapshots
+[2017-05-15 17:28:32,796] 8/22 snapshots
+[2017-05-15 17:28:34,429] 9/22 snapshots
+[2017-05-15 17:28:36,369] 10/22 snapshots
+[2017-05-15 17:28:38,607] 11/22 snapshots
+[2017-05-15 17:28:46,697] 12/22 snapshots
+[2017-05-15 17:28:54,308] 13/22 snapshots
+[2017-05-15 17:28:59,126] 14/22 snapshots
+[2017-05-15 17:29:04,281] 15/22 snapshots
+[2017-05-15 17:29:05,738] 16/22 snapshots
+[2017-05-15 17:29:07,323] 17/22 snapshots
+[2017-05-15 17:29:12,009] 18/22 snapshots
+[2017-05-15 17:29:17,860] Timemap received!
+[2017-05-15 17:29:17,862] Consistency mode: One per Year
+[2017-05-15 17:29:19,331] Starting browser...
+[2017-05-15 17:29:19,741] 19/22 snapshots
+[2017-05-15 17:29:20,389] Browser started!
+[2017-05-15 17:29:20,390] Total snapshots: 22
+[2017-05-15 17:29:21,935] 20/22 snapshots
+[2017-05-15 17:29:23,455] 21/22 snapshots
+[2017-05-15 17:29:23,546] 1/22 snapshots
+[2017-05-15 17:29:25,724] 2/22 snapshots
+[2017-05-15 17:29:28,483] 3/22 snapshots
+[2017-05-15 17:29:28,682] 22/22 snapshots
+[2017-05-15 17:29:30,440] 4/22 snapshots
+[2017-05-15 17:29:35,206] 5/22 snapshots
+[2017-05-15 17:29:35,680] 6/22 snapshots
+[2017-05-15 17:29:37,955] 7/22 snapshots
+[2017-05-15 17:29:39,563] 8/22 snapshots
+[2017-05-15 17:29:41,187] 9/22 snapshots
+[2017-05-15 17:29:43,104] 10/22 snapshots
+[2017-05-15 17:29:44,968] 11/22 snapshots
+[2017-05-15 17:29:51,118] 12/22 snapshots
+[2017-05-15 17:29:59,619] 13/22 snapshots
+[2017-05-15 17:30:05,404] 14/22 snapshots
+[2017-05-15 17:30:12,572] 15/22 snapshots
+[2017-05-15 17:30:14,030] 16/22 snapshots
+[2017-05-15 17:30:15,696] 17/22 snapshots
+[2017-05-15 17:30:20,159] 18/22 snapshots
+[2017-05-15 17:30:28,161] 19/22 snapshots
+[2017-05-15 17:30:30,356] 20/22 snapshots
+[2017-05-15 17:30:31,787] 21/22 snapshots
+[2017-05-15 17:30:36,820] Getting timemap for 'http://forestour-paca.org'...
+[2017-05-15 17:30:37,896] 22/22 snapshots
+[2017-05-15 17:30:38,655] Timemap received!
+[2017-05-15 17:30:38,656] Consistency mode: One per Year
+[2017-05-15 17:30:38,656] Starting browser...
+[2017-05-15 17:30:39,681] Browser started!
+[2017-05-15 17:30:39,681] Directory 'media/forestour-paca.org' does not exists, creating...
+[2017-05-15 17:30:39,683] Total snapshots: 12
+[2017-05-15 17:30:45,257] 1/12 snapshots
+[2017-05-15 17:30:48,743] 2/12 snapshots
+[2017-05-15 17:30:53,633] 3/12 snapshots
+[2017-05-15 17:30:58,101] 4/12 snapshots
+[2017-05-15 17:31:04,803] Timemap received!
+[2017-05-15 17:31:04,803] Consistency mode: One per Year
+[2017-05-15 17:31:05,283] 5/12 snapshots
+[2017-05-15 17:31:06,273] Starting browser...
+[2017-05-15 17:31:07,299] Browser started!
+[2017-05-15 17:31:07,300] Total snapshots: 22
+[2017-05-15 17:31:08,001] 1/22 snapshots
+[2017-05-15 17:31:08,575] 2/22 snapshots
+[2017-05-15 17:31:09,149] 3/22 snapshots
+[2017-05-15 17:31:09,918] 4/22 snapshots
+[2017-05-15 17:31:10,491] 5/22 snapshots
+[2017-05-15 17:31:10,790] 6/12 snapshots
+[2017-05-15 17:31:11,061] 6/22 snapshots
+[2017-05-15 17:31:11,636] 7/22 snapshots
+[2017-05-15 17:31:12,208] 8/22 snapshots
+[2017-05-15 17:31:12,800] 9/22 snapshots
+[2017-05-15 17:31:13,374] 10/22 snapshots
+[2017-05-15 17:31:13,964] 11/22 snapshots
+[2017-05-15 17:31:15,089] 12/22 snapshots
+[2017-05-15 17:31:16,129] 7/12 snapshots
+[2017-05-15 17:31:20,297] 8/12 snapshots
+[2017-05-15 17:31:23,669] 13/22 snapshots
+[2017-05-15 17:31:24,980] 14/22 snapshots
+[2017-05-15 17:31:26,533] 9/12 snapshots
+[2017-05-15 17:31:31,449] 10/12 snapshots
+[2017-05-15 17:31:32,110] 15/22 snapshots
+[2017-05-15 17:31:34,150] 16/22 snapshots
+[2017-05-15 17:31:35,908] 17/22 snapshots
+[2017-05-15 17:31:37,358] 11/12 snapshots
+[2017-05-15 17:31:40,654] 18/22 snapshots
+[2017-05-15 17:31:43,367] 12/12 snapshots
+[2017-05-15 17:31:50,886] 19/22 snapshots
+[2017-05-15 17:31:53,200] 20/22 snapshots
+[2017-05-15 17:31:55,094] 21/22 snapshots
+[2017-05-15 17:31:59,662] 22/22 snapshots
+[2017-05-15 17:34:28,377] Getting timemap for 'http://forestour-paca.org'...
+[2017-05-15 17:34:29,393] Timemap received!
+[2017-05-15 17:34:29,395] Consistency mode: One per Year
+[2017-05-15 17:34:29,395] Starting browser...
+[2017-05-15 17:34:30,417] Browser started!
+[2017-05-15 17:34:30,417] Total snapshots: 12
+[2017-05-15 17:34:35,720] Internal Server Error: /timeline
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 68, in timeline
+    site_obj = Site.objects.filter(site_url=site)[0]
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2017-05-15 17:34:35,844] 1/12 snapshots
+[2017-05-15 17:34:37,645] 2/12 snapshots
+[2017-05-15 17:34:40,243] 3/12 snapshots
+[2017-05-15 17:34:42,740] 4/12 snapshots
+[2017-05-15 17:34:45,345] 5/12 snapshots
+[2017-05-15 17:34:48,759] 6/12 snapshots
+[2017-05-15 17:34:52,063] 7/12 snapshots
+[2017-05-15 17:34:54,364] 8/12 snapshots
+[2017-05-15 17:34:57,657] 9/12 snapshots
+[2017-05-15 17:35:00,063] 10/12 snapshots
+[2017-05-15 17:35:03,864] 11/12 snapshots
+[2017-05-15 17:35:06,557] 12/12 snapshots
+[2017-05-15 17:37:54,750] Getting timemap for 'http://forestour-paca.org'...
+[2017-05-15 17:37:55,666] Timemap received!
+[2017-05-15 17:37:55,666] Consistency mode: One per Year
+[2017-05-15 17:37:55,667] Starting browser...
+[2017-05-15 17:37:56,686] Browser started!
+[2017-05-15 17:37:56,686] Total snapshots: 12
+[2017-05-15 17:38:01,277] 1/12 snapshots
+[2017-05-15 17:38:02,178] 2/12 snapshots
+[2017-05-15 17:38:04,905] 3/12 snapshots
+[2017-05-15 17:38:07,310] 4/12 snapshots
+[2017-05-15 17:38:09,500] 5/12 snapshots
+[2017-05-15 17:38:12,198] 6/12 snapshots
+[2017-05-15 17:38:14,490] 7/12 snapshots
+[2017-05-15 17:38:16,680] 8/12 snapshots
+[2017-05-15 17:38:19,568] 9/12 snapshots
+[2017-05-15 17:38:22,157] 10/12 snapshots
+[2017-05-15 17:38:25,159] 11/12 snapshots
+[2017-05-15 17:38:27,667] 12/12 snapshots
+[2017-05-15 17:41:53,710] Getting timemap for 'http://forestour-paca.org'...
+[2017-05-15 17:41:55,255] Timemap received!
+[2017-05-15 17:41:55,255] Consistency mode: One per Year
+[2017-05-15 17:41:55,255] Starting browser...
+[2017-05-15 17:41:55,265] Getting timemap for 'http://forestour-paca.org'...
+[2017-05-15 17:41:55,947] Timemap received!
+[2017-05-15 17:41:55,947] Consistency mode: One per Year
+[2017-05-15 17:41:55,947] Starting browser...
+[2017-05-15 17:41:56,276] Browser started!
+[2017-05-15 17:41:56,277] Total snapshots: 12
+[2017-05-15 17:41:56,967] Browser started!
+[2017-05-15 17:41:56,967] Total snapshots: 12
+[2017-05-15 17:42:02,069] 1/12 snapshots
+[2017-05-15 17:42:02,169] 1/12 snapshots
+[2017-05-15 17:42:05,500] 2/12 snapshots
+[2017-05-15 17:42:06,223] 2/12 snapshots
+[2017-05-15 17:42:09,494] 3/12 snapshots
+[2017-05-15 17:42:09,520] 3/12 snapshots
+[2017-05-15 17:42:14,020] 4/12 snapshots
+[2017-05-15 17:42:14,278] Getting timemap for 'http://forestour-paca.org'...
+[2017-05-15 17:42:14,296] 4/12 snapshots
+[2017-05-15 17:42:14,932] Timemap received!
+[2017-05-15 17:42:14,932] Consistency mode: One per Year
+[2017-05-15 17:42:14,933] Starting browser...
+[2017-05-15 17:42:15,954] Browser started!
+[2017-05-15 17:42:15,954] Total snapshots: 12
+[2017-05-15 17:42:16,663] 1/12 snapshots
+[2017-05-15 17:42:17,254] 2/12 snapshots
+[2017-05-15 17:42:17,830] 3/12 snapshots
+[2017-05-15 17:42:18,458] 5/12 snapshots
+[2017-05-15 17:42:18,500] 4/12 snapshots
+[2017-05-15 17:42:18,545] 5/12 snapshots
+[2017-05-15 17:42:19,074] 5/12 snapshots
+[2017-05-15 17:42:19,644] 6/12 snapshots
+[2017-05-15 17:42:20,236] 7/12 snapshots
+[2017-05-15 17:42:20,830] 8/12 snapshots
+[2017-05-15 17:42:21,400] 9/12 snapshots
+[2017-05-15 17:42:21,969] 10/12 snapshots
+[2017-05-15 17:42:22,394] 6/12 snapshots
+[2017-05-15 17:42:22,408] 6/12 snapshots
+[2017-05-15 17:42:22,639] 11/12 snapshots
+[2017-05-15 17:42:23,509] 12/12 snapshots
+[2017-05-15 17:42:27,565] 7/12 snapshots
+[2017-05-15 17:42:28,003] 7/12 snapshots
+[2017-05-15 17:42:31,614] 8/12 snapshots
+[2017-05-15 17:42:31,702] 8/12 snapshots
+[2017-05-15 17:42:36,069] 9/12 snapshots
+[2017-05-15 17:42:37,197] 9/12 snapshots
+[2017-05-15 17:42:39,661] 10/12 snapshots
+[2017-05-15 17:42:39,703] 10/12 snapshots
+[2017-05-15 17:42:43,561] 11/12 snapshots
+[2017-05-15 17:42:43,611] 11/12 snapshots
+[2017-05-15 17:42:48,021] 12/12 snapshots
+[2017-05-15 17:42:48,164] 12/12 snapshots
+[2017-05-15 17:45:07,385] Getting timemap for 'http://forestour-paca.org'...
+[2017-05-15 17:45:08,354] Timemap received!
+[2017-05-15 17:45:08,354] Consistency mode: One per Year
+[2017-05-15 17:45:08,354] Starting browser...
+[2017-05-15 17:45:09,375] Browser started!
+[2017-05-15 17:45:09,375] Total snapshots: 12
+[2017-05-15 17:45:14,870] 1/12 snapshots
+[2017-05-15 17:45:16,537] 2/12 snapshots
+[2017-05-15 17:45:19,141] 3/12 snapshots
+[2017-05-15 17:45:21,440] 4/12 snapshots
+[2017-05-15 17:45:23,777] Getting timemap for 'http://forestour-paca.org'...
+[2017-05-15 17:45:24,350] 5/12 snapshots
+[2017-05-15 17:45:24,455] Timemap received!
+[2017-05-15 17:45:24,455] Consistency mode: One per Year
+[2017-05-15 17:45:24,456] Starting browser...
+[2017-05-15 17:45:25,475] Browser started!
+[2017-05-15 17:45:25,476] Total snapshots: 12
+[2017-05-15 17:45:26,963] 6/12 snapshots
+[2017-05-15 17:45:29,372] 7/12 snapshots
+[2017-05-15 17:45:29,547] 1/12 snapshots
+[2017-05-15 17:45:31,661] 8/12 snapshots
+[2017-05-15 17:45:32,327] 2/12 snapshots
+[2017-05-15 17:45:33,856] 9/12 snapshots
+[2017-05-15 17:45:34,779] 3/12 snapshots
+[2017-05-15 17:45:36,158] 10/12 snapshots
+[2017-05-15 17:45:37,559] 4/12 snapshots
+[2017-05-15 17:45:38,762] 11/12 snapshots
+[2017-05-15 17:45:39,940] 5/12 snapshots
+[2017-05-15 17:45:41,471] 12/12 snapshots
+[2017-05-15 17:45:43,741] 6/12 snapshots
+[2017-05-15 17:45:46,651] 7/12 snapshots
+[2017-05-15 17:45:50,158] 8/12 snapshots
+[2017-05-15 17:45:52,964] 9/12 snapshots
+[2017-05-15 17:45:57,757] 10/12 snapshots
+[2017-05-15 17:46:00,458] 11/12 snapshots
+[2017-05-15 17:46:03,359] 12/12 snapshots
+[2017-05-15 17:53:07,715] Getting timemap for 'http://forestour-paca.org'...
+[2017-05-15 17:53:09,661] Timemap received!
+[2017-05-15 17:53:09,662] Consistency mode: One per Year
+[2017-05-15 17:53:09,662] Starting browser...
+[2017-05-15 17:53:10,686] Browser started!
+[2017-05-15 17:53:10,686] Total snapshots: 12
+[2017-05-15 17:53:11,196] Getting timemap for 'http://forestour-paca.org'...
+[2017-05-15 17:53:11,846] Timemap received!
+[2017-05-15 17:53:11,846] Consistency mode: One per Year
+[2017-05-15 17:53:11,846] Starting browser...
+[2017-05-15 17:53:12,868] Browser started!
+[2017-05-15 17:53:12,868] Total snapshots: 12
+[2017-05-15 17:53:18,101] 1/12 snapshots
+[2017-05-15 17:53:18,116] 1/12 snapshots
+[2017-05-15 17:53:20,942] 2/12 snapshots
+[2017-05-15 17:53:21,570] 2/12 snapshots
+[2017-05-15 17:53:25,154] 3/12 snapshots
+[2017-05-15 17:53:25,766] 3/12 snapshots
+[2017-05-15 17:53:29,725] 4/12 snapshots
+[2017-05-15 17:53:30,169] 4/12 snapshots
+[2017-05-15 17:53:34,420] 5/12 snapshots
+[2017-05-15 17:53:34,961] 5/12 snapshots
+[2017-05-15 17:53:38,175] 6/12 snapshots
+[2017-05-15 17:53:39,072] 6/12 snapshots
+[2017-05-15 17:53:42,027] 7/12 snapshots
+[2017-05-15 17:53:43,773] 7/12 snapshots
+[2017-05-15 17:53:47,124] 8/12 snapshots
+[2017-05-15 17:53:47,465] 8/12 snapshots
+[2017-05-15 17:53:51,859] 9/12 snapshots
+[2017-05-15 17:53:52,178] 9/12 snapshots
+[2017-05-15 17:53:55,542] 10/12 snapshots
+[2017-05-15 17:53:57,060] 10/12 snapshots
+[2017-05-15 17:53:59,540] 11/12 snapshots
+[2017-05-15 17:53:59,576] 11/12 snapshots
+[2017-05-15 17:54:03,653] 12/12 snapshots
+[2017-05-15 17:54:04,169] 12/12 snapshots
+[2017-05-15 17:54:44,315] Getting timemap for 'http://lonestarcamping.com'...
+[2017-05-15 17:54:44,571] Getting timemap for 'http://prairiestruggle.org'...
+[2017-05-15 17:54:45,385] Getting timemap for 'http://polytypemusic.com'...
+[2017-05-15 17:54:45,613] Timemap received!
+[2017-05-15 17:54:45,613] Consistency mode: One per Year
+[2017-05-15 17:54:45,613] Starting browser...
+[2017-05-15 17:54:46,230] Timemap received!
+[2017-05-15 17:54:46,230] Consistency mode: One per Year
+[2017-05-15 17:54:46,230] Starting browser...
+[2017-05-15 17:54:46,634] Browser started!
+[2017-05-15 17:54:46,634] Directory 'media/prairiestruggle.org' does not exists, creating...
+[2017-05-15 17:54:46,635] Total snapshots: 5
+[2017-05-15 17:54:46,702] Timemap received!
+[2017-05-15 17:54:46,702] Consistency mode: One per Year
+[2017-05-15 17:54:46,702] Starting browser...
+[2017-05-15 17:54:47,250] Browser started!
+[2017-05-15 17:54:47,250] Directory 'media/lonestarcamping.com' does not exists, creating...
+[2017-05-15 17:54:47,252] Total snapshots: 12
+[2017-05-15 17:54:47,722] Browser started!
+[2017-05-15 17:54:47,722] Directory 'media/polytypemusic.com' does not exists, creating...
+[2017-05-15 17:54:47,723] Total snapshots: 4
+[2017-05-15 17:54:53,367] 1/5 snapshots
+[2017-05-15 17:54:53,666] 1/12 snapshots
+[2017-05-15 17:54:57,778] 2/5 snapshots
+[2017-05-15 17:54:59,161] 2/12 snapshots
+[2017-05-15 17:55:00,561] 1/4 snapshots
+[2017-05-15 17:55:03,331] 3/5 snapshots
+[2017-05-15 17:55:09,115] 4/5 snapshots
+[2017-05-15 17:55:10,162] 3/12 snapshots
+[2017-05-15 17:55:10,816] 5/5 snapshots
+[2017-05-15 17:55:14,749] 2/4 snapshots
+[2017-05-15 17:55:15,213] 4/12 snapshots
+[2017-05-15 17:55:16,628] 5/12 snapshots
+[2017-05-15 17:55:18,657] 6/12 snapshots
+[2017-05-15 17:55:26,138] 3/4 snapshots
+[2017-05-15 17:55:30,976] 7/12 snapshots
+[2017-05-15 17:55:35,894] 8/12 snapshots
+[2017-05-15 17:55:39,213] 4/4 snapshots
+[2017-05-15 17:55:44,112] 9/12 snapshots
+[2017-05-15 17:55:49,531] 10/12 snapshots
+[2017-05-15 17:56:02,569] 11/12 snapshots
+[2017-05-15 17:56:08,959] 12/12 snapshots
+[2017-05-15 18:07:35,155] Getting timemap for 'http://lonestarcamping.com'...
+[2017-05-15 18:07:35,174] Getting timemap for 'http://polytypemusic.com'...
+[2017-05-15 18:07:35,300] Getting timemap for 'http://prairiestruggle.org'...
+[2017-05-15 18:07:36,129] Timemap received!
+[2017-05-15 18:07:36,129] Consistency mode: One per Year
+[2017-05-15 18:07:36,129] Starting browser...
+[2017-05-15 18:07:36,265] Timemap received!
+[2017-05-15 18:07:36,265] Consistency mode: One per Year
+[2017-05-15 18:07:36,266] Starting browser...
+[2017-05-15 18:07:36,582] Timemap received!
+[2017-05-15 18:07:36,582] Consistency mode: One per Year
+[2017-05-15 18:07:36,582] Starting browser...
+[2017-05-15 18:07:37,152] Browser started!
+[2017-05-15 18:07:37,152] Total snapshots: 4
+[2017-05-15 18:07:37,289] Browser started!
+[2017-05-15 18:07:37,290] Total snapshots: 12
+[2017-05-15 18:07:37,603] Browser started!
+[2017-05-15 18:07:37,603] Total snapshots: 5
+[2017-05-15 18:07:43,012] 1/5 snapshots
+[2017-05-15 18:07:44,719] 1/4 snapshots
+[2017-05-15 18:07:46,914] 2/5 snapshots
+[2017-05-15 18:07:47,903] 1/12 snapshots
+[2017-05-15 18:07:51,866] 2/4 snapshots
+[2017-05-15 18:07:52,643] 2/12 snapshots
+[2017-05-15 18:07:54,473] 3/5 snapshots
+[2017-05-15 18:07:58,228] 3/4 snapshots
+[2017-05-15 18:07:58,349] 4/5 snapshots
+[2017-05-15 18:07:59,065] 3/12 snapshots
+[2017-05-15 18:08:01,497] 5/5 snapshots
+[2017-05-15 18:08:05,340] 4/12 snapshots
+[2017-05-15 18:08:07,956] 5/12 snapshots
+[2017-05-15 18:08:08,856] 6/12 snapshots
+[2017-05-15 18:08:11,956] 4/4 snapshots
+[2017-05-15 18:08:22,517] 7/12 snapshots
+[2017-05-15 18:08:26,244] 8/12 snapshots
+[2017-05-15 18:08:33,657] 9/12 snapshots
+[2017-05-15 18:08:39,059] 10/12 snapshots
+[2017-05-15 18:08:51,391] 11/12 snapshots
+[2017-05-15 18:09:02,817] 12/12 snapshots
+[2017-05-15 18:18:05,228] Getting timemap for 'http://lonestarcamping.com'...
+[2017-05-15 18:18:05,282] Getting timemap for 'http://polytypemusic.com'...
+[2017-05-15 18:18:05,366] Getting timemap for 'http://prairiestruggle.org'...
+[2017-05-15 18:18:05,950] Timemap received!
+[2017-05-15 18:18:05,950] Consistency mode: One per Year
+[2017-05-15 18:18:05,950] Starting browser...
+[2017-05-15 18:18:06,026] Timemap received!
+[2017-05-15 18:18:06,026] Consistency mode: One per Year
+[2017-05-15 18:18:06,026] Starting browser...
+[2017-05-15 18:18:06,245] Timemap received!
+[2017-05-15 18:18:06,246] Consistency mode: One per Year
+[2017-05-15 18:18:06,246] Starting browser...
+[2017-05-15 18:18:06,972] Browser started!
+[2017-05-15 18:18:06,972] Total snapshots: 4
+[2017-05-15 18:18:07,048] Browser started!
+[2017-05-15 18:18:07,048] Total snapshots: 5
+[2017-05-15 18:18:07,267] Browser started!
+[2017-05-15 18:18:07,267] Total snapshots: 12
+[2017-05-15 18:18:07,968] Getting timemap for 'http://lonestarcamping.com'...
+[2017-05-15 18:18:08,016] Getting timemap for 'http://polytypemusic.com'...
+[2017-05-15 18:18:08,068] Getting timemap for 'http://prairiestruggle.org'...
+[2017-05-15 18:18:08,509] Timemap received!
+[2017-05-15 18:18:08,509] Consistency mode: One per Year
+[2017-05-15 18:18:08,509] Starting browser...
+[2017-05-15 18:18:08,593] Timemap received!
+[2017-05-15 18:18:08,593] Consistency mode: One per Year
+[2017-05-15 18:18:08,594] Starting browser...
+[2017-05-15 18:18:08,615] Timemap received!
+[2017-05-15 18:18:08,615] Consistency mode: One per Year
+[2017-05-15 18:18:08,616] Starting browser...
+[2017-05-15 18:18:09,531] Browser started!
+[2017-05-15 18:18:09,531] Total snapshots: 4
+[2017-05-15 18:18:09,615] Browser started!
+[2017-05-15 18:18:09,615] Total snapshots: 5
+[2017-05-15 18:18:09,643] Browser started!
+[2017-05-15 18:18:09,643] Total snapshots: 12
+[2017-05-15 18:18:14,273] 1/5 snapshots
+[2017-05-15 18:18:16,846] 1/5 snapshots
+[2017-05-15 18:18:17,292] 1/4 snapshots
+[2017-05-15 18:18:19,199] 2/5 snapshots
+[2017-05-15 18:18:19,438] 1/12 snapshots
+[2017-05-15 18:18:19,610] 2/5 snapshots
+[2017-05-15 18:18:24,186] 2/4 snapshots
+[2017-05-15 18:18:24,869] 3/4 snapshots
+[2017-05-15 18:18:24,977] 3/5 snapshots
+[2017-05-15 18:18:25,005] 1/4 snapshots
+[2017-05-15 18:18:25,299] 3/5 snapshots
+[2017-05-15 18:18:25,910] 2/12 snapshots
+[2017-05-15 18:18:27,586] Getting timemap for 'http://polytypemusic.com'...
+[2017-05-15 18:18:27,591] Getting timemap for 'http://prairiestruggle.org'...
+[2017-05-15 18:18:27,741] Getting timemap for 'http://lonestarcamping.com'...
+[2017-05-15 18:18:28,050] Timemap received!
+[2017-05-15 18:18:28,050] Consistency mode: One per Year
+[2017-05-15 18:18:28,050] Starting browser...
+[2017-05-15 18:18:28,137] Timemap received!
+[2017-05-15 18:18:28,137] Consistency mode: One per Year
+[2017-05-15 18:18:28,137] Starting browser...
+[2017-05-15 18:18:28,412] Timemap received!
+[2017-05-15 18:18:28,412] Consistency mode: One per Year
+[2017-05-15 18:18:28,413] Starting browser...
+[2017-05-15 18:18:28,919] 4/5 snapshots
+[2017-05-15 18:18:29,081] Browser started!
+[2017-05-15 18:18:29,081] Total snapshots: 4
+[2017-05-15 18:18:29,166] Browser started!
+[2017-05-15 18:18:29,167] Total snapshots: 5
+[2017-05-15 18:18:29,224] 4/5 snapshots
+[2017-05-15 18:18:29,437] Browser started!
+[2017-05-15 18:18:29,437] Total snapshots: 12
+[2017-05-15 18:18:29,783] 1/4 snapshots
+[2017-05-15 18:18:29,877] 1/5 snapshots
+[2017-05-15 18:18:30,138] 1/12 snapshots
+[2017-05-15 18:18:30,327] 1/12 snapshots
+[2017-05-15 18:18:30,394] 2/4 snapshots
+[2017-05-15 18:18:30,501] 2/5 snapshots
+[2017-05-15 18:18:30,600] 5/5 snapshots
+[2017-05-15 18:18:30,717] 2/12 snapshots
+[2017-05-15 18:18:30,984] 3/4 snapshots
+[2017-05-15 18:18:31,096] 3/5 snapshots
+[2017-05-15 18:18:31,258] 5/5 snapshots
+[2017-05-15 18:18:31,309] 3/12 snapshots
+[2017-05-15 18:18:31,564] 4/4 snapshots
+[2017-05-15 18:18:31,676] 4/5 snapshots
+[2017-05-15 18:18:31,888] 4/12 snapshots
+[2017-05-15 18:18:32,250] 5/5 snapshots
+[2017-05-15 18:18:32,477] 5/12 snapshots
+[2017-05-15 18:18:33,048] 6/12 snapshots
+[2017-05-15 18:18:33,660] 7/12 snapshots
+[2017-05-15 18:18:34,249] 8/12 snapshots
+[2017-05-15 18:18:34,389] 4/4 snapshots
+[2017-05-15 18:18:34,598] 2/4 snapshots
+[2017-05-15 18:18:34,821] 9/12 snapshots
+[2017-05-15 18:18:35,391] 10/12 snapshots
+[2017-05-15 18:18:35,970] 11/12 snapshots
+[2017-05-15 18:18:36,045] 2/12 snapshots
+[2017-05-15 18:18:36,544] 12/12 snapshots
+[2017-05-15 18:18:37,529] 3/12 snapshots
+[2017-05-15 18:18:41,655] 4/12 snapshots
+[2017-05-15 18:18:43,278] 5/12 snapshots
+[2017-05-15 18:18:44,025] 3/12 snapshots
+[2017-05-15 18:18:44,236] 3/4 snapshots
+[2017-05-15 18:18:44,983] 6/12 snapshots
+[2017-05-15 18:18:47,992] 4/12 snapshots
+[2017-05-15 18:18:48,790] 5/12 snapshots
+[2017-05-15 18:18:49,537] 6/12 snapshots
+[2017-05-15 18:18:51,016] 7/12 snapshots
+[2017-05-15 18:18:56,747] 8/12 snapshots
+[2017-05-15 18:18:56,873] 4/4 snapshots
+[2017-05-15 18:18:57,141] 7/12 snapshots
+[2017-05-15 18:19:00,281] 8/12 snapshots
+[2017-05-15 18:19:02,354] 9/12 snapshots
+[2017-05-15 18:19:12,577] 9/12 snapshots
+[2017-05-15 18:19:17,705] 10/12 snapshots
+[2017-05-15 18:19:28,322] 11/12 snapshots
+[2017-05-15 18:19:30,997] 12/12 snapshots
+[2017-05-15 18:19:32,754] 10/12 snapshots
+[2017-05-15 18:19:38,684] 11/12 snapshots
+[2017-05-15 18:20:12,889] 12/12 snapshots
+[2017-05-15 18:22:00,853] Getting timemap for 'http://lonestarcamping.com'...
+[2017-05-15 18:22:00,928] Getting timemap for 'http://polytypemusic.com'...
+[2017-05-15 18:22:00,992] Getting timemap for 'http://prairiestruggle.org'...
+[2017-05-15 18:22:01,425] Timemap received!
+[2017-05-15 18:22:01,425] Consistency mode: One per Year
+[2017-05-15 18:22:01,425] Starting browser...
+[2017-05-15 18:22:01,506] Timemap received!
+[2017-05-15 18:22:01,506] Consistency mode: One per Year
+[2017-05-15 18:22:01,506] Starting browser...
+[2017-05-15 18:22:01,533] Timemap received!
+[2017-05-15 18:22:01,534] Consistency mode: One per Year
+[2017-05-15 18:22:01,534] Starting browser...
+[2017-05-15 18:22:02,449] Browser started!
+[2017-05-15 18:22:02,449] Total snapshots: 4
+[2017-05-15 18:22:02,530] Browser started!
+[2017-05-15 18:22:02,530] Total snapshots: 5
+[2017-05-15 18:22:02,564] Browser started!
+[2017-05-15 18:22:02,564] Total snapshots: 12
+[2017-05-15 18:22:07,724] 1/12 snapshots
+[2017-05-15 18:22:09,056] 1/5 snapshots
+[2017-05-15 18:22:11,599] 2/5 snapshots
+[2017-05-15 18:22:12,162] 1/4 snapshots
+[2017-05-15 18:22:13,516] 2/12 snapshots
+[2017-05-15 18:22:14,915] 3/5 snapshots
+[2017-05-15 18:22:17,411] 4/5 snapshots
+[2017-05-15 18:22:17,691] 3/12 snapshots
+[2017-05-15 18:22:18,137] 5/5 snapshots
+[2017-05-15 18:22:19,566] 2/4 snapshots
+[2017-05-15 18:22:21,132] 4/12 snapshots
+[2017-05-15 18:22:21,743] 5/12 snapshots
+[2017-05-15 18:22:22,449] 6/12 snapshots
+[2017-05-15 18:22:27,355] 3/4 snapshots
+[2017-05-15 18:22:37,988] 4/4 snapshots
+[2017-05-15 18:23:33,229] 7/12 snapshots
+[2017-05-15 18:23:37,660] 8/12 snapshots
+[2017-05-15 18:24:15,898] 9/12 snapshots
+[2017-05-15 18:24:23,041] 10/12 snapshots
+[2017-05-15 18:24:43,450] 11/12 snapshots
+[2017-05-15 18:24:52,758] 12/12 snapshots
+[2017-05-15 18:42:18,527] Not Found: /favicon.ico
+[2017-05-15 19:02:43,917] Getting timemap for 'http://lonestarcamping.com'...
+[2017-05-15 19:02:44,083] Getting timemap for 'http://prairiestruggle.org'...
+[2017-05-15 19:02:44,181] Getting timemap for 'http://polytypemusic.com'...
+[2017-05-15 19:02:44,846] Timemap received!
+[2017-05-15 19:02:44,846] Consistency mode: One per Year
+[2017-05-15 19:02:44,847] Starting browser...
+[2017-05-15 19:02:44,924] Timemap received!
+[2017-05-15 19:02:44,924] Consistency mode: One per Year
+[2017-05-15 19:02:44,924] Starting browser...
+[2017-05-15 19:02:45,876] Browser started!
+[2017-05-15 19:02:45,876] Total snapshots: 12
+[2017-05-15 19:02:45,950] Browser started!
+[2017-05-15 19:02:45,950] Total snapshots: 4
+[2017-05-15 19:02:46,417] Timemap received!
+[2017-05-15 19:02:46,417] Consistency mode: One per Year
+[2017-05-15 19:02:46,417] Starting browser...
+[2017-05-15 19:02:47,442] Browser started!
+[2017-05-15 19:02:47,442] Total snapshots: 5
+[2017-05-15 19:02:52,629] 1/12 snapshots
+[2017-05-15 19:02:54,491] 1/5 snapshots
+[2017-05-15 19:02:57,989] 2/5 snapshots
+[2017-05-15 19:02:59,633] 1/4 snapshots
+[2017-05-15 19:03:00,018] 2/12 snapshots
+[2017-05-15 19:03:03,532] 3/5 snapshots
+[2017-05-15 19:03:07,105] 4/5 snapshots
+[2017-05-15 19:03:09,175] 3/12 snapshots
+[2017-05-15 19:03:10,619] 5/5 snapshots
+[2017-05-15 19:03:12,349] 2/4 snapshots
+[2017-05-15 19:03:13,324] 4/12 snapshots
+[2017-05-15 19:03:14,722] 5/12 snapshots
+[2017-05-15 19:03:16,346] 6/12 snapshots
+[2017-05-15 19:03:21,942] 3/4 snapshots
+[2017-05-15 19:03:23,736] 7/12 snapshots
+[2017-05-15 19:03:28,288] 8/12 snapshots
+[2017-05-15 19:03:33,581] 9/12 snapshots
+[2017-05-15 19:03:37,424] 4/4 snapshots
+[2017-05-15 19:03:37,798] 10/12 snapshots
+[2017-05-15 19:03:57,897] 11/12 snapshots
+[2017-05-15 19:04:09,694] 12/12 snapshots
+[2017-05-15 19:08:57,324] Getting timemap for 'http://lonestarcamping.com'...
+[2017-05-15 19:08:57,352] Getting timemap for 'http://polytypemusic.com'...
+[2017-05-15 19:08:57,530] Getting timemap for 'http://prairiestruggle.org'...
+[2017-05-15 19:08:57,889] Timemap received!
+[2017-05-15 19:08:57,889] Consistency mode: One per Year
+[2017-05-15 19:08:57,889] Starting browser...
+[2017-05-15 19:08:57,992] Timemap received!
+[2017-05-15 19:08:57,992] Consistency mode: One per Year
+[2017-05-15 19:08:57,993] Starting browser...
+[2017-05-15 19:08:58,000] Timemap received!
+[2017-05-15 19:08:58,000] Consistency mode: One per Year
+[2017-05-15 19:08:58,001] Starting browser...
+[2017-05-15 19:08:58,914] Browser started!
+[2017-05-15 19:08:58,915] Total snapshots: 4
+[2017-05-15 19:08:59,023] Browser started!
+[2017-05-15 19:08:59,023] Total snapshots: 5
+[2017-05-15 19:08:59,038] Browser started!
+[2017-05-15 19:08:59,038] Total snapshots: 12
+[2017-05-15 19:09:02,661] 1/12 snapshots
+[2017-05-15 19:09:05,287] 1/5 snapshots
+[2017-05-15 19:09:06,456] 1/4 snapshots
+[2017-05-15 19:09:07,801] 2/5 snapshots
+[2017-05-15 19:09:09,479] 2/12 snapshots
+[2017-05-15 19:09:10,424] 3/5 snapshots
+[2017-05-15 19:09:12,245] 2/4 snapshots
+[2017-05-15 19:09:12,784] 4/5 snapshots
+[2017-05-15 19:09:13,422] 5/5 snapshots
+[2017-05-15 19:09:13,458] 3/12 snapshots
+[2017-05-15 19:09:17,009] 4/12 snapshots
+[2017-05-15 19:09:17,612] 5/12 snapshots
+[2017-05-15 19:09:18,228] 6/12 snapshots
+[2017-05-15 19:09:20,055] 3/4 snapshots
+[2017-05-15 19:09:21,387] 7/12 snapshots
+[2017-05-15 19:09:28,555] 8/12 snapshots
+[2017-05-15 19:09:30,166] 4/4 snapshots
+[2017-05-15 19:09:32,407] 9/12 snapshots
+[2017-05-15 19:09:36,286] 10/12 snapshots
+[2017-05-15 19:09:40,920] 11/12 snapshots
+[2017-05-15 19:09:43,791] 12/12 snapshots
+[2017-05-15 19:43:44,596] Not Found: /robots.txt
+[2017-05-15 19:43:44,859] Internal Server Error: /result/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 29, in result
+    urls_list = list(map(extract_domain, request.POST.get("urls_List").split('\r\n')))
+AttributeError: 'NoneType' object has no attribute 'split'
+[2017-05-15 19:45:23,761] Internal Server Error: /timeline
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 68, in timeline
+    site_obj = Site.objects.filter(site_url=site)[0]
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2017-05-15 20:47:46,941] Internal Server Error: /timeline
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 68, in timeline
+    site_obj = Site.objects.filter(site_url=site)[0]
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2017-05-15 20:47:52,764] Internal Server Error: /result/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 29, in result
+    urls_list = list(map(extract_domain, request.POST.get("urls_List").split('\r\n')))
+AttributeError: 'NoneType' object has no attribute 'split'
+[2017-05-15 21:41:09,659] Internal Server Error: /result/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 29, in result
+    urls_list = list(map(extract_domain, request.POST.get("urls_List").split('\r\n')))
+AttributeError: 'NoneType' object has no attribute 'split'
+[2017-05-15 21:41:39,062] Internal Server Error: /timeline
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 68, in timeline
+    site_obj = Site.objects.filter(site_url=site)[0]
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2017-05-22 09:37:33,008] Getting timemap for 'http://fs.life'...
+[2017-05-22 09:37:33,770] Timemap received!
+[2017-05-22 09:37:33,770] Consistency mode: One per Year
+[2017-05-22 09:37:33,771] Starting browser...
+[2017-05-22 09:37:34,798] Browser started!
+[2017-05-22 09:37:34,799] Total snapshots: 1
+[2017-05-22 09:37:36,810] 1/1 snapshots
+[2017-05-22 09:39:07,137] Getting timemap for 'http://fs.life'...
+[2017-05-22 09:39:07,728] Timemap received!
+[2017-05-22 09:39:07,728] Consistency mode: One per Year
+[2017-05-22 09:39:07,728] Starting browser...
+[2017-05-22 09:39:08,752] Browser started!
+[2017-05-22 09:39:08,752] Total snapshots: 1
+[2017-05-22 09:39:11,026] 1/1 snapshots
+[2017-05-22 09:39:12,631] Getting timemap for 'http://fs.life'...
+[2017-05-22 09:39:13,155] Timemap received!
+[2017-05-22 09:39:13,155] Consistency mode: One per Year
+[2017-05-22 09:39:13,155] Starting browser...
+[2017-05-22 09:39:14,220] Browser started!
+[2017-05-22 09:39:14,221] Total snapshots: 1
+[2017-05-22 09:39:15,939] 1/1 snapshots
+[2017-05-22 09:39:26,572] Getting timemap for 'http://seasonvar.ru'...
+[2017-05-22 09:39:29,030] Timemap received!
+[2017-05-22 09:39:29,030] Consistency mode: One per Year
+[2017-05-22 09:39:29,034] Starting browser...
+[2017-05-22 09:39:30,052] Browser started!
+[2017-05-22 09:39:30,052] Directory 'media/seasonvar.ru' does not exists, creating...
+[2017-05-22 09:39:30,052] Total snapshots: 9
+[2017-05-22 09:39:43,899] 1/9 snapshots
+[2017-05-22 09:39:55,437] 2/9 snapshots
+[2017-05-22 09:40:05,142] 3/9 snapshots
+[2017-05-22 09:40:15,017] 4/9 snapshots
+[2017-05-22 09:40:35,945] 5/9 snapshots
+[2017-05-22 09:41:01,491] 6/9 snapshots
+[2017-05-22 09:41:04,744] 7/9 snapshots
+[2017-05-22 09:41:10,611] Getting timemap for 'http://seasonvar.ru'...
+[2017-05-22 09:41:13,944] Timemap received!
+[2017-05-22 09:41:13,944] Consistency mode: One per Year
+[2017-05-22 09:41:13,949] Starting browser...
+[2017-05-22 09:41:14,973] Browser started!
+[2017-05-22 09:41:14,973] Directory 'media/seasonvar.ru' does not exists, creating...
+[2017-05-22 09:41:14,973] Total snapshots: 9
+[2017-05-22 09:41:21,110] 1/9 snapshots
+[2017-05-22 09:41:26,040] 8/9 snapshots
+[2017-05-22 09:41:26,924] 2/9 snapshots
+[2017-05-22 09:41:30,316] Getting timemap for 'http://Seasonvar.ru'...
+[2017-05-22 09:41:34,071] Timemap received!
+[2017-05-22 09:41:34,072] Consistency mode: One per Year
+[2017-05-22 09:41:34,099] Starting browser...
+[2017-05-22 09:41:35,197] Browser started!
+[2017-05-22 09:41:35,197] Directory 'media/Seasonvar.ru' does not exists, creating...
+[2017-05-22 09:41:35,198] Total snapshots: 9
+[2017-05-22 09:41:36,271] 1/9 snapshots
+[2017-05-22 09:41:37,087] 2/9 snapshots
+[2017-05-22 09:41:38,266] 3/9 snapshots
+[2017-05-22 09:41:39,075] 4/9 snapshots
+[2017-05-22 09:41:39,601] 3/9 snapshots
+[2017-05-22 09:41:39,872] 5/9 snapshots
+[2017-05-22 09:41:40,655] 6/9 snapshots
+[2017-05-22 09:41:41,249] 7/9 snapshots
+[2017-05-22 09:41:41,825] 8/9 snapshots
+[2017-05-22 09:41:42,513] 9/9 snapshots
+[2017-05-22 09:41:47,333] 4/9 snapshots
+[2017-05-22 09:41:49,165] 9/9 snapshots
+[2017-05-22 09:41:53,719] 5/9 snapshots
+[2017-05-22 09:42:02,364] 6/9 snapshots
+[2017-05-22 09:42:05,964] 7/9 snapshots
+[2017-05-22 09:42:11,635] 8/9 snapshots
+[2017-05-22 09:42:11,679] Getting timemap for 'http://Seasonvar.ru'...
+[2017-05-22 09:42:15,147] Timemap received!
+[2017-05-22 09:42:15,147] Consistency mode: One per Year
+[2017-05-22 09:42:15,156] Starting browser...
+[2017-05-22 09:42:16,193] Browser started!
+[2017-05-22 09:42:16,193] Total snapshots: 9
+[2017-05-22 09:42:17,176] 1/9 snapshots
+[2017-05-22 09:42:18,019] 2/9 snapshots
+[2017-05-22 09:42:18,767] 9/9 snapshots
+[2017-05-22 09:42:19,046] 3/9 snapshots
+[2017-05-22 09:42:32,251] 4/9 snapshots
+[2017-05-22 09:42:42,430] 5/9 snapshots
+[2017-05-22 09:42:56,104] 6/9 snapshots
+[2017-05-22 09:43:07,096] Getting timemap for 'http://Seasonvar.ru'...
+[2017-05-22 09:43:08,875] Timemap received!
+[2017-05-22 09:43:08,875] Consistency mode: One per Year
+[2017-05-22 09:43:08,879] Starting browser...
+[2017-05-22 09:43:09,907] Browser started!
+[2017-05-22 09:43:09,908] Total snapshots: 9
+[2017-05-22 09:43:15,186] 1/9 snapshots
+[2017-05-22 09:44:32,972] Getting timemap for 'http://seasonvar.ru'...
+[2017-05-22 09:44:35,110] Timemap received!
+[2017-05-22 09:44:35,110] Consistency mode: One per Year
+[2017-05-22 09:44:35,114] Starting browser...
+[2017-05-22 09:44:36,137] Browser started!
+[2017-05-22 09:44:36,137] Total snapshots: 9
+[2017-05-22 09:44:49,821] 1/9 snapshots
+[2017-05-22 09:45:00,621] 2/9 snapshots
+[2017-05-22 09:45:51,741] Getting timemap for 'http://fs.life'...
+[2017-05-22 09:45:52,623] Timemap received!
+[2017-05-22 09:45:52,624] Consistency mode: One per Year
+[2017-05-22 09:45:52,624] Starting browser...
+[2017-05-22 09:45:53,648] Browser started!
+[2017-05-22 09:45:53,649] Total snapshots: 1
+[2017-05-22 09:45:55,292] 1/1 snapshots
+[2017-05-22 09:46:22,988] Getting timemap for 'http://seasonvar.ru'...
+[2017-05-22 09:46:27,133] Timemap received!
+[2017-05-22 09:46:27,134] Consistency mode: One per Year
+[2017-05-22 09:46:27,138] Starting browser...
+[2017-05-22 09:46:28,171] Browser started!
+[2017-05-22 09:46:28,172] Total snapshots: 9
+[2017-05-22 09:46:39,555] 1/9 snapshots
+[2017-05-22 09:46:56,878] 2/9 snapshots
+[2017-05-22 09:47:14,548] 3/9 snapshots
+[2017-05-22 09:47:34,266] 4/9 snapshots
+[2017-05-22 09:47:46,465] 5/9 snapshots
+[2017-05-22 09:47:59,151] 6/9 snapshots
+[2017-05-22 09:48:13,056] 7/9 snapshots
+[2017-05-22 09:48:17,407] 8/9 snapshots
+[2017-05-22 09:48:33,074] 9/9 snapshots
+[2017-05-22 09:51:44,064] Getting timemap for 'http://forestour-paca.org'...
+[2017-05-22 09:51:51,435] Timemap received!
+[2017-05-22 09:51:51,435] Consistency mode: One per Year
+[2017-05-22 09:51:51,436] Starting browser...
+[2017-05-22 09:51:52,458] Browser started!
+[2017-05-22 09:51:52,458] Total snapshots: 12
+[2017-05-22 09:51:59,380] 1/12 snapshots
+[2017-05-22 09:52:04,997] 2/12 snapshots
+[2017-05-22 09:52:10,806] 3/12 snapshots
+[2017-05-22 09:52:16,819] 4/12 snapshots
+[2017-05-22 09:52:22,238] 5/12 snapshots
+[2017-05-22 09:52:26,972] 6/12 snapshots
+[2017-05-22 09:52:32,289] 7/12 snapshots
+[2017-05-22 09:52:36,239] 8/12 snapshots
+[2017-05-22 09:52:40,710] 9/12 snapshots
+[2017-05-22 09:52:45,219] 10/12 snapshots
+[2017-05-22 09:52:54,338] 11/12 snapshots
+[2017-05-22 09:52:59,694] 12/12 snapshots
+[2017-05-22 09:57:17,591] Not Found: /favicon.ico
+[2017-05-22 09:57:50,356] Getting timemap for 'http://brb.to'...
+[2017-05-22 09:57:50,453] Getting timemap for 'http://forestour-paca.org'...
+[2017-05-22 09:57:50,513] Getting timemap for 'http://seasonvar.ru'...
+[2017-05-22 09:57:51,179] Timemap received!
+[2017-05-22 09:57:51,180] Consistency mode: One per Year
+[2017-05-22 09:57:51,180] Starting browser...
+[2017-05-22 09:57:52,207] Browser started!
+[2017-05-22 09:57:52,207] Total snapshots: 12
+[2017-05-22 09:57:53,186] Timemap received!
+[2017-05-22 09:57:53,187] Consistency mode: One per Year
+[2017-05-22 09:57:53,193] Starting browser...
+[2017-05-22 09:57:54,263] Browser started!
+[2017-05-22 09:57:54,264] Total snapshots: 9
+[2017-05-22 09:57:57,377] 1/12 snapshots
+[2017-05-22 09:58:00,343] 2/12 snapshots
+[2017-05-22 09:58:04,333] 3/12 snapshots
+[2017-05-22 09:58:07,496] 4/12 snapshots
+[2017-05-22 09:58:08,220] 1/9 snapshots
+[2017-05-22 09:58:10,416] 5/12 snapshots
+[2017-05-22 09:58:13,334] 6/12 snapshots
+[2017-05-22 09:58:16,061] 7/12 snapshots
+[2017-05-22 09:58:17,710] 8/12 snapshots
+[2017-05-22 09:58:20,426] 9/12 snapshots
+[2017-05-22 09:58:23,023] 2/9 snapshots
+[2017-05-22 09:58:23,343] 10/12 snapshots
+[2017-05-22 09:58:26,477] 11/12 snapshots
+[2017-05-22 09:58:29,193] 12/12 snapshots
+[2017-05-22 09:58:44,514] 3/9 snapshots
+[2017-05-22 09:59:06,938] 4/9 snapshots
+[2017-05-22 09:59:29,443] 5/9 snapshots
+[2017-05-22 09:59:44,185] 6/9 snapshots
+[2017-05-22 10:00:00,514] 7/9 snapshots
+[2017-05-22 10:00:07,284] 8/9 snapshots
+[2017-05-22 10:00:29,062] 9/9 snapshots
+[2017-05-22 10:24:02,439] Getting timemap for 'http://brb.to'...
+[2017-05-22 10:25:38,168] Getting timemap for 'http://brb.to'...
+[2017-05-22 10:28:54,382] Getting timemap for 'http://fs.life'...
+[2017-05-22 10:28:55,278] Timemap received!
+[2017-05-22 10:28:55,278] Consistency mode: All available timestamps
+[2017-05-22 10:28:55,278] Starting browser...
+[2017-05-22 10:28:56,301] Browser started!
+[2017-05-22 10:28:56,302] Total snapshots: 1
+[2017-05-22 10:28:58,471] 1/1 snapshots
+[2017-05-22 10:29:22,312] Getting timemap for 'http://seasonvar.ru'...
+[2017-05-22 10:29:24,273] Timemap received!
+[2017-05-22 10:29:24,276] Consistency mode: All available timestamps
+[2017-05-22 10:29:24,276] Starting browser...
+[2017-05-22 10:29:25,294] Browser started!
+[2017-05-22 10:29:25,294] Total snapshots: 1533
+[2017-05-22 10:29:38,600] 1/1533 snapshots
+[2017-05-22 10:29:47,203] 2/1533 snapshots
+[2017-05-22 10:29:55,337] 3/1533 snapshots
+[2017-05-22 10:30:05,715] 4/1533 snapshots
+[2017-05-22 10:31:09,221] Getting timemap for 'http://seasonvar.ru'...
+[2017-05-22 10:31:11,168] Timemap received!
+[2017-05-22 10:31:11,168] Consistency mode: One per Year
+[2017-05-22 10:31:11,173] Starting browser...
+[2017-05-22 10:31:12,197] Browser started!
+[2017-05-22 10:31:12,197] Total snapshots: 9
+[2017-05-22 10:31:30,803] 1/9 snapshots
+[2017-05-22 10:31:53,830] 2/9 snapshots
+[2017-05-22 10:32:21,721] Getting timemap for 'http://seasonvar.ru'...
+[2017-05-22 10:32:23,023] Timemap received!
+[2017-05-22 10:32:23,023] Consistency mode: One per Year
+[2017-05-22 10:32:23,027] Starting browser...
+[2017-05-22 10:32:24,049] Browser started!
+[2017-05-22 10:32:24,050] Total snapshots: 9
+[2017-05-22 10:32:29,770] 1/9 snapshots
+[2017-05-22 10:32:45,350] 2/9 snapshots
+[2017-05-22 10:32:59,768] 3/9 snapshots
+[2017-05-22 10:33:15,131] 4/9 snapshots
+[2017-05-22 10:33:31,253] 5/9 snapshots
+[2017-05-22 10:33:50,174] 6/9 snapshots
+[2017-05-22 10:34:02,425] 7/9 snapshots
+[2017-05-22 10:34:10,916] 8/9 snapshots
+[2017-05-22 10:34:25,334] 9/9 snapshots
+[2017-05-22 10:37:28,472] Getting timemap for 'http://fs.life'...
+[2017-05-22 10:37:29,024] Timemap received!
+[2017-05-22 10:37:29,025] Consistency mode: All available timestamps
+[2017-05-22 10:37:29,025] Starting browser...
+[2017-05-22 10:37:30,044] Browser started!
+[2017-05-22 10:37:30,044] Total snapshots: 1
+[2017-05-22 10:37:31,925] 1/1 snapshots
+[2017-05-22 10:57:56,354] http://fourestour-paca.org not available.
+[2017-05-22 10:59:22,981] Getting timemap for 'http://polytypemusic.com'...
+[2017-05-22 10:59:23,665] Timemap received!
+[2017-05-22 10:59:23,665] Consistency mode: One per Year
+[2017-05-22 10:59:23,665] Starting browser...
+[2017-05-22 10:59:24,689] Browser started!
+[2017-05-22 10:59:24,690] Total snapshots: 4
+[2017-05-22 10:59:40,625] 1/4 snapshots
+[2017-05-22 10:59:54,585] 2/4 snapshots
+[2017-05-22 11:00:03,993] 3/4 snapshots
+[2017-05-22 11:00:15,742] 4/4 snapshots
+[2017-05-22 11:01:43,323] Getting timemap for 'http://polytypemusic.com'...
+[2017-05-22 11:01:43,565] http://werfsdv.ee not available.
+[2017-05-22 11:01:43,837] Timemap received!
+[2017-05-22 11:01:43,837] Consistency mode: One per Year
+[2017-05-22 11:01:43,837] Starting browser...
+[2017-05-22 11:01:44,861] Browser started!
+[2017-05-22 11:01:44,861] Total snapshots: 4
+[2017-05-22 11:01:52,171] 1/4 snapshots
+[2017-05-22 11:01:54,662] Internal Server Error: /timeline
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 83, in timeline
+    images = loads(site_obj.images_json)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2017-05-22 11:02:00,768] 2/4 snapshots
+[2017-05-22 11:02:06,853] 3/4 snapshots
+[2017-05-22 11:02:14,940] 4/4 snapshots
+[2017-05-22 11:23:54,375] Internal Server Error: /timeline
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 83, in timeline
+    images = loads(site_obj.images_json)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2017-05-22 11:34:31,895] http://qweqweqwe.222 not available.
+[2017-05-22 11:34:36,734] Internal Server Error: /timeline
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 82, in timeline
+    site_obj = Site.objects.filter(site_url=site)[0]
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2017-05-22 11:41:38,487] http://qweqweqwe.222 not available.
+[2017-05-22 12:41:42,000] http://upwork.com not available.
+[2017-05-22 12:41:42,151] Getting timemap for 'http://fs.to'...
+[2017-05-22 12:41:43,607] Timemap received!
+[2017-05-22 12:41:43,608] Consistency mode: One per Year
+[2017-05-22 12:41:43,609] Starting browser...
+[2017-05-22 12:41:44,642] Browser started!
+[2017-05-22 12:41:44,643] Directory 'media/fs.to' does not exists, creating...
+[2017-05-22 12:41:44,643] Total snapshots: 4
+[2017-05-22 12:41:50,735] 1/4 snapshots
+[2017-05-22 12:41:53,482] 2/4 snapshots
+[2017-05-22 12:41:56,196] 3/4 snapshots
+[2017-05-22 12:41:58,114] 4/4 snapshots
+[2017-05-22 12:42:20,753] http://www.upwork.com not available.
+[2017-05-22 12:45:33,782] Getting timemap for 'http://example.com'...
+[2017-05-22 12:45:33,786] http://www.upwork.com not available.
+[2017-05-22 12:45:33,987] Getting timemap for 'http://fs.to'...
+[2017-05-22 12:45:35,293] Timemap received!
+[2017-05-22 12:45:35,294] Consistency mode: One per Year
+[2017-05-22 12:45:35,296] Starting browser...
+[2017-05-22 12:45:36,323] Browser started!
+[2017-05-22 12:45:36,323] Total snapshots: 4
+[2017-05-22 12:45:41,094] 1/4 snapshots
+[2017-05-22 12:45:42,013] 2/4 snapshots
+[2017-05-22 12:45:43,863] 3/4 snapshots
+[2017-05-22 12:45:44,788] 4/4 snapshots

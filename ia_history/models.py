@@ -24,12 +24,14 @@ class Site(models.Model):
 
     images_json = models.CharField(max_length=9999)
 
-    ready = models.BooleanField(default=False)
+    status = models.CharField(max_length=50, default="(Loading...)")
+
+    available = models.BooleanField(default=True)
 
     objects = SiteManager()
 
-    def isReady(self):
-        return self.ready
+    def isAvailable(self):
+        return self.available
 
     def getImages(self):
         return json.loads(self.images_json)
@@ -56,7 +58,7 @@ class Site(models.Model):
 
         site_url = self.site_url
 
-        FORMAT = '[%(asctime)-15s] %(message)s'
+        FORMAT = '[%(asctime)-15sl] %(message)s'
         logging.basicConfig(filename='info.log', level=logging.INFO, format=FORMAT)
         logger = logging.getLogger('basic')
         logger.setLevel(logging.INFO)
@@ -74,6 +76,10 @@ class Site(models.Model):
         # if not -- we just return empty dictionary
         if not is_available(site_url):
             logging.error('{} not available.'.format(site_url))
+            self.status = "(Not available)"
+            self.images_json = ""
+            self.save()
+            self.available = False
             return False
 
         # First slice -- [2:-3] -- is to remove incorrect characters at the beginning: "b'" and "'\n"
@@ -82,6 +88,7 @@ class Site(models.Model):
         logger.info("Getting timemap for '{}'...".format(site_url))
         response_list = str(requests.get(timemap_request_url + site_url).content)[2:-3].split("\\n")[1:]
         logger.info("Timemap received!")
+
         # Extracting timestamps from response content
         # and filtering them to fit begin_time and end_time
         # if mode == 3
@@ -90,9 +97,11 @@ class Site(models.Model):
             timestamps = list(
                 filter(lambda x: begin_time <= x <= end_time, list(map(extract_timestamp, response_list))))
             logger.info("Consistency mode: All timestamps: From/To")
+
         elif consistency_mode == 2:
             timestamps = list(map(extract_timestamp, response_list))
             logger.info("Consistency mode: All available timestamps")
+
         elif consistency_mode == 1:
             temp_timestamps = list(map(extract_timestamp, response_list))
             logger.info("Consistency mode: One per month")
@@ -102,6 +111,7 @@ class Site(models.Model):
                 timestamps_dict[key] = temp_timestamps[i]
 
             timestamps = timestamps_dict.values()
+
         elif consistency_mode == 0:
             logger.info("Consistency mode: One per Year")
             temp_timestamps = list(map(extract_timestamp, response_list))
@@ -141,14 +151,14 @@ class Site(models.Model):
                 style.appendChild(text);
                 document.head.insertBefore(style, document.head.firstChild);
 
-                obj = document.getElementById("wm-ipp");
+                /*obj = document.getElementById("wm-ipp");
                 if (document.contains(obj) &&
                     obj !== 'null' &&
                     obj !== 'undefined') {
                     obj.remove();
-                }
+                }*/
             })();""")
-            file_name = 'media/{}/snapshot_{}.png'.format(domain, timestamp)
+            file_name = 'media/{}/snapshot_{}.jpg'.format(domain, timestamp)
             # print("\r{}/{}".format(i, max_value), end='')
             # driver.save_screenshot(file_name)
             screen = driver.get_screenshot_as_png()
@@ -160,8 +170,10 @@ class Site(models.Model):
             region.save(file_name, 'JPEG', optimize=True, quality=95)
             file_names[file_name] = domain
             logger.info("{}/{} snapshots".format(i + 1, max_value))
+            self.status = "({}/{})".format(i + 1, max_value)
+            self.save()
 
-        self.ready = True
+        # self.ready = True
         self.images_json = json.dumps(file_names, ensure_ascii=False)
 
         return True

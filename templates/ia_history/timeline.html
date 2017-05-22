@@ -1,16 +1,22 @@
 {% load staticfiles %}
 <html>
 
-<head></head>
+<head>
+
+</head>
 
 <body>
 <link rel="stylesheet" type="text/css" href="{% static 'ia_history/style.css' %}" />
 
 <div class="container">
-    {% for file, link in images %}
+    {% for file, link, label in images %}
 		<div class="item">
-			<img src="{{ file }}" width="512" height="384"><br>
-			<a href="{{ link }}">Go to timestamp</a>
+			<a rel="lightbox" href="{{ file }}">
+			    <img src="{{ file }}" width="512" height="384">
+            </a>
+            <br>
+            <a href="{{ link }}">{{ label }}</a>
+
 		</div>
     {% endfor %}
 </div>

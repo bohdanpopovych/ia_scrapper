@@ -1,29 +1,33 @@
 {% load staticfiles %}
-<link rel="stylesheet" type="text/css" href="{% static 'ia_history/style.css' %}" />
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>
-    (function worker() {
-            $.ajax({
-                url: '{% url 'resultdiv' %}',
-                success: function() {
-                  $('#rating').load("{% url 'resultdiv' %}")
-                },
-                complete: function() {
-                  // Schedule the next request when the current one's complete
-                  setTimeout(worker, 1000);
-                }
-        });
-    })();
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'ia_history/style.css' %}" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+        (function worker() {
+                $.ajax({
+                    url: '{% url 'resultdiv' %}',
+                    success: function() {
+                      $('#rating').load("{% url 'resultdiv' %}")
+                    },
+                    complete: function() {
+                      // Schedule the next request when the current one's complete
+                      setTimeout(worker, 1000);
+                    }
+            });
+        })();
 
-</script>
+    </script>
+</head>
 <body>
     <h1>Results</h1>
     <h4>Results are in process, will be loaded as soon as processing will finish.
         <p style="color: red;text-decoration: underline;">Invalid links will be ignored.</p>
     </h4>
 
-    <h3>Total timelines: {{ total_count }}</h3>
+    <h3>All timelines:</h3>
     <div id="rating">
         {% include 'ia_history/resultdiv.html' %}
     </div>
 </body>
+</html>
