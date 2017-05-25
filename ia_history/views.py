@@ -74,6 +74,7 @@ def result(request):
 
 
 def timeline(request):
+
     def timestamp_to_text(file_name):
         # Function to provide link text from timestamp
         timestamp = file_name.split('_')[-1].split('.')[0]
