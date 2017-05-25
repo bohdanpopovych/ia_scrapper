@@ -3586,3 +3586,25 @@ json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 [2017-05-25 15:48:06,772] 7/8 snapshots
 [2017-05-25 15:48:09,394] 8/8 snapshots
 [2017-05-25 15:48:09,414] kadyrov2012.com finished!
+[2017-05-25 15:59:10,138] Getting timemap for 'http://fs.to'...
+[2017-05-25 15:59:11,605] Timemap received!
+[2017-05-25 15:59:11,605] Consistency mode: One per Year
+[2017-05-25 15:59:11,609] Starting browser...
+[2017-05-25 15:59:12,657] Browser started!
+[2017-05-25 15:59:12,657] Directory 'media/fs.to_0' does not exists, creating...
+[2017-05-25 15:59:12,658] Total snapshots: 4
+[2017-05-25 15:59:20,655] 1/4 snapshots
+[2017-05-25 15:59:22,801] 2/4 snapshots
+[2017-05-25 15:59:27,538] 3/4 snapshots
+[2017-05-25 15:59:30,036] 4/4 snapshots
+[2017-05-25 15:59:30,065] fs.to finished!
+[2017-05-25 16:08:38,341] Getting timemap for 'http://habrahabr.ru'...
+[2017-05-25 16:08:42,609] Timemap received!
+[2017-05-25 16:08:42,610] Consistency mode: One per Year
+[2017-05-25 16:08:42,673] Starting browser...
+[2017-05-25 16:08:43,726] Browser started!
+[2017-05-25 16:08:43,726] Directory 'media/habrahabr.ru_0' does not exists, creating...
+[2017-05-25 16:08:43,727] Total snapshots: 12
+[2017-05-25 16:08:56,899] 1/12 snapshots
+[2017-05-25 16:09:27,326] 2/12 snapshots
+[2017-05-25 16:09:49,258] 3/12 snapshots

@@ -210,5 +210,5 @@ class Site(models.Model):
         return True
 
     @background
-    def make_snapshots_async_and_save(self, begin_time, end_time, consistency_mode):
+    def make_snapshots_in_background(self, begin_time, end_time, consistency_mode):
         return self.__make_snapshots(begin_time, end_time, consistency_mode)

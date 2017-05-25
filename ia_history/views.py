@@ -67,7 +67,7 @@ def result(request):
                         # one timeline of this site and now wants another one
                         site_obj.delete()
 
-                site_obj.make_snapshots_async_and_save(
+                site_obj.make_snapshots_in_background(
                     begin_time, end_time, consistency_mode)
 
     return render(request, 'ia_history/result.html', {})
@@ -76,7 +76,7 @@ def result(request):
 def timeline(request):
     def timestamp_to_text(file_name):
         # Function to provide link text from timestamp
-        timestamp = file_name.split('_')[1].split('.')[0]
+        timestamp = file_name.split('_')[-1].split('.')[0]
 
         year = timestamp[0:4]
         month = timestamp[4:6]
