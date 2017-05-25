@@ -7,6 +7,7 @@
 <body>
 
     <h1> Enter URLs Below</h1>
+    <h3><a href="{% url 'result' %}" target="_blank">...or go to timeline's list</a></h3>
     <form action="{% url 'result' %}" method="post" >
         {% csrf_token %}
         {{ form.as_p }}

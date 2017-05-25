@@ -3608,3 +3608,142 @@ json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 [2017-05-25 16:08:56,899] 1/12 snapshots
 [2017-05-25 16:09:27,326] 2/12 snapshots
 [2017-05-25 16:09:49,258] 3/12 snapshots
+[2017-05-25 19:54:55,619] Getting timemap for 'http://habrahabr.ru'...
+[2017-05-25 19:54:57,937] Timemap received!
+[2017-05-25 19:54:57,938] Consistency mode: One per Year
+[2017-05-25 19:54:57,959] Starting browser...
+[2017-05-25 19:54:58,982] Browser started!
+[2017-05-25 19:54:58,982] Total snapshots: 12
+[2017-05-25 19:55:30,701] 1/12 snapshots
+[2017-05-25 19:55:48,257] 2/12 snapshots
+[2017-05-25 19:56:05,430] 3/12 snapshots
+[2017-05-25 19:56:30,942] 4/12 snapshots
+[2017-05-25 19:56:56,187] 5/12 snapshots
+[2017-05-25 19:57:10,743] 6/12 snapshots
+[2017-05-25 19:57:35,446] 7/12 snapshots
+[2017-05-25 19:57:52,273] 8/12 snapshots
+[2017-05-25 19:58:06,746] 9/12 snapshots
+[2017-05-25 19:59:00,685] 10/12 snapshots
+[2017-05-25 19:59:12,676] 11/12 snapshots
+[2017-05-25 19:59:37,573] 12/12 snapshots
+[2017-05-25 19:59:37,589] habrahabr.ru finished!
+[2017-05-25 22:41:20,962] Not Found: /favicon.ico
+[2017-05-25 23:05:00,678] Getting timemap for 'http://fundourcommunity.com'...
+[2017-05-25 23:05:00,678] Getting timemap for 'http://discofingers.com'...
+[2017-05-25 23:05:00,679] Getting timemap for 'http://dimajazz.com'...
+[2017-05-25 23:05:02,210] Getting timemap for 'http://cercueil.org'...
+[2017-05-25 23:05:02,262] Getting timemap for 'http://bunkerapp.com'...
+[2017-05-25 23:05:03,396] Timemap received!
+[2017-05-25 23:05:03,396] Consistency mode: One per Year
+[2017-05-25 23:05:03,397] Starting browser...
+[2017-05-25 23:05:04,272] Timemap received!
+[2017-05-25 23:05:04,272] Consistency mode: One per Year
+[2017-05-25 23:05:04,273] Starting browser...
+[2017-05-25 23:05:04,418] Browser started!
+[2017-05-25 23:05:04,418] Directory 'media/fundourcommunity.com_0' does not exists, creating...
+[2017-05-25 23:05:04,421] Total snapshots: 4
+[2017-05-25 23:05:04,568] Timemap received!
+[2017-05-25 23:05:04,569] Consistency mode: One per Year
+[2017-05-25 23:05:04,569] Starting browser...
+[2017-05-25 23:05:04,854] Timemap received!
+[2017-05-25 23:05:04,854] Consistency mode: One per Year
+[2017-05-25 23:05:04,855] Starting browser...
+[2017-05-25 23:05:05,078] Timemap received!
+[2017-05-25 23:05:05,079] Consistency mode: One per Year
+[2017-05-25 23:05:05,080] Starting browser...
+[2017-05-25 23:05:05,293] Browser started!
+[2017-05-25 23:05:05,293] Directory 'media/cercueil.org_0' does not exists, creating...
+[2017-05-25 23:05:05,293] Total snapshots: 11
+[2017-05-25 23:05:05,588] Browser started!
+[2017-05-25 23:05:05,588] Directory 'media/discofingers.com_0' does not exists, creating...
+[2017-05-25 23:05:05,588] Total snapshots: 6
+[2017-05-25 23:05:05,874] Browser started!
+[2017-05-25 23:05:05,874] Directory 'media/dimajazz.com_0' does not exists, creating...
+[2017-05-25 23:05:05,874] Total snapshots: 11
+[2017-05-25 23:05:06,104] Browser started!
+[2017-05-25 23:05:06,104] Directory 'media/bunkerapp.com_0' does not exists, creating...
+[2017-05-25 23:05:06,104] Total snapshots: 6
+[2017-05-25 23:05:09,673] 1/6 snapshots
+[2017-05-25 23:05:09,888] 1/11 snapshots
+[2017-05-25 23:05:10,033] 1/4 snapshots
+[2017-05-25 23:05:10,196] 1/11 snapshots
+[2017-05-25 23:05:12,251] 2/4 snapshots
+[2017-05-25 23:05:13,176] 1/6 snapshots
+[2017-05-25 23:05:13,980] 2/11 snapshots
+[2017-05-25 23:05:14,161] 2/6 snapshots
+[2017-05-25 23:05:14,175] 2/11 snapshots
+[2017-05-25 23:05:14,196] 2/6 snapshots
+[2017-05-25 23:05:14,455] 3/4 snapshots
+[2017-05-25 23:05:16,366] 3/11 snapshots
+[2017-05-25 23:05:16,567] 4/4 snapshots
+[2017-05-25 23:05:16,585] fundourcommunity.com finished!
+[2017-05-25 23:05:17,727] 3/6 snapshots
+[2017-05-25 23:05:18,353] 4/11 snapshots
+[2017-05-25 23:05:19,047] 3/11 snapshots
+[2017-05-25 23:05:19,607] 3/6 snapshots
+[2017-05-25 23:05:20,130] 5/11 snapshots
+[2017-05-25 23:05:23,239] 6/11 snapshots
+[2017-05-25 23:05:23,579] 4/11 snapshots
+[2017-05-25 23:05:24,601] 4/6 snapshots
+[2017-05-25 23:05:25,101] 4/6 snapshots
+[2017-05-25 23:05:28,201] 5/11 snapshots
+[2017-05-25 23:05:28,940] 7/11 snapshots
+[2017-05-25 23:05:28,941] 5/6 snapshots
+[2017-05-25 23:05:30,894] 5/6 snapshots
+[2017-05-25 23:05:34,156] 6/11 snapshots
+[2017-05-25 23:05:34,627] 6/6 snapshots
+[2017-05-25 23:05:34,637] discofingers.com finished!
+[2017-05-25 23:05:35,813] 8/11 snapshots
+[2017-05-25 23:05:37,337] 7/11 snapshots
+[2017-05-25 23:05:38,626] 9/11 snapshots
+[2017-05-25 23:05:39,586] 6/6 snapshots
+[2017-05-25 23:05:39,596] bunkerapp.com finished!
+[2017-05-25 23:05:43,574] 8/11 snapshots
+[2017-05-25 23:05:44,030] 10/11 snapshots
+[2017-05-25 23:05:46,353] 9/11 snapshots
+[2017-05-25 23:05:52,019] 10/11 snapshots
+[2017-05-25 23:05:54,405] 11/11 snapshots
+[2017-05-25 23:05:54,415] cercueil.org finished!
+[2017-05-25 23:05:58,326] 11/11 snapshots
+[2017-05-25 23:05:58,344] dimajazz.com finished!
+[2017-05-25 23:07:14,666] Getting timemap for 'http://appalachianmountaininstitute.com'...
+[2017-05-25 23:07:14,952] Getting timemap for 'http://killerdesserts.com'...
+[2017-05-25 23:07:15,435] Timemap received!
+[2017-05-25 23:07:15,435] Consistency mode: One per Year
+[2017-05-25 23:07:15,436] Starting browser...
+[2017-05-25 23:07:16,456] Browser started!
+[2017-05-25 23:07:16,456] Directory 'media/appalachianmountaininstitute.com_0' does not exists, creating...
+[2017-05-25 23:07:16,456] Total snapshots: 10
+[2017-05-25 23:07:16,458] Timemap received!
+[2017-05-25 23:07:16,459] Consistency mode: One per Year
+[2017-05-25 23:07:16,459] Starting browser...
+[2017-05-25 23:07:17,481] Browser started!
+[2017-05-25 23:07:17,481] Directory 'media/killerdesserts.com_0' does not exists, creating...
+[2017-05-25 23:07:17,482] Total snapshots: 12
+[2017-05-25 23:07:19,469] 1/10 snapshots
+[2017-05-25 23:07:27,467] 1/12 snapshots
+[2017-05-25 23:07:30,851] 2/12 snapshots
+[2017-05-25 23:07:43,119] 3/12 snapshots
+[2017-05-25 23:07:56,488] 4/12 snapshots
+[2017-05-25 23:08:03,515] 5/12 snapshots
+[2017-05-25 23:08:10,391] 6/12 snapshots
+[2017-05-25 23:08:24,665] 7/12 snapshots
+[2017-05-25 23:08:26,181] 2/10 snapshots
+[2017-05-25 23:08:27,613] 3/10 snapshots
+[2017-05-25 23:08:31,196] 4/10 snapshots
+[2017-05-25 23:08:34,705] 8/12 snapshots
+[2017-05-25 23:08:44,953] 9/12 snapshots
+[2017-05-25 23:08:53,187] 10/12 snapshots
+[2017-05-25 23:08:55,697] 11/12 snapshots
+[2017-05-25 23:09:04,050] 12/12 snapshots
+[2017-05-25 23:09:04,064] killerdesserts.com finished!
+[2017-05-25 23:09:38,472] 5/10 snapshots
+[2017-05-25 23:09:45,364] 6/10 snapshots
+[2017-05-25 23:09:54,302] 7/10 snapshots
+[2017-05-25 23:10:04,558] 8/10 snapshots
+[2017-05-25 23:10:12,098] 9/10 snapshots
+[2017-05-25 23:10:23,015] 10/10 snapshots
+[2017-05-25 23:10:23,026] appalachianmountaininstitute.com finished!
+[2017-05-25 23:21:28,319] Getting timemap for 'http://ramkusells.com.ua'...
+[2017-05-25 23:21:32,621] Timemap received!
+[2017-05-25 23:21:32,621] Consistency mode: One per Year

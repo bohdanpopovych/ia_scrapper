@@ -89,7 +89,7 @@ def timeline(request):
     try:
 
         def make_link_to_timestamp(file_name):
-            timestamp = file_name.split('_')[1].split('.')[0]
+            timestamp = file_name.split('_')[-1].split('.')[0]
             return "https://web.archive.org/web/{}/{}".format(timestamp, site)
 
         site_obj = Site.objects.filter(site_url=site)[0]
@@ -129,7 +129,7 @@ def resultdiv(request):
 def remove(request):
     site = request.GET.get('site')
     site_date_str = request.GET.get('date')
-    consistensy_mode = request.GET.get('mode')
+    consistency_mode = request.GET.get('mode')
     site_date = datetime.strptime(site_date_str, '%Y-%m-%d')
     site_obj = Site.objects.filter(site_url=site, request_date=site_date).first()
 
@@ -137,7 +137,7 @@ def remove(request):
 
     if site_obj:
         site_obj.delete()
-        folder = 'media/{}_{}'.format(site, consistensy_mode)
+        folder = 'media/{}_{}'.format(site, consistency_mode)
 
     if os.path.exists(folder):
         # Removing existing files from folder
