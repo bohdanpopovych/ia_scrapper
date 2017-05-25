@@ -1,10 +1,13 @@
 {% load staticfiles %}
-<link rel="stylesheet" type="text/css" href="{% static 'ia_history/style.css' %}" />
-
+<html>
+<head>
+    <title>Internetarchive.com scrapper</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'ia_history/style.css' %}" />
+</head>
 <body>
 
     <h1> Enter URLs Below</h1>
-    <form action="/result/" method="post" >
+    <form action="{% url 'result' %}" method="post" >
         {% csrf_token %}
         {{ form.as_p }}
         <input type="submit" value="Submit"/>
@@ -12,3 +15,4 @@
 
 
 </body>
+</html>

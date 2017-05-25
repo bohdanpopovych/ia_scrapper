@@ -1,8 +1,14 @@
 {% load staticfiles %}
 <div id="o_{{ object.id }}">
-    <ol>
-        {% for x in sites %}
-            <li><a href="{% url 'timeline' %}?site={{ x.site_url }}">{{x.site_url}} {{ x.status }}</a><br></li>
+
+        {% for date, sites in dates %}
+            <h3>{{ date }}</h3>
+            <ul>
+                {% for site in sites %}
+                    <li>
+                        <a href="{% url 'timeline' %}?site={{ site.site_url }}&date={{ date }}&mode={{ site.consistency_mode }}">{{site.site_url}} {{ site.status }}</a><br>
+                    </li>
+                {% endfor %}
+            </ul>
         {% endfor %}
-    </ol>
 </div>

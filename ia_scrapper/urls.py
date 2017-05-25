@@ -28,4 +28,5 @@ urlpatterns = [
     url(r'^timelinew*', views.timeline, name='timeline'),
     url(r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}),
     url(r'^resultdiv/$', views.resultdiv, name='resultdiv'),
+    url(r'^removew*', views.remove, name='remove')
 ]

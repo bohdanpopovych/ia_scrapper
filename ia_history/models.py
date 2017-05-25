@@ -7,9 +7,10 @@ from urllib.parse import urlparse
 import requests
 from PIL import Image
 from django.db import models
+from django.utils import timezone
 from selenium import webdriver
 
-from .asyncdecorator import Async
+from .backgrounddecorator import background
 
 
 class SiteManager(models.Manager):
@@ -24,14 +25,23 @@ class Site(models.Model):
 
     images_json = models.CharField(max_length=9999)
 
+    consistency_mode = models.IntegerField(default=0)
+
     status = models.CharField(max_length=50, default="(Loading...)")
 
     available = models.BooleanField(default=True)
+
+    ready = models.BooleanField(default=False)
+
+    request_date = models.DateTimeField(default=timezone.now().date())
 
     objects = SiteManager()
 
     def isAvailable(self):
         return self.available
+
+    def isFinished(self):
+        return self.ready
 
     def getImages(self):
         return json.loads(self.images_json)
@@ -58,11 +68,6 @@ class Site(models.Model):
 
         site_url = self.site_url
 
-        FORMAT = '[%(asctime)-15sl] %(message)s'
-        logging.basicConfig(filename='info.log', level=logging.INFO, format=FORMAT)
-        logger = logging.getLogger('basic')
-        logger.setLevel(logging.INFO)
-
         timemap_request_url = "http://web.archive.org/web/timemap/json/"
         parsed_uri = urlparse(site_url)
 
@@ -72,14 +77,24 @@ class Site(models.Model):
             parsed_uri = urlparse(site_url)
         domain = '{uri.netloc}'.format(uri=parsed_uri)
 
+        # Setting up logger
+        FORMAT = '[%(asctime)-15s] %(message)s'
+        logging.basicConfig(filename='info.log', level=logging.INFO, format=FORMAT)
+        logger = logging.getLogger('basic')
+        logger.setLevel(logging.INFO)
+
+        # Adding consistency mode to object to know, what kind of timeline was created
+        self.consistency_mode = consistency_mode
+
         # First we must check if site is available in archive.com cache
-        # if not -- we just return empty dictionary
+        # if not -- we just return (Not available) status
         if not is_available(site_url):
             logging.error('{} not available.'.format(site_url))
             self.status = "(Not available)"
             self.images_json = ""
             self.save()
             self.available = False
+            self.ready = True
             return False
 
         # First slice -- [2:-3] -- is to remove incorrect characters at the beginning: "b'" and "'\n"
@@ -107,7 +122,7 @@ class Site(models.Model):
             logger.info("Consistency mode: One per month")
             timestamps_dict = dict()
             for i in range(0, len(temp_timestamps)):
-                key = str(temp_timestamps[i])[4:6]
+                key = str(temp_timestamps[i])[0:6]
                 timestamps_dict[key] = temp_timestamps[i]
 
             timestamps = timestamps_dict.values()
@@ -128,14 +143,28 @@ class Site(models.Model):
         logger.info("Browser started!")
 
         # Creating separate directory for site if not exist
-        if not os.path.exists('media/' + domain):
-            logger.info("Directory 'media/{}' does not exists, creating...".format(domain))
-            os.makedirs('media/' + domain)
+        folder = 'media/{}_{}'.format(domain, consistency_mode)
+
+        if not os.path.exists(folder):
+            logger.info("Directory '{}' does not exists, creating...".format(folder))
+            os.makedirs(folder)
+        else:
+            # Removing existing files from folder
+            for the_file in os.listdir(folder):
+                file_path = os.path.join(folder, the_file)
+                try:
+                    if os.path.isfile(file_path):
+                        os.unlink(file_path)
+                except Exception as e:
+                    pass
 
         file_names = dict()
 
         max_value = len(timestamps)
         logger.info("Total snapshots: {}".format(max_value))
+
+        self.status = "({}/{})".format(0, max_value)
+        self.save()
 
         for i, timestamp in enumerate(timestamps):
             snapshot_url = "https://web-beta.archive.org/web/{}/{}".format(timestamp, site_url)
@@ -158,9 +187,8 @@ class Site(models.Model):
                     obj.remove();
                 }*/
             })();""")
-            file_name = 'media/{}/snapshot_{}.jpg'.format(domain, timestamp)
-            # print("\r{}/{}".format(i, max_value), end='')
-            # driver.save_screenshot(file_name)
+
+            file_name = '{}/snapshot_{}.jpg'.format(folder, timestamp)
             screen = driver.get_screenshot_as_png()
 
             # Crop it back to the window size (it may be taller)
@@ -173,13 +201,14 @@ class Site(models.Model):
             self.status = "({}/{})".format(i + 1, max_value)
             self.save()
 
-        # self.ready = True
+        self.ready = True
         self.images_json = json.dumps(file_names, ensure_ascii=False)
 
+        self.save()
+
+        logger.info("{} finished!".format(domain))
         return True
 
-    @staticmethod
-    @Async
-    def make_snapshots_async_and_save(obj, begin_time, end_time, consistency_mode):
-        obj.__make_snapshots(begin_time, end_time, consistency_mode)
-        obj.save()
+    @background
+    def make_snapshots_async_and_save(self, begin_time, end_time, consistency_mode):
+        return self.__make_snapshots(begin_time, end_time, consistency_mode)

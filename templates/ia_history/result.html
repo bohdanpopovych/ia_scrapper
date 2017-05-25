@@ -1,6 +1,7 @@
 {% load staticfiles %}
 <html>
 <head>
+    <title>Result</title>
     <link rel="stylesheet" type="text/css" href="{% static 'ia_history/style.css' %}" />
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>
@@ -12,7 +13,7 @@
                     },
                     complete: function() {
                       // Schedule the next request when the current one's complete
-                      setTimeout(worker, 1000);
+                      setTimeout(worker, 300);
                     }
             });
         })();
@@ -23,6 +24,7 @@
     <h1>Results</h1>
     <h4>Results are in process, will be loaded as soon as processing will finish.
         <p style="color: red;text-decoration: underline;">Invalid links will be ignored.</p>
+        <p>Please, wait until all timelines will be ready.</p>
     </h4>
 
     <h3>All timelines:</h3>

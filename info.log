@@ -1206,3 +1206,2383 @@ IndexError: list index out of range
 [2017-05-22 12:45:42,013] 2/4 snapshots
 [2017-05-22 12:45:43,863] 3/4 snapshots
 [2017-05-22 12:45:44,788] 4/4 snapshots
+[2017-05-22 16:38:19,546l] http://www.upwork.com not available.
+[2017-05-22 16:38:19,663l] Getting timemap for 'http://fs.to'...
+[2017-05-22 16:38:20,938l] Timemap received!
+[2017-05-22 16:38:20,939l] Consistency mode: One per Year
+[2017-05-22 16:38:20,940l] Starting browser...
+[2017-05-22 16:38:21,973l] Browser started!
+[2017-05-22 16:38:21,974l] Total snapshots: 4
+[2017-05-22 16:38:27,428l] 1/4 snapshots
+[2017-05-22 16:38:29,321l] http://www.upwork.com not available.
+[2017-05-22 16:38:29,453l] Getting timemap for 'http://fs.to'...
+[2017-05-22 16:38:30,369l] 2/4 snapshots
+[2017-05-22 16:38:30,445l] Timemap received!
+[2017-05-22 16:38:30,445l] Consistency mode: One per Year
+[2017-05-22 16:38:30,447l] Starting browser...
+[2017-05-22 16:38:31,467l] Browser started!
+[2017-05-22 16:38:31,467l] Total snapshots: 4
+[2017-05-22 16:38:33,024l] 3/4 snapshots
+[2017-05-22 16:38:35,076l] 4/4 snapshots
+[2017-05-22 16:38:37,138l] 1/4 snapshots
+[2017-05-22 16:38:39,049l] 2/4 snapshots
+[2017-05-22 16:38:39,880l] 3/4 snapshots
+[2017-05-22 16:38:40,807l] 4/4 snapshots
+[2017-05-22 16:39:44,998l] http://upwork.com not available.
+[2017-05-22 16:39:45,114l] http://docs.google.com not available.
+[2017-05-22 16:43:01,911l] Getting timemap for 'http://brb.to'...
+[2017-05-22 16:43:03,285l] Timemap received!
+[2017-05-22 16:43:03,285l] Consistency mode: One per Year
+[2017-05-22 16:43:03,287l] Starting browser...
+[2017-05-22 16:43:04,312l] Browser started!
+[2017-05-22 16:43:04,313l] Directory 'media/brb.to' does not exists, creating...
+[2017-05-22 16:43:04,313l] Total snapshots: 4
+[2017-05-22 16:43:19,623l] 1/4 snapshots
+[2017-05-22 16:43:24,734l] 2/4 snapshots
+[2017-05-22 16:43:44,529l] 3/4 snapshots
+[2017-05-22 16:44:01,149l] 4/4 snapshots
+[2017-05-22 18:01:28,001l] Getting timemap for 'http://brb.to'...
+[2017-05-22 18:01:29,105l] Timemap received!
+[2017-05-22 18:01:29,105l] Consistency mode: One per Year
+[2017-05-22 18:01:29,106l] Starting browser...
+[2017-05-22 18:01:30,127l] Browser started!
+[2017-05-22 18:01:30,127l] Total snapshots: 4
+[2017-05-22 18:01:49,711l] 1/4 snapshots
+[2017-05-22 18:01:52,906l] 2/4 snapshots
+[2017-05-22 18:02:05,537l] Getting timemap for 'http://brb.to'...
+[2017-05-22 18:02:06,336l] Timemap received!
+[2017-05-22 18:02:06,336l] Consistency mode: One per Year
+[2017-05-22 18:02:06,337l] Starting browser...
+[2017-05-22 18:02:07,359l] Browser started!
+[2017-05-22 18:02:07,359l] Total snapshots: 4
+[2017-05-22 18:02:13,045l] 1/4 snapshots
+[2017-05-22 18:02:13,441l] Getting timemap for 'http://brb.to'...
+[2017-05-22 18:02:14,248l] Timemap received!
+[2017-05-22 18:02:14,248l] Consistency mode: One per Year
+[2017-05-22 18:02:14,250l] Starting browser...
+[2017-05-22 18:02:15,271l] Browser started!
+[2017-05-22 18:02:15,271l] Total snapshots: 4
+[2017-05-22 18:02:16,552l] 2/4 snapshots
+[2017-05-22 18:02:16,749l] 3/4 snapshots
+[2017-05-22 18:02:20,986l] 1/4 snapshots
+[2017-05-22 18:02:21,576l] 2/4 snapshots
+[2017-05-22 18:02:22,165l] 3/4 snapshots
+[2017-05-22 18:02:22,754l] 4/4 snapshots
+[2017-05-22 18:02:32,137l] Internal Server Error: /result/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 52, in result
+    site_obj, created = Site.objects.get_or_create(site_url=site)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 463, in get_or_create
+    return self.get(**lookup), False
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 383, in get
+    (self.model._meta.object_name, num)
+ia_history.models.MultipleObjectsReturned: get() returned more than one Site -- it returned 3!
+[2017-05-22 18:02:34,436l] 3/4 snapshots
+[2017-05-22 18:02:39,894l] Internal Server Error: /result/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 52, in result
+    site_obj, created = Site.objects.get_or_create(site_url=site)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 463, in get_or_create
+    return self.get(**lookup), False
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 383, in get
+    (self.model._meta.object_name, num)
+ia_history.models.MultipleObjectsReturned: get() returned more than one Site -- it returned 3!
+[2017-05-22 18:02:41,124l] 4/4 snapshots
+[2017-05-22 18:02:55,696l] 4/4 snapshots
+[2017-05-22 18:03:49,642l] Getting timemap for 'http://seasonvar.ru'...
+[2017-05-22 18:03:52,129l] Timemap received!
+[2017-05-22 18:03:52,129l] Consistency mode: One per Year
+[2017-05-22 18:03:52,134l] Starting browser...
+[2017-05-22 18:03:53,158l] Browser started!
+[2017-05-22 18:03:53,158l] Directory 'media/seasonvar.ru' does not exists, creating...
+[2017-05-22 18:03:53,158l] Total snapshots: 9
+[2017-05-22 18:04:07,108l] 1/9 snapshots
+[2017-05-22 18:04:25,510l] 2/9 snapshots
+[2017-05-22 18:04:55,533l] 3/9 snapshots
+[2017-05-22 18:05:09,667l] 4/9 snapshots
+[2017-05-22 18:05:23,479l] Getting timemap for 'http://seasonvar.ru'...
+[2017-05-22 18:05:26,898l] Timemap received!
+[2017-05-22 18:05:26,899l] Consistency mode: One per Year
+[2017-05-22 18:05:26,905l] Starting browser...
+[2017-05-22 18:05:27,932l] Browser started!
+[2017-05-22 18:05:27,933l] Total snapshots: 9
+[2017-05-22 18:05:33,965l] 5/9 snapshots
+[2017-05-22 18:05:35,307l] 1/9 snapshots
+[2017-05-22 18:05:44,158l] 2/9 snapshots
+[2017-05-22 18:05:49,877l] 3/9 snapshots
+[2017-05-22 18:05:50,628l] 6/9 snapshots
+[2017-05-22 18:05:54,583l] 4/9 snapshots
+[2017-05-22 18:05:58,215l] 7/9 snapshots
+[2017-05-22 18:06:01,707l] 5/9 snapshots
+[2017-05-22 18:06:11,826l] 6/9 snapshots
+[2017-05-22 18:06:14,642l] 7/9 snapshots
+[2017-05-22 18:06:14,837l] 8/9 snapshots
+[2017-05-22 18:06:22,082l] 8/9 snapshots
+[2017-05-22 18:06:30,147l] 9/9 snapshots
+[2017-05-22 18:06:30,992l] 9/9 snapshots
+[2017-05-23 01:33:30,643l] Getting timemap for 'http://brb.to'...
+[2017-05-23 01:33:31,650l] Timemap received!
+[2017-05-23 01:33:31,650l] Consistency mode: One per Year
+[2017-05-23 01:33:31,651l] Starting browser...
+[2017-05-23 01:33:32,674l] Browser started!
+[2017-05-23 01:33:32,674l] Total snapshots: 4
+[2017-05-23 01:42:31,137l] Getting timemap for 'http://brb.to'...
+[2017-05-23 01:42:31,942l] Timemap received!
+[2017-05-23 01:42:31,942l] Consistency mode: One per Year
+[2017-05-23 01:42:31,943l] Starting browser...
+[2017-05-23 01:42:32,967l] Browser started!
+[2017-05-23 01:42:32,968l] Total snapshots: 4
+[2017-05-23 01:43:00,569l] 1/4 snapshots
+[2017-05-23 01:43:05,368l] 2/4 snapshots
+[2017-05-23 01:43:19,527l] 3/4 snapshots
+[2017-05-23 01:43:35,099l] 4/4 snapshots
+[2017-05-23 01:44:27,811l] Not Found: /favicon.ico
+[2017-05-23 01:47:19,246l] Getting timemap for 'http://stackowerflow.com'...
+[2017-05-23 01:47:19,347l] Getting timemap for 'http://brb.to'...
+[2017-05-23 01:47:20,325l] Timemap received!
+[2017-05-23 01:47:20,326l] Consistency mode: One per Year
+[2017-05-23 01:47:20,327l] Starting browser...
+[2017-05-23 01:47:21,231l] Timemap received!
+[2017-05-23 01:47:21,231l] Consistency mode: One per Year
+[2017-05-23 01:47:21,232l] Starting browser...
+[2017-05-23 01:47:21,371l] Browser started!
+[2017-05-23 01:47:21,372l] Total snapshots: 4
+[2017-05-23 01:47:22,250l] Browser started!
+[2017-05-23 01:47:22,250l] Directory 'media/stackowerflow.com' does not exists, creating...
+[2017-05-23 01:47:22,250l] Total snapshots: 7
+[2017-05-23 01:47:29,373l] 1/7 snapshots
+[2017-05-23 01:47:33,808l] 2/7 snapshots
+[2017-05-23 01:47:35,806l] 3/7 snapshots
+[2017-05-23 01:47:36,060l] 1/4 snapshots
+[2017-05-23 01:47:37,792l] 4/7 snapshots
+[2017-05-23 01:47:40,726l] 5/7 snapshots
+[2017-05-23 01:47:43,559l] 2/4 snapshots
+[2017-05-23 01:47:47,534l] 6/7 snapshots
+[2017-05-23 01:47:50,278l] 7/7 snapshots
+[2017-05-23 01:48:04,269l] 3/4 snapshots
+[2017-05-23 01:48:06,169l] 4/4 snapshots
+[2017-05-23 06:53:06,104l] Getting timemap for 'http://seasonvar.ru'...
+[2017-05-23 06:53:08,350l] Timemap received!
+[2017-05-23 06:53:08,350l] Consistency mode: One per Year
+[2017-05-23 06:53:08,354l] Starting browser...
+[2017-05-23 06:53:09,375l] Browser started!
+[2017-05-23 06:53:09,375l] Total snapshots: 9
+[2017-05-23 06:53:32,024l] 1/9 snapshots
+[2017-05-23 06:53:38,524l] 2/9 snapshots
+[2017-05-23 06:54:02,785l] 3/9 snapshots
+[2017-05-23 06:54:19,527l] 4/9 snapshots
+[2017-05-23 06:54:42,877l] 5/9 snapshots
+[2017-05-23 06:54:59,097l] 6/9 snapshots
+[2017-05-23 06:55:24,362l] 7/9 snapshots
+[2017-05-23 06:55:46,801l] 8/9 snapshots
+[2017-05-23 06:56:16,872l] 9/9 snapshots
+[2017-05-23 16:08:18,623l] Not Found: /favicon.ico
+[2017-05-23 16:09:35,456l] http://davetrowbridge.com not available.
+[2017-05-23 16:11:04,813l] Internal Server Error: /result/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 29, in result
+    urls_list = list(map(extract_domain, request.POST.get("urls_List").split('\r\n')))
+AttributeError: 'NoneType' object has no attribute 'split'
+[2017-05-23 16:11:08,396l] Internal Server Error: /result/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 29, in result
+    urls_list = list(map(extract_domain, request.POST.get("urls_List").split('\r\n')))
+AttributeError: 'NoneType' object has no attribute 'split'
+[2017-05-23 16:11:56,305l] Getting timemap for 'http://forestour-paca.org'...
+[2017-05-23 16:11:58,095l] Timemap received!
+[2017-05-23 16:11:58,095l] Consistency mode: One per Year
+[2017-05-23 16:11:58,095l] Starting browser...
+[2017-05-23 16:11:59,119l] Browser started!
+[2017-05-23 16:11:59,120l] Directory 'media/forestour-paca.org' does not exists, creating...
+[2017-05-23 16:11:59,120l] Total snapshots: 12
+[2017-05-23 16:12:07,222l] 1/12 snapshots
+[2017-05-23 16:12:14,832l] 2/12 snapshots
+[2017-05-23 16:12:19,276l] 3/12 snapshots
+[2017-05-23 16:12:22,971l] 4/12 snapshots
+[2017-05-23 16:12:27,673l] 5/12 snapshots
+[2017-05-23 16:12:34,281l] 6/12 snapshots
+[2017-05-23 16:12:39,587l] 7/12 snapshots
+[2017-05-23 16:12:46,794l] 8/12 snapshots
+[2017-05-23 16:12:53,001l] 9/12 snapshots
+[2017-05-23 16:12:59,122l] 10/12 snapshots
+[2017-05-23 16:13:04,428l] 11/12 snapshots
+[2017-05-23 16:13:09,174l] 12/12 snapshots
+[2017-05-23 16:14:57,821l] Getting timemap for 'http://superjared.com'...
+[2017-05-23 16:14:59,497l] Timemap received!
+[2017-05-23 16:14:59,497l] Consistency mode: One per Year
+[2017-05-23 16:14:59,497l] Starting browser...
+[2017-05-23 16:15:00,517l] Browser started!
+[2017-05-23 16:15:00,517l] Directory 'media/superjared.com' does not exists, creating...
+[2017-05-23 16:15:00,517l] Total snapshots: 11
+[2017-05-23 16:15:08,658l] 1/11 snapshots
+[2017-05-23 16:15:12,206l] 2/11 snapshots
+[2017-05-23 16:15:20,052l] 3/11 snapshots
+[2017-05-23 16:15:26,110l] 4/11 snapshots
+[2017-05-23 16:15:29,312l] 5/11 snapshots
+[2017-05-23 16:15:32,601l] 6/11 snapshots
+[2017-05-23 16:15:34,991l] 7/11 snapshots
+[2017-05-23 16:15:38,796l] 8/11 snapshots
+[2017-05-23 16:15:40,609l] 9/11 snapshots
+[2017-05-23 16:15:42,619l] 10/11 snapshots
+[2017-05-23 16:15:45,609l] 11/11 snapshots
+[2017-05-23 16:16:14,291l] Getting timemap for 'http://superjared.com'...
+[2017-05-23 16:16:14,962l] Timemap received!
+[2017-05-23 16:16:14,962l] Consistency mode: One per Year
+[2017-05-23 16:16:14,963l] Starting browser...
+[2017-05-23 16:16:15,982l] Browser started!
+[2017-05-23 16:16:15,982l] Total snapshots: 11
+[2017-05-23 16:16:18,966l] Getting timemap for 'http://superjared.com'...
+[2017-05-23 16:16:19,651l] 1/11 snapshots
+[2017-05-23 16:16:19,673l] Timemap received!
+[2017-05-23 16:16:19,673l] Consistency mode: One per Year
+[2017-05-23 16:16:19,673l] Starting browser...
+[2017-05-23 16:16:20,695l] Browser started!
+[2017-05-23 16:16:20,695l] Total snapshots: 11
+[2017-05-23 16:16:21,372l] 1/11 snapshots
+[2017-05-23 16:16:22,057l] 2/11 snapshots
+[2017-05-23 16:16:22,445l] 2/11 snapshots
+[2017-05-23 16:16:22,632l] 3/11 snapshots
+[2017-05-23 16:16:23,205l] 4/11 snapshots
+[2017-05-23 16:16:23,792l] 5/11 snapshots
+[2017-05-23 16:16:24,369l] 6/11 snapshots
+[2017-05-23 16:16:25,160l] 7/11 snapshots
+[2017-05-23 16:16:25,737l] 8/11 snapshots
+[2017-05-23 16:16:26,525l] 9/11 snapshots
+[2017-05-23 16:16:26,626l] 3/11 snapshots
+[2017-05-23 16:16:27,101l] 10/11 snapshots
+[2017-05-23 16:16:27,683l] 11/11 snapshots
+[2017-05-23 16:16:31,586l] 4/11 snapshots
+[2017-05-23 16:16:33,382l] 5/11 snapshots
+[2017-05-23 16:16:34,267l] 6/11 snapshots
+[2017-05-23 16:16:35,155l] 7/11 snapshots
+[2017-05-23 16:16:37,674l] 8/11 snapshots
+[2017-05-23 16:16:39,194l] 9/11 snapshots
+[2017-05-23 16:16:40,009l] 10/11 snapshots
+[2017-05-23 16:16:40,895l] 11/11 snapshots
+[2017-05-23 16:17:47,774l] Getting timemap for 'http://www.davetrowbridge.com'...
+[2017-05-23 16:17:48,678l] Timemap received!
+[2017-05-23 16:17:48,678l] Consistency mode: One per Year
+[2017-05-23 16:17:48,679l] Starting browser...
+[2017-05-23 16:17:49,698l] Browser started!
+[2017-05-23 16:17:49,699l] Directory 'media/www.davetrowbridge.com' does not exists, creating...
+[2017-05-23 16:17:49,699l] Total snapshots: 17
+[2017-05-23 16:17:59,114l] 1/17 snapshots
+[2017-05-23 16:18:06,419l] 2/17 snapshots
+[2017-05-23 16:18:10,522l] 3/17 snapshots
+[2017-05-23 16:18:21,388l] 4/17 snapshots
+[2017-05-23 16:18:29,942l] 5/17 snapshots
+[2017-05-23 16:18:37,602l] 6/17 snapshots
+[2017-05-23 16:18:49,304l] 7/17 snapshots
+[2017-05-23 16:19:15,071l] 8/17 snapshots
+[2017-05-23 16:19:19,921l] 9/17 snapshots
+[2017-05-23 16:19:45,459l] 10/17 snapshots
+[2017-05-23 16:19:49,266l] 11/17 snapshots
+[2017-05-23 16:20:00,454l] 12/17 snapshots
+[2017-05-23 16:20:24,806l] 13/17 snapshots
+[2017-05-23 16:20:27,175l] 14/17 snapshots
+[2017-05-23 16:20:31,169l] 15/17 snapshots
+[2017-05-23 16:20:56,397l] 16/17 snapshots
+[2017-05-23 16:21:04,753l] 17/17 snapshots
+[2017-05-23 16:22:25,093l] Getting timemap for 'http://acibu.com'...
+[2017-05-23 16:22:26,177l] Getting timemap for 'http://pawparksanford.org'...
+[2017-05-23 16:22:28,020l] Timemap received!
+[2017-05-23 16:22:28,021l] Consistency mode: One per Year
+[2017-05-23 16:22:28,021l] Starting browser...
+[2017-05-23 16:22:28,944l] Timemap received!
+[2017-05-23 16:22:28,944l] Consistency mode: One per Year
+[2017-05-23 16:22:28,945l] Starting browser...
+[2017-05-23 16:22:29,042l] Browser started!
+[2017-05-23 16:22:29,042l] Directory 'media/pawparksanford.org' does not exists, creating...
+[2017-05-23 16:22:29,043l] Total snapshots: 15
+[2017-05-23 16:22:29,963l] Browser started!
+[2017-05-23 16:22:29,963l] Directory 'media/acibu.com' does not exists, creating...
+[2017-05-23 16:22:29,964l] Total snapshots: 10
+[2017-05-23 16:22:31,073l] Getting timemap for 'http://dataannotationsextensions.org'...
+[2017-05-23 16:22:35,258l] 1/10 snapshots
+[2017-05-23 16:22:37,689l] 1/15 snapshots
+[2017-05-23 16:22:37,776l] Timemap received!
+[2017-05-23 16:22:37,776l] Consistency mode: One per Year
+[2017-05-23 16:22:37,776l] Starting browser...
+[2017-05-23 16:22:38,796l] Browser started!
+[2017-05-23 16:22:38,796l] Directory 'media/dataannotationsextensions.org' does not exists, creating...
+[2017-05-23 16:22:38,796l] Total snapshots: 7
+[2017-05-23 16:22:39,879l] 1/7 snapshots
+[2017-05-23 16:22:40,461l] 2/7 snapshots
+[2017-05-23 16:22:41,039l] 3/7 snapshots
+[2017-05-23 16:22:41,619l] 4/7 snapshots
+[2017-05-23 16:22:42,193l] 5/7 snapshots
+[2017-05-23 16:22:42,985l] 6/7 snapshots
+[2017-05-23 16:22:43,310l] 2/10 snapshots
+[2017-05-23 16:22:43,574l] 7/7 snapshots
+[2017-05-23 16:22:43,708l] 2/15 snapshots
+[2017-05-23 16:22:48,264l] 3/15 snapshots
+[2017-05-23 16:22:49,757l] 3/10 snapshots
+[2017-05-23 16:22:55,411l] 4/10 snapshots
+[2017-05-23 16:23:03,573l] 5/10 snapshots
+[2017-05-23 16:23:06,459l] 4/15 snapshots
+[2017-05-23 16:23:09,710l] 6/10 snapshots
+[2017-05-23 16:23:27,732l] 5/15 snapshots
+[2017-05-23 16:23:29,341l] 7/10 snapshots
+[2017-05-23 16:23:33,394l] 6/15 snapshots
+[2017-05-23 16:23:37,619l] 7/15 snapshots
+[2017-05-23 16:23:41,300l] 8/10 snapshots
+[2017-05-23 16:23:52,132l] 9/10 snapshots
+[2017-05-23 16:23:58,576l] 10/10 snapshots
+[2017-05-23 16:24:00,938l] 8/15 snapshots
+[2017-05-23 16:24:06,005l] 9/15 snapshots
+[2017-05-23 16:24:12,354l] 10/15 snapshots
+[2017-05-23 16:24:16,758l] 11/15 snapshots
+[2017-05-23 16:24:38,971l] 12/15 snapshots
+[2017-05-23 16:24:44,770l] 13/15 snapshots
+[2017-05-23 16:24:48,876l] 14/15 snapshots
+[2017-05-23 16:24:54,606l] 15/15 snapshots
+[2017-05-23 16:27:45,053l] Getting timemap for 'http://dataannotationsextensions.org'...
+[2017-05-23 16:27:45,053l] Getting timemap for 'http://www.dataannotationsextensions.org'...
+[2017-05-23 16:27:45,665l] Timemap received!
+[2017-05-23 16:27:45,666l] Consistency mode: One per Year
+[2017-05-23 16:27:45,666l] Starting browser...
+[2017-05-23 16:27:45,951l] Timemap received!
+[2017-05-23 16:27:45,951l] Consistency mode: One per Year
+[2017-05-23 16:27:45,951l] Starting browser...
+[2017-05-23 16:27:46,685l] Browser started!
+[2017-05-23 16:27:46,686l] Total snapshots: 7
+[2017-05-23 16:27:46,971l] Browser started!
+[2017-05-23 16:27:46,972l] Directory 'media/www.dataannotationsextensions.org' does not exists, creating...
+[2017-05-23 16:27:46,972l] Total snapshots: 7
+[2017-05-23 16:27:55,872l] 1/7 snapshots
+[2017-05-23 16:27:59,555l] 2/7 snapshots
+[2017-05-23 16:28:04,907l] 1/7 snapshots
+[2017-05-23 16:28:06,262l] 3/7 snapshots
+[2017-05-23 16:28:08,261l] 2/7 snapshots
+[2017-05-23 16:28:11,116l] 4/7 snapshots
+[2017-05-23 16:28:12,200l] 3/7 snapshots
+[2017-05-23 16:28:14,335l] 4/7 snapshots
+[2017-05-23 16:28:15,412l] 5/7 snapshots
+[2017-05-23 16:28:17,469l] 5/7 snapshots
+[2017-05-23 16:28:20,287l] 6/7 snapshots
+[2017-05-23 16:28:20,324l] 6/7 snapshots
+[2017-05-23 16:28:25,173l] 7/7 snapshots
+[2017-05-23 16:28:25,419l] 7/7 snapshots
+[2017-05-23 16:29:01,936l] Getting timemap for 'http://randywhitesbbq.com'...
+[2017-05-23 16:29:01,937l] Getting timemap for 'http://ficklets.com'...
+[2017-05-23 16:29:01,938l] Getting timemap for 'http://prettypurplepolish.com'...
+[2017-05-23 16:29:01,939l] Getting timemap for 'http://aranapoveda.com'...
+[2017-05-23 16:29:01,939l] Getting timemap for 'http://appalachianmountaininstitute.com'...
+[2017-05-23 16:29:03,002l] http://ceosa.org not available.
+[2017-05-23 16:29:03,183l] Timemap received!
+[2017-05-23 16:29:03,183l] Consistency mode: One per Year
+[2017-05-23 16:29:03,184l] Starting browser...
+[2017-05-23 16:29:03,262l] Getting timemap for 'http://frackfreedenton.com'...
+[2017-05-23 16:29:04,204l] Browser started!
+[2017-05-23 16:29:04,204l] Directory 'media/randywhitesbbq.com' does not exists, creating...
+[2017-05-23 16:29:04,205l] Total snapshots: 12
+[2017-05-23 16:29:04,721l] Timemap received!
+[2017-05-23 16:29:04,721l] Consistency mode: One per Year
+[2017-05-23 16:29:04,722l] Starting browser...
+[2017-05-23 16:29:04,941l] Timemap received!
+[2017-05-23 16:29:04,942l] Consistency mode: One per Year
+[2017-05-23 16:29:04,942l] Starting browser...
+[2017-05-23 16:29:05,009l] 1/12 snapshots
+[2017-05-23 16:29:05,048l] Timemap received!
+[2017-05-23 16:29:05,048l] Consistency mode: One per Year
+[2017-05-23 16:29:05,048l] Starting browser...
+[2017-05-23 16:29:05,546l] Timemap received!
+[2017-05-23 16:29:05,546l] Consistency mode: One per Year
+[2017-05-23 16:29:05,547l] Starting browser...
+[2017-05-23 16:29:05,617l] 2/12 snapshots
+[2017-05-23 16:29:05,743l] Browser started!
+[2017-05-23 16:29:05,743l] Directory 'media/prettypurplepolish.com' does not exists, creating...
+[2017-05-23 16:29:05,743l] Total snapshots: 5
+[2017-05-23 16:29:05,962l] Browser started!
+[2017-05-23 16:29:05,963l] Directory 'media/aranapoveda.com' does not exists, creating...
+[2017-05-23 16:29:05,963l] Total snapshots: 8
+[2017-05-23 16:29:06,072l] Browser started!
+[2017-05-23 16:29:06,072l] Directory 'media/ficklets.com' does not exists, creating...
+[2017-05-23 16:29:06,072l] Total snapshots: 11
+[2017-05-23 16:29:06,207l] 3/12 snapshots
+[2017-05-23 16:29:06,426l] 1/5 snapshots
+[2017-05-23 16:29:06,568l] Browser started!
+[2017-05-23 16:29:06,568l] Directory 'media/frackfreedenton.com' does not exists, creating...
+[2017-05-23 16:29:06,568l] Total snapshots: 4
+[2017-05-23 16:29:06,653l] 1/8 snapshots
+[2017-05-23 16:29:06,818l] 1/11 snapshots
+[2017-05-23 16:29:06,852l] 4/12 snapshots
+[2017-05-23 16:29:07,015l] 2/5 snapshots
+[2017-05-23 16:29:07,263l] 2/8 snapshots
+[2017-05-23 16:29:07,288l] 1/4 snapshots
+[2017-05-23 16:29:07,426l] 2/11 snapshots
+[2017-05-23 16:29:07,458l] 5/12 snapshots
+[2017-05-23 16:29:07,618l] 3/5 snapshots
+[2017-05-23 16:29:07,836l] 3/8 snapshots
+[2017-05-23 16:29:07,875l] 2/4 snapshots
+[2017-05-23 16:29:08,082l] 3/11 snapshots
+[2017-05-23 16:29:08,113l] 6/12 snapshots
+[2017-05-23 16:29:08,217l] 4/5 snapshots
+[2017-05-23 16:29:11,397l] 5/5 snapshots
+[2017-05-23 16:29:13,799l] 7/12 snapshots
+[2017-05-23 16:29:13,916l] 4/11 snapshots
+[2017-05-23 16:29:14,000l] 4/8 snapshots
+[2017-05-23 16:29:15,296l] 5/11 snapshots
+[2017-05-23 16:29:18,348l] 8/12 snapshots
+[2017-05-23 16:29:19,364l] 6/11 snapshots
+[2017-05-23 16:29:20,692l] 5/8 snapshots
+[2017-05-23 16:29:20,827l] 3/4 snapshots
+[2017-05-23 16:29:22,663l] 9/12 snapshots
+[2017-05-23 16:29:23,048l] 7/11 snapshots
+[2017-05-23 16:29:26,398l] 6/8 snapshots
+[2017-05-23 16:29:26,547l] 4/4 snapshots
+[2017-05-23 16:29:26,806l] 10/12 snapshots
+[2017-05-23 16:29:27,356l] 8/11 snapshots
+[2017-05-23 16:29:30,487l] 11/12 snapshots
+[2017-05-23 16:29:31,299l] 7/8 snapshots
+[2017-05-23 16:29:32,153l] 9/11 snapshots
+[2017-05-23 16:29:32,371l] Timemap received!
+[2017-05-23 16:29:32,372l] Consistency mode: One per Year
+[2017-05-23 16:29:33,264l] 12/12 snapshots
+[2017-05-23 16:29:36,191l] 8/8 snapshots
+[2017-05-23 16:29:37,059l] 10/11 snapshots
+[2017-05-23 16:29:39,734l] 11/11 snapshots
+[2017-05-23 16:34:15,821l] Getting timemap for 'http://prettypurplepolish.com'...
+[2017-05-23 16:34:15,835l] Getting timemap for 'http://randywhitesbbq.com'...
+[2017-05-23 16:34:15,846l] Getting timemap for 'http://aranapoveda.com'...
+[2017-05-23 16:34:15,951l] Getting timemap for 'http://ficklets.com'...
+[2017-05-23 16:34:15,962l] Getting timemap for 'http://frackfreedenton.com'...
+[2017-05-23 16:34:16,243l] Timemap received!
+[2017-05-23 16:34:16,243l] Consistency mode: One per Year
+[2017-05-23 16:34:16,243l] Starting browser...
+[2017-05-23 16:34:16,438l] Timemap received!
+[2017-05-23 16:34:16,438l] Consistency mode: One per Year
+[2017-05-23 16:34:16,438l] Starting browser...
+[2017-05-23 16:34:16,444l] Timemap received!
+[2017-05-23 16:34:16,445l] Consistency mode: One per Year
+[2017-05-23 16:34:16,446l] Starting browser...
+[2017-05-23 16:34:16,454l] Timemap received!
+[2017-05-23 16:34:16,455l] Consistency mode: One per Year
+[2017-05-23 16:34:16,455l] Starting browser...
+[2017-05-23 16:34:16,734l] Timemap received!
+[2017-05-23 16:34:16,734l] Consistency mode: One per Year
+[2017-05-23 16:34:16,735l] Starting browser...
+[2017-05-23 16:34:17,265l] Browser started!
+[2017-05-23 16:34:17,265l] Total snapshots: 5
+[2017-05-23 16:34:17,468l] Browser started!
+[2017-05-23 16:34:17,468l] Total snapshots: 4
+[2017-05-23 16:34:17,480l] Browser started!
+[2017-05-23 16:34:17,480l] Total snapshots: 12
+[2017-05-23 16:34:17,485l] Browser started!
+[2017-05-23 16:34:17,486l] Total snapshots: 8
+[2017-05-23 16:34:17,755l] Browser started!
+[2017-05-23 16:34:17,755l] Total snapshots: 11
+[2017-05-23 16:34:21,597l] 1/8 snapshots
+[2017-05-23 16:34:22,172l] 1/11 snapshots
+[2017-05-23 16:34:22,343l] 1/12 snapshots
+[2017-05-23 16:34:25,310l] 2/11 snapshots
+[2017-05-23 16:34:25,983l] 2/8 snapshots
+[2017-05-23 16:34:29,280l] 2/12 snapshots
+[2017-05-23 16:34:29,372l] 1/5 snapshots
+[2017-05-23 16:34:29,982l] 3/8 snapshots
+[2017-05-23 16:34:30,003l] 3/11 snapshots
+[2017-05-23 16:34:31,067l] 3/12 snapshots
+[2017-05-23 16:34:33,069l] 4/8 snapshots
+[2017-05-23 16:34:33,794l] 4/11 snapshots
+[2017-05-23 16:34:34,383l] 5/11 snapshots
+[2017-05-23 16:34:35,601l] 1/4 snapshots
+[2017-05-23 16:34:36,854l] 5/8 snapshots
+[2017-05-23 16:34:37,496l] 6/11 snapshots
+[2017-05-23 16:34:38,572l] 4/12 snapshots
+[2017-05-23 16:34:39,172l] 6/8 snapshots
+[2017-05-23 16:34:40,142l] 2/5 snapshots
+[2017-05-23 16:34:40,475l] 7/11 snapshots
+[2017-05-23 16:34:40,960l] 5/12 snapshots
+[2017-05-23 16:34:42,208l] 8/11 snapshots
+[2017-05-23 16:34:42,310l] 7/8 snapshots
+[2017-05-23 16:34:44,218l] 9/11 snapshots
+[2017-05-23 16:34:44,711l] 8/8 snapshots
+[2017-05-23 16:34:46,396l] 6/12 snapshots
+[2017-05-23 16:34:46,739l] 10/11 snapshots
+[2017-05-23 16:34:49,896l] 11/11 snapshots
+[2017-05-23 16:34:50,204l] 3/5 snapshots
+[2017-05-23 16:34:50,810l] 7/12 snapshots
+[2017-05-23 16:34:54,255l] 8/12 snapshots
+[2017-05-23 16:34:56,557l] 2/4 snapshots
+[2017-05-23 16:34:56,804l] 4/5 snapshots
+[2017-05-23 16:34:57,393l] 5/5 snapshots
+[2017-05-23 16:34:59,017l] 9/12 snapshots
+[2017-05-23 16:35:01,613l] 10/12 snapshots
+[2017-05-23 16:35:03,609l] 11/12 snapshots
+[2017-05-23 16:35:06,022l] 12/12 snapshots
+[2017-05-23 16:35:18,030l] 3/4 snapshots
+[2017-05-23 16:35:38,351l] 4/4 snapshots
+[2017-05-23 16:42:54,005l] Getting timemap for 'http://metality.net'...
+[2017-05-23 16:42:54,018l] Getting timemap for 'http://ohnonotstereo.com'...
+[2017-05-23 16:42:54,031l] Getting timemap for 'http://tourisme-canton-brehal.com'...
+[2017-05-23 16:42:54,040l] Getting timemap for 'http://villageoflyons.com'...
+[2017-05-23 16:42:54,047l] Getting timemap for 'http://aikidodelamont.com'...
+[2017-05-23 16:42:54,056l] Getting timemap for 'http://costorico.net'...
+[2017-05-23 16:42:54,066l] Getting timemap for 'http://marchelgbtlorraine.org'...
+[2017-05-23 16:42:54,074l] Getting timemap for 'http://milsoftware.com'...
+[2017-05-23 16:42:54,098l] Getting timemap for 'http://skirmishband.net'...
+[2017-05-23 16:42:54,458l] Getting timemap for 'http://saddogsushi.com'...
+[2017-05-23 16:42:55,292l] Getting timemap for 'http://killerdesserts.com'...
+[2017-05-23 16:42:55,565l] Timemap received!
+[2017-05-23 16:42:55,565l] Consistency mode: One per Year
+[2017-05-23 16:42:55,566l] Starting browser...
+[2017-05-23 16:42:55,688l] Timemap received!
+[2017-05-23 16:42:55,688l] Consistency mode: One per Year
+[2017-05-23 16:42:55,689l] Starting browser...
+[2017-05-23 16:42:56,525l] Timemap received!
+[2017-05-23 16:42:56,525l] Consistency mode: One per Year
+[2017-05-23 16:42:56,526l] Starting browser...
+[2017-05-23 16:42:56,589l] Browser started!
+[2017-05-23 16:42:56,589l] Directory 'media/saddogsushi.com' does not exists, creating...
+[2017-05-23 16:42:56,589l] Total snapshots: 8
+[2017-05-23 16:42:56,714l] Timemap received!
+[2017-05-23 16:42:56,715l] Browser started!
+[2017-05-23 16:42:56,715l] Consistency mode: One per Year
+[2017-05-23 16:42:56,715l] Directory 'media/aikidodelamont.com' does not exists, creating...
+[2017-05-23 16:42:56,715l] Starting browser...
+[2017-05-23 16:42:56,716l] Total snapshots: 19
+[2017-05-23 16:42:56,812l] Getting timemap for 'http://becodemyfriend.com'...
+[2017-05-23 16:42:56,910l] Timemap received!
+[2017-05-23 16:42:56,910l] Consistency mode: One per Year
+[2017-05-23 16:42:56,911l] Starting browser...
+[2017-05-23 16:42:57,008l] Timemap received!
+[2017-05-23 16:42:57,008l] Consistency mode: One per Year
+[2017-05-23 16:42:57,008l] Starting browser...
+[2017-05-23 16:42:57,123l] Timemap received!
+[2017-05-23 16:42:57,123l] Consistency mode: One per Year
+[2017-05-23 16:42:57,124l] Starting browser...
+[2017-05-23 16:42:57,348l] Timemap received!
+[2017-05-23 16:42:57,348l] Consistency mode: One per Year
+[2017-05-23 16:42:57,349l] Starting browser...
+[2017-05-23 16:42:57,471l] Timemap received!
+[2017-05-23 16:42:57,471l] Consistency mode: One per Year
+[2017-05-23 16:42:57,472l] Starting browser...
+[2017-05-23 16:42:57,552l] Browser started!
+[2017-05-23 16:42:57,552l] Directory 'media/ohnonotstereo.com' does not exists, creating...
+[2017-05-23 16:42:57,553l] Total snapshots: 13
+[2017-05-23 16:42:57,744l] Browser started!
+[2017-05-23 16:42:57,744l] Directory 'media/metality.net' does not exists, creating...
+[2017-05-23 16:42:57,745l] Total snapshots: 13
+[2017-05-23 16:42:57,935l] Browser started!
+[2017-05-23 16:42:57,935l] Directory 'media/villageoflyons.com' does not exists, creating...
+[2017-05-23 16:42:57,935l] Total snapshots: 16
+[2017-05-23 16:42:58,032l] Browser started!
+[2017-05-23 16:42:58,032l] Directory 'media/skirmishband.net' does not exists, creating...
+[2017-05-23 16:42:58,032l] Total snapshots: 10
+[2017-05-23 16:42:58,150l] Browser started!
+[2017-05-23 16:42:58,150l] Directory 'media/tourisme-canton-brehal.com' does not exists, creating...
+[2017-05-23 16:42:58,150l] Total snapshots: 7
+[2017-05-23 16:42:58,371l] Browser started!
+[2017-05-23 16:42:58,372l] Directory 'media/milsoftware.com' does not exists, creating...
+[2017-05-23 16:42:58,372l] Total snapshots: 13
+[2017-05-23 16:42:58,376l] Timemap received!
+[2017-05-23 16:42:58,377l] Consistency mode: One per Year
+[2017-05-23 16:42:58,377l] Starting browser...
+[2017-05-23 16:42:58,474l] Timemap received!
+[2017-05-23 16:42:58,474l] Consistency mode: One per Year
+[2017-05-23 16:42:58,474l] Starting browser...
+[2017-05-23 16:42:58,506l] Browser started!
+[2017-05-23 16:42:58,507l] Directory 'media/marchelgbtlorraine.org' does not exists, creating...
+[2017-05-23 16:42:58,507l] Total snapshots: 10
+[2017-05-23 16:42:59,439l] Browser started!
+[2017-05-23 16:42:59,439l] Directory 'media/costorico.net' does not exists, creating...
+[2017-05-23 16:42:59,439l] Total snapshots: 13
+[2017-05-23 16:42:59,499l] Browser started!
+[2017-05-23 16:42:59,499l] Directory 'media/becodemyfriend.com' does not exists, creating...
+[2017-05-23 16:42:59,499l] Total snapshots: 7
+[2017-05-23 16:43:00,199l] 1/7 snapshots
+[2017-05-23 16:43:00,271l] 1/13 snapshots
+[2017-05-23 16:43:00,963l] 2/13 snapshots
+[2017-05-23 16:43:00,999l] 2/7 snapshots
+[2017-05-23 16:43:01,783l] 1/19 snapshots
+[2017-05-23 16:43:01,813l] 3/13 snapshots
+[2017-05-23 16:43:01,834l] 3/7 snapshots
+[2017-05-23 16:43:02,597l] 4/7 snapshots
+[2017-05-23 16:43:02,630l] 4/13 snapshots
+[2017-05-23 16:43:02,664l] 1/10 snapshots
+[2017-05-23 16:43:02,719l] 1/13 snapshots
+[2017-05-23 16:43:03,393l] 5/7 snapshots
+[2017-05-23 16:43:03,424l] 5/13 snapshots
+[2017-05-23 16:43:03,476l] 1/10 snapshots
+[2017-05-23 16:43:04,009l] 1/16 snapshots
+[2017-05-23 16:43:04,126l] 1/13 snapshots
+[2017-05-23 16:43:04,196l] 6/7 snapshots
+[2017-05-23 16:43:04,208l] 1/7 snapshots
+[2017-05-23 16:43:04,208l] 6/13 snapshots
+[2017-05-23 16:43:04,837l] 7/7 snapshots
+[2017-05-23 16:43:04,883l] 7/13 snapshots
+[2017-05-23 16:43:05,164l] 1/8 snapshots
+[2017-05-23 16:43:05,464l] 8/13 snapshots
+[2017-05-23 16:43:05,826l] 2/7 snapshots
+[2017-05-23 16:43:06,062l] 9/13 snapshots
+[2017-05-23 16:43:06,227l] 2/13 snapshots
+[2017-05-23 16:43:06,352l] 2/19 snapshots
+[2017-05-23 16:43:06,599l] 2/10 snapshots
+[2017-05-23 16:43:06,680l] 10/13 snapshots
+[2017-05-23 16:43:06,784l] 2/10 snapshots
+[2017-05-23 16:43:07,258l] 11/13 snapshots
+[2017-05-23 16:43:07,859l] 12/13 snapshots
+[2017-05-23 16:43:07,939l] 2/16 snapshots
+[2017-05-23 16:43:08,443l] 13/13 snapshots
+[2017-05-23 16:43:08,680l] 2/13 snapshots
+[2017-05-23 16:43:09,271l] 1/13 snapshots
+[2017-05-23 16:43:09,864l] 3/19 snapshots
+[2017-05-23 16:43:10,368l] 3/10 snapshots
+[2017-05-23 16:43:11,140l] 3/7 snapshots
+[2017-05-23 16:43:11,441l] 2/8 snapshots
+[2017-05-23 16:43:11,495l] 3/16 snapshots
+[2017-05-23 16:43:12,014l] 3/10 snapshots
+[2017-05-23 16:43:12,315l] 4/19 snapshots
+[2017-05-23 16:43:12,915l] 3/13 snapshots
+[2017-05-23 16:43:12,926l] 5/19 snapshots
+[2017-05-23 16:43:13,565l] 6/19 snapshots
+[2017-05-23 16:43:13,791l] 3/13 snapshots
+[2017-05-23 16:43:14,015l] 4/10 snapshots
+[2017-05-23 16:43:14,166l] 7/19 snapshots
+[2017-05-23 16:43:14,775l] 8/19 snapshots
+[2017-05-23 16:43:15,103l] 4/10 snapshots
+[2017-05-23 16:43:15,363l] 9/19 snapshots
+[2017-05-23 16:43:15,965l] 10/19 snapshots
+[2017-05-23 16:43:16,555l] 11/19 snapshots
+[2017-05-23 16:43:16,816l] 4/13 snapshots
+[2017-05-23 16:43:16,855l] 5/10 snapshots
+[2017-05-23 16:43:17,281l] 12/19 snapshots
+[2017-05-23 16:43:17,461l] 3/8 snapshots
+[2017-05-23 16:43:17,600l] 2/13 snapshots
+[2017-05-23 16:43:17,910l] 4/7 snapshots
+[2017-05-23 16:43:17,911l] 13/19 snapshots
+[2017-05-23 16:43:18,553l] 4/13 snapshots
+[2017-05-23 16:43:18,608l] 14/19 snapshots
+[2017-05-23 16:43:18,819l] 4/16 snapshots
+[2017-05-23 16:43:19,123l] 5/10 snapshots
+[2017-05-23 16:43:19,207l] 15/19 snapshots
+[2017-05-23 16:43:19,792l] 16/19 snapshots
+[2017-05-23 16:43:20,393l] 17/19 snapshots
+[2017-05-23 16:43:20,518l] 6/10 snapshots
+[2017-05-23 16:43:20,998l] 18/19 snapshots
+[2017-05-23 16:43:21,181l] 6/10 snapshots
+[2017-05-23 16:43:21,620l] 19/19 snapshots
+[2017-05-23 16:43:22,096l] 5/13 snapshots
+[2017-05-23 16:43:23,619l] 7/10 snapshots
+[2017-05-23 16:43:23,878l] 5/13 snapshots
+[2017-05-23 16:43:24,724l] 5/16 snapshots
+[2017-05-23 16:43:24,904l] 6/13 snapshots
+[2017-05-23 16:43:25,947l] 4/8 snapshots
+[2017-05-23 16:43:26,287l] 5/7 snapshots
+[2017-05-23 16:43:26,481l] 7/10 snapshots
+[2017-05-23 16:43:27,069l] 6/13 snapshots
+[2017-05-23 16:43:27,078l] 8/10 snapshots
+[2017-05-23 16:43:27,670l] 9/10 snapshots
+[2017-05-23 16:43:27,905l] 7/13 snapshots
+[2017-05-23 16:43:28,257l] 10/10 snapshots
+[2017-05-23 16:43:29,896l] 8/13 snapshots
+[2017-05-23 16:43:30,360l] 8/10 snapshots
+[2017-05-23 16:43:30,541l] 9/13 snapshots
+[2017-05-23 16:43:30,924l] 3/13 snapshots
+[2017-05-23 16:43:31,246l] 10/13 snapshots
+[2017-05-23 16:43:31,525l] 6/16 snapshots
+[2017-05-23 16:43:31,843l] 11/13 snapshots
+[2017-05-23 16:43:32,149l] 5/8 snapshots
+[2017-05-23 16:43:32,283l] 7/13 snapshots
+[2017-05-23 16:43:32,470l] 12/13 snapshots
+[2017-05-23 16:43:33,157l] 13/13 snapshots
+[2017-05-23 16:43:33,192l] 9/10 snapshots
+[2017-05-23 16:43:34,145l] 4/13 snapshots
+[2017-05-23 16:43:35,198l] 10/10 snapshots
+[2017-05-23 16:43:35,831l] 7/16 snapshots
+[2017-05-23 16:43:36,499l] 8/13 snapshots
+[2017-05-23 16:43:37,370l] 6/7 snapshots
+[2017-05-23 16:43:38,533l] 7/7 snapshots
+[2017-05-23 16:43:38,918l] 5/13 snapshots
+[2017-05-23 16:43:39,096l] 6/8 snapshots
+[2017-05-23 16:43:41,702l] 9/13 snapshots
+[2017-05-23 16:43:41,937l] 8/16 snapshots
+[2017-05-23 16:43:48,031l] 10/13 snapshots
+[2017-05-23 16:43:48,045l] 7/8 snapshots
+[2017-05-23 16:43:48,077l] 9/16 snapshots
+[2017-05-23 16:43:53,455l] 11/13 snapshots
+[2017-05-23 16:43:54,629l] 8/8 snapshots
+[2017-05-23 16:43:55,351l] 10/16 snapshots
+[2017-05-23 16:43:56,646l] 6/13 snapshots
+[2017-05-23 16:43:58,621l] 11/16 snapshots
+[2017-05-23 16:43:59,377l] 12/13 snapshots
+[2017-05-23 16:44:04,002l] 13/13 snapshots
+[2017-05-23 16:44:04,806l] 12/16 snapshots
+[2017-05-23 16:44:05,603l] 7/13 snapshots
+[2017-05-23 16:44:07,916l] 13/16 snapshots
+[2017-05-23 16:44:09,583l] 8/13 snapshots
+[2017-05-23 16:44:12,982l] 14/16 snapshots
+[2017-05-23 16:44:13,792l] 9/13 snapshots
+[2017-05-23 16:44:18,369l] 15/16 snapshots
+[2017-05-23 16:44:23,337l] 16/16 snapshots
+[2017-05-23 16:44:27,960l] 10/13 snapshots
+[2017-05-23 16:44:42,359l] 11/13 snapshots
+[2017-05-23 16:44:53,433l] 12/13 snapshots
+[2017-05-23 16:45:23,874l] 13/13 snapshots
+[2017-05-23 16:47:41,608l] Internal Server Error: /result/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 52, in result
+    site_obj, created = Site.objects.get_or_create(site_url=site)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 463, in get_or_create
+    return self.get(**lookup), False
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 383, in get
+    (self.model._meta.object_name, num)
+ia_history.models.MultipleObjectsReturned: get() returned more than one Site -- it returned 2!
+[2017-05-23 16:47:57,316l] Internal Server Error: /result/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 52, in result
+    site_obj, created = Site.objects.get_or_create(site_url=site)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 463, in get_or_create
+    return self.get(**lookup), False
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 383, in get
+    (self.model._meta.object_name, num)
+ia_history.models.MultipleObjectsReturned: get() returned more than one Site -- it returned 2!
+[2017-05-23 16:48:17,857l] Internal Server Error: /result/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 52, in result
+    site_obj, created = Site.objects.get_or_create(site_url=site)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 463, in get_or_create
+    return self.get(**lookup), False
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 383, in get
+    (self.model._meta.object_name, num)
+ia_history.models.MultipleObjectsReturned: get() returned more than one Site -- it returned 2!
+[2017-05-23 16:48:31,063l] Getting timemap for 'http://costorico.net'...
+[2017-05-23 16:48:31,064l] Getting timemap for 'http://ohnonotstereo.com'...
+[2017-05-23 16:48:31,106l] Getting timemap for 'http://aikidodelamont.com'...
+[2017-05-23 16:48:31,680l] Timemap received!
+[2017-05-23 16:48:31,680l] Consistency mode: One per Year
+[2017-05-23 16:48:31,681l] Starting browser...
+[2017-05-23 16:48:31,694l] Timemap received!
+[2017-05-23 16:48:31,695l] Consistency mode: One per Year
+[2017-05-23 16:48:31,695l] Starting browser...
+[2017-05-23 16:48:31,907l] Timemap received!
+[2017-05-23 16:48:31,907l] Consistency mode: One per Year
+[2017-05-23 16:48:31,908l] Starting browser...
+[2017-05-23 16:48:32,725l] Browser started!
+[2017-05-23 16:48:32,726l] Total snapshots: 13
+[2017-05-23 16:48:32,728l] Browser started!
+[2017-05-23 16:48:32,729l] Total snapshots: 13
+[2017-05-23 16:48:32,936l] Browser started!
+[2017-05-23 16:48:32,937l] Total snapshots: 19
+[2017-05-23 16:48:36,932l] 1/19 snapshots
+[2017-05-23 16:48:37,274l] 1/13 snapshots
+[2017-05-23 16:48:37,779l] 1/13 snapshots
+[2017-05-23 16:48:39,656l] 2/13 snapshots
+[2017-05-23 16:48:40,816l] 2/19 snapshots
+[2017-05-23 16:48:40,941l] 2/13 snapshots
+[2017-05-23 16:48:43,513l] 3/19 snapshots
+[2017-05-23 16:48:49,403l] 3/13 snapshots
+[2017-05-23 16:48:51,143l] 4/19 snapshots
+[2017-05-23 16:48:52,805l] 4/13 snapshots
+[2017-05-23 16:48:56,283l] 5/13 snapshots
+[2017-05-23 16:49:01,205l] 5/19 snapshots
+[2017-05-23 16:49:02,931l] 6/13 snapshots
+[2017-05-23 16:49:03,252l] 3/13 snapshots
+[2017-05-23 16:49:05,638l] 4/13 snapshots
+[2017-05-23 16:49:06,636l] 7/13 snapshots
+[2017-05-23 16:49:06,658l] 6/19 snapshots
+[2017-05-23 16:49:11,067l] 7/19 snapshots
+[2017-05-23 16:49:11,951l] 8/13 snapshots
+[2017-05-23 16:49:15,525l] 5/13 snapshots
+[2017-05-23 16:49:15,956l] 9/13 snapshots
+[2017-05-23 16:49:16,846l] 8/19 snapshots
+[2017-05-23 16:49:17,903l] 6/13 snapshots
+[2017-05-23 16:49:18,810l] 9/19 snapshots
+[2017-05-23 16:49:19,371l] 10/19 snapshots
+[2017-05-23 16:49:20,035l] 11/19 snapshots
+[2017-05-23 16:49:20,699l] 12/19 snapshots
+[2017-05-23 16:49:20,875l] 7/13 snapshots
+[2017-05-23 16:49:21,364l] 13/19 snapshots
+[2017-05-23 16:49:21,739l] 10/13 snapshots
+[2017-05-23 16:49:24,063l] 8/13 snapshots
+[2017-05-23 16:49:24,418l] 11/13 snapshots
+[2017-05-23 16:49:27,736l] 9/13 snapshots
+[2017-05-23 16:49:28,312l] 14/19 snapshots
+[2017-05-23 16:49:31,785l] 12/13 snapshots
+[2017-05-23 16:49:34,140l] 15/19 snapshots
+[2017-05-23 16:49:37,394l] 10/13 snapshots
+[2017-05-23 16:49:37,645l] 16/19 snapshots
+[2017-05-23 16:49:38,412l] 13/13 snapshots
+[2017-05-23 16:49:41,473l] 11/13 snapshots
+[2017-05-23 16:49:43,192l] 17/19 snapshots
+[2017-05-23 16:49:45,370l] 18/19 snapshots
+[2017-05-23 16:49:49,684l] 19/19 snapshots
+[2017-05-23 16:50:05,664l] 12/13 snapshots
+[2017-05-23 16:50:16,956l] 13/13 snapshots
+[2017-05-23 16:51:13,579l] Internal Server Error: /timeline
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 92, in timeline
+    images = loads(site_obj.images_json)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2017-05-23 16:52:15,326l] Internal Server Error: /timeline
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 92, in timeline
+    images = loads(site_obj.images_json)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2017-05-23 16:55:13,723l] Getting timemap for 'http://becodemyfriend.com'...
+[2017-05-23 16:55:14,526l] Timemap received!
+[2017-05-23 16:55:14,526l] Consistency mode: One per Year
+[2017-05-23 16:55:14,527l] Starting browser...
+[2017-05-23 16:55:15,556l] Browser started!
+[2017-05-23 16:55:15,556l] Total snapshots: 7
+[2017-05-23 16:55:43,508l] Getting timemap for 'http://www.becodemyfriend.com'...
+[2017-05-23 16:55:44,220l] Timemap received!
+[2017-05-23 16:55:44,221l] Consistency mode: One per Year
+[2017-05-23 16:55:44,221l] Starting browser...
+[2017-05-23 16:55:45,250l] Browser started!
+[2017-05-23 16:55:45,250l] Directory 'media/www.becodemyfriend.com' does not exists, creating...
+[2017-05-23 16:55:45,250l] Total snapshots: 7
+[2017-05-23 16:55:46,825l] 1/7 snapshots
+[2017-05-23 16:55:51,535l] 1/7 snapshots
+[2017-05-23 16:56:06,977l] 2/7 snapshots
+[2017-05-23 16:56:06,988l] 2/7 snapshots
+[2017-05-23 16:56:11,449l] 3/7 snapshots
+[2017-05-23 16:56:14,323l] 3/7 snapshots
+[2017-05-23 16:56:25,962l] 4/7 snapshots
+[2017-05-23 16:56:30,533l] 4/7 snapshots
+[2017-05-23 16:56:30,569l] 5/7 snapshots
+[2017-05-23 16:56:32,110l] 5/7 snapshots
+[2017-05-23 16:56:37,870l] 6/7 snapshots
+[2017-05-23 16:56:42,524l] 7/7 snapshots
+[2017-05-23 16:56:53,437l] 6/7 snapshots
+[2017-05-23 16:57:07,543l] 7/7 snapshots
+[2017-05-23 16:57:41,598l] Internal Server Error: /result/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 52, in result
+    site_obj, created = Site.objects.get_or_create(site_url=site)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 463, in get_or_create
+    return self.get(**lookup), False
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 383, in get
+    (self.model._meta.object_name, num)
+ia_history.models.MultipleObjectsReturned: get() returned more than one Site -- it returned 2!
+[2017-05-23 16:57:50,352l] Getting timemap for 'http://www.superjared.com'...
+[2017-05-23 16:57:51,198l] Timemap received!
+[2017-05-23 16:57:51,198l] Consistency mode: One per Year
+[2017-05-23 16:57:51,198l] Starting browser...
+[2017-05-23 16:57:52,228l] Browser started!
+[2017-05-23 16:57:52,229l] Directory 'media/www.superjared.com' does not exists, creating...
+[2017-05-23 16:57:52,229l] Total snapshots: 11
+[2017-05-23 16:57:56,875l] 1/11 snapshots
+[2017-05-23 16:58:01,403l] 2/11 snapshots
+[2017-05-23 16:58:06,954l] 3/11 snapshots
+[2017-05-23 16:58:12,918l] 4/11 snapshots
+[2017-05-23 16:58:15,207l] 5/11 snapshots
+[2017-05-23 16:58:19,292l] 6/11 snapshots
+[2017-05-23 16:58:21,678l] 7/11 snapshots
+[2017-05-23 16:58:28,096l] 8/11 snapshots
+[2017-05-23 16:58:30,801l] 9/11 snapshots
+[2017-05-23 16:58:32,801l] 10/11 snapshots
+[2017-05-23 16:58:35,084l] 11/11 snapshots
+[2017-05-23 16:59:41,088l] Internal Server Error: /timeline
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 92, in timeline
+    images = loads(site_obj.images_json)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2017-05-23 16:59:42,166l] Internal Server Error: /timeline
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 92, in timeline
+    images = loads(site_obj.images_json)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2017-05-23 17:00:09,686l] Getting timemap for 'http://www.appalachianmountaininstitute.com'...
+[2017-05-23 17:00:10,568l] Getting timemap for 'http://www.killerdesserts.com'...
+[2017-05-23 17:00:10,569l] Timemap received!
+[2017-05-23 17:00:10,570l] Consistency mode: One per Year
+[2017-05-23 17:00:10,570l] Starting browser...
+[2017-05-23 17:00:11,493l] Timemap received!
+[2017-05-23 17:00:11,493l] Consistency mode: One per Year
+[2017-05-23 17:00:11,494l] Starting browser...
+[2017-05-23 17:00:11,607l] Browser started!
+[2017-05-23 17:00:11,607l] Directory 'media/www.appalachianmountaininstitute.com' does not exists, creating...
+[2017-05-23 17:00:11,607l] Total snapshots: 10
+[2017-05-23 17:00:12,523l] Browser started!
+[2017-05-23 17:00:12,523l] Directory 'media/www.killerdesserts.com' does not exists, creating...
+[2017-05-23 17:00:12,524l] Total snapshots: 12
+[2017-05-23 17:00:17,887l] 1/10 snapshots
+[2017-05-23 17:00:25,199l] 2/10 snapshots
+[2017-05-23 17:00:27,243l] 1/12 snapshots
+[2017-05-23 17:00:30,478l] 2/12 snapshots
+[2017-05-23 17:00:35,098l] 3/10 snapshots
+[2017-05-23 17:00:37,391l] 4/10 snapshots
+[2017-05-23 17:00:39,890l] 5/10 snapshots
+[2017-05-23 17:00:47,716l] 3/12 snapshots
+[2017-05-23 17:00:48,522l] 6/10 snapshots
+[2017-05-23 17:00:57,608l] 4/12 snapshots
+[2017-05-23 17:00:57,619l] 7/10 snapshots
+[2017-05-23 17:01:01,399l] 8/10 snapshots
+[2017-05-23 17:01:04,102l] 5/12 snapshots
+[2017-05-23 17:01:14,733l] 6/12 snapshots
+[2017-05-23 17:01:17,714l] 7/12 snapshots
+[2017-05-23 17:01:27,128l] 8/12 snapshots
+[2017-05-23 17:01:32,563l] 9/12 snapshots
+[2017-05-23 17:01:41,783l] 10/12 snapshots
+[2017-05-23 17:01:49,878l] 11/12 snapshots
+[2017-05-23 17:02:01,481l] 12/12 snapshots
+[2017-05-23 17:02:09,271l] 9/10 snapshots
+[2017-05-23 17:03:16,232l] 10/10 snapshots
+[2017-05-23 17:10:36,134l] Getting timemap for 'http://pipedown.net'...
+[2017-05-23 17:10:37,260l] Timemap received!
+[2017-05-23 17:10:37,261l] Consistency mode: One per month
+[2017-05-23 17:10:37,261l] Starting browser...
+[2017-05-23 17:10:38,288l] Browser started!
+[2017-05-23 17:10:38,288l] Directory 'media/pipedown.net' does not exists, creating...
+[2017-05-23 17:10:38,289l] Total snapshots: 11
+[2017-05-23 17:10:44,590l] 1/11 snapshots
+[2017-05-23 17:10:45,847l] 2/11 snapshots
+[2017-05-23 17:10:49,390l] 3/11 snapshots
+[2017-05-23 17:10:52,941l] 4/11 snapshots
+[2017-05-23 17:10:57,936l] 5/11 snapshots
+[2017-05-23 17:11:00,696l] 6/11 snapshots
+[2017-05-23 17:11:05,388l] 7/11 snapshots
+[2017-05-23 17:11:14,537l] 8/11 snapshots
+[2017-05-23 17:11:17,066l] 9/11 snapshots
+[2017-05-23 17:11:19,943l] 10/11 snapshots
+[2017-05-23 17:11:23,128l] 11/11 snapshots
+[2017-05-23 17:12:43,931l] http://francejpo.com not available.
+[2017-05-23 17:12:52,021l] Getting timemap for 'http://kadyrov2012.com'...
+[2017-05-23 17:12:52,090l] Getting timemap for 'http://freelydifferent.com'...
+[2017-05-23 17:12:52,738l] Timemap received!
+[2017-05-23 17:12:52,738l] Consistency mode: One per month
+[2017-05-23 17:12:52,738l] Starting browser...
+[2017-05-23 17:12:53,765l] Browser started!
+[2017-05-23 17:12:53,765l] Directory 'media/freelydifferent.com' does not exists, creating...
+[2017-05-23 17:12:53,766l] Total snapshots: 12
+[2017-05-23 17:12:54,217l] Getting timemap for 'http://gomesoft.com'...
+[2017-05-23 17:12:54,540l] Timemap received!
+[2017-05-23 17:12:54,541l] Consistency mode: One per month
+[2017-05-23 17:12:54,541l] Starting browser...
+[2017-05-23 17:12:54,781l] Timemap received!
+[2017-05-23 17:12:54,781l] Consistency mode: One per month
+[2017-05-23 17:12:54,781l] Starting browser...
+[2017-05-23 17:12:55,568l] Browser started!
+[2017-05-23 17:12:55,568l] Directory 'media/kadyrov2012.com' does not exists, creating...
+[2017-05-23 17:12:55,568l] Total snapshots: 12
+[2017-05-23 17:12:55,735l] 1/12 snapshots
+[2017-05-23 17:12:55,808l] Browser started!
+[2017-05-23 17:12:55,808l] Directory 'media/gomesoft.com' does not exists, creating...
+[2017-05-23 17:12:55,808l] Total snapshots: 12
+[2017-05-23 17:13:00,639l] 2/12 snapshots
+[2017-05-23 17:13:02,110l] 3/12 snapshots
+[2017-05-23 17:13:03,024l] 1/12 snapshots
+[2017-05-23 17:13:03,054l] 1/12 snapshots
+[2017-05-23 17:13:06,498l] 4/12 snapshots
+[2017-05-23 17:13:07,559l] 5/12 snapshots
+[2017-05-23 17:13:07,710l] 2/12 snapshots
+[2017-05-23 17:13:08,799l] 2/12 snapshots
+[2017-05-23 17:13:11,970l] 6/12 snapshots
+[2017-05-23 17:13:12,968l] 7/12 snapshots
+[2017-05-23 17:13:14,488l] 3/12 snapshots
+[2017-05-23 17:13:17,988l] 8/12 snapshots
+[2017-05-23 17:13:19,431l] 3/12 snapshots
+[2017-05-23 17:13:21,471l] 4/12 snapshots
+[2017-05-23 17:13:21,800l] 9/12 snapshots
+[2017-05-23 17:13:22,280l] 10/12 snapshots
+[2017-05-23 17:13:30,123l] 11/12 snapshots
+[2017-05-23 17:13:30,328l] 5/12 snapshots
+[2017-05-23 17:13:30,661l] 4/12 snapshots
+[2017-05-23 17:13:32,985l] 12/12 snapshots
+[2017-05-23 17:13:33,489l] 5/12 snapshots
+[2017-05-23 17:13:35,697l] 6/12 snapshots
+[2017-05-23 17:13:40,747l] 7/12 snapshots
+[2017-05-23 17:13:41,341l] 6/12 snapshots
+[2017-05-23 17:13:44,637l] 7/12 snapshots
+[2017-05-23 17:13:45,739l] 8/12 snapshots
+[2017-05-23 17:13:52,184l] 9/12 snapshots
+[2017-05-23 17:13:56,272l] 8/12 snapshots
+[2017-05-23 17:13:56,568l] 10/12 snapshots
+[2017-05-23 17:13:58,761l] 9/12 snapshots
+[2017-05-23 17:14:00,747l] 11/12 snapshots
+[2017-05-23 17:14:05,933l] 12/12 snapshots
+[2017-05-23 17:14:07,389l] 10/12 snapshots
+[2017-05-23 17:14:12,375l] 11/12 snapshots
+[2017-05-23 17:14:14,352l] 12/12 snapshots
+[2017-05-23 17:17:49,132l] Getting timemap for 'http://milsoftware.com'...
+[2017-05-23 17:17:50,112l] Timemap received!
+[2017-05-23 17:17:50,112l] Consistency mode: All available timestamps
+[2017-05-23 17:17:50,112l] Starting browser...
+[2017-05-23 17:17:51,141l] Browser started!
+[2017-05-23 17:17:51,141l] Total snapshots: 88
+[2017-05-23 17:18:01,688l] 1/88 snapshots
+[2017-05-23 17:18:05,601l] 2/88 snapshots
+[2017-05-23 17:18:08,490l] 3/88 snapshots
+[2017-05-23 17:18:12,880l] 4/88 snapshots
+[2017-05-23 17:18:15,468l] 5/88 snapshots
+[2017-05-23 17:18:17,586l] Not Found: /favicon.ico
+[2017-05-23 17:18:21,261l] 6/88 snapshots
+[2017-05-23 17:18:24,858l] 7/88 snapshots
+[2017-05-23 17:18:28,458l] 8/88 snapshots
+[2017-05-23 17:18:34,412l] 9/88 snapshots
+[2017-05-23 17:18:38,634l] 10/88 snapshots
+[2017-05-23 17:18:43,081l] 11/88 snapshots
+[2017-05-23 17:18:48,209l] 12/88 snapshots
+[2017-05-23 17:18:52,740l] 13/88 snapshots
+[2017-05-23 17:18:58,592l] 14/88 snapshots
+[2017-05-23 17:19:03,521l] 15/88 snapshots
+[2017-05-23 17:19:09,448l] 16/88 snapshots
+[2017-05-23 17:19:14,099l] 17/88 snapshots
+[2017-05-23 17:19:19,430l] 18/88 snapshots
+[2017-05-23 17:19:26,095l] 19/88 snapshots
+[2017-05-23 17:19:30,522l] 20/88 snapshots
+[2017-05-23 17:19:35,346l] 21/88 snapshots
+[2017-05-23 17:19:42,195l] 22/88 snapshots
+[2017-05-23 17:19:48,724l] 23/88 snapshots
+[2017-05-23 17:19:54,354l] 24/88 snapshots
+[2017-05-23 17:20:00,900l] 25/88 snapshots
+[2017-05-23 17:20:07,332l] 26/88 snapshots
+[2017-05-23 17:20:13,479l] 27/88 snapshots
+[2017-05-23 17:20:21,409l] 28/88 snapshots
+[2017-05-23 17:20:27,637l] 29/88 snapshots
+[2017-05-23 17:20:38,910l] 30/88 snapshots
+[2017-05-23 17:20:46,339l] 31/88 snapshots
+[2017-05-23 17:20:52,795l] 32/88 snapshots
+[2017-05-23 17:21:00,525l] 33/88 snapshots
+[2017-05-23 17:21:07,061l] 34/88 snapshots
+[2017-05-23 17:21:08,156l] 35/88 snapshots
+[2017-05-23 17:21:15,797l] 36/88 snapshots
+[2017-05-23 17:21:22,726l] 37/88 snapshots
+[2017-05-23 17:21:31,357l] 38/88 snapshots
+[2017-05-23 17:21:38,194l] 39/88 snapshots
+[2017-05-23 17:21:42,936l] 40/88 snapshots
+[2017-05-23 17:21:47,388l] 41/88 snapshots
+[2017-05-23 17:21:52,514l] 42/88 snapshots
+[2017-05-23 17:21:58,944l] 43/88 snapshots
+[2017-05-23 17:22:05,598l] 44/88 snapshots
+[2017-05-23 17:22:13,130l] 45/88 snapshots
+[2017-05-23 17:22:18,390l] 46/88 snapshots
+[2017-05-23 17:22:24,117l] 47/88 snapshots
+[2017-05-23 17:22:31,350l] 48/88 snapshots
+[2017-05-23 17:22:38,499l] 49/88 snapshots
+[2017-05-23 17:22:41,123l] 50/88 snapshots
+[2017-05-23 17:22:46,453l] 51/88 snapshots
+[2017-05-23 17:22:53,413l] 52/88 snapshots
+[2017-05-23 17:23:02,158l] 53/88 snapshots
+[2017-05-23 17:23:09,910l] 54/88 snapshots
+[2017-05-23 17:23:14,957l] 55/88 snapshots
+[2017-05-23 17:23:21,544l] 56/88 snapshots
+[2017-05-23 17:23:27,300l] 57/88 snapshots
+[2017-05-23 17:23:32,795l] 58/88 snapshots
+[2017-05-23 17:23:40,453l] 59/88 snapshots
+[2017-05-23 17:23:47,122l] 60/88 snapshots
+[2017-05-23 17:23:54,562l] 61/88 snapshots
+[2017-05-23 17:24:00,838l] 62/88 snapshots
+[2017-05-23 17:24:08,502l] 63/88 snapshots
+[2017-05-23 17:24:15,459l] 64/88 snapshots
+[2017-05-23 17:24:22,431l] 65/88 snapshots
+[2017-05-23 17:24:29,821l] 66/88 snapshots
+[2017-05-23 17:24:36,478l] 67/88 snapshots
+[2017-05-23 17:24:42,014l] 68/88 snapshots
+[2017-05-23 17:24:48,772l] 69/88 snapshots
+[2017-05-23 17:24:55,515l] 70/88 snapshots
+[2017-05-23 17:25:01,668l] 71/88 snapshots
+[2017-05-23 17:25:07,423l] 72/88 snapshots
+[2017-05-23 17:25:13,081l] 73/88 snapshots
+[2017-05-23 17:25:20,524l] 74/88 snapshots
+[2017-05-23 17:25:26,687l] 75/88 snapshots
+[2017-05-23 17:25:35,349l] 76/88 snapshots
+[2017-05-23 17:25:43,427l] 77/88 snapshots
+[2017-05-23 17:25:50,414l] 78/88 snapshots
+[2017-05-23 17:25:57,551l] 79/88 snapshots
+[2017-05-23 17:26:06,599l] 80/88 snapshots
+[2017-05-23 17:26:15,699l] 81/88 snapshots
+[2017-05-23 17:26:25,323l] 82/88 snapshots
+[2017-05-23 17:26:31,741l] 83/88 snapshots
+[2017-05-23 17:26:38,391l] 84/88 snapshots
+[2017-05-23 17:26:46,428l] 85/88 snapshots
+[2017-05-23 17:26:48,621l] 86/88 snapshots
+[2017-05-23 17:26:52,122l] 87/88 snapshots
+[2017-05-23 17:27:06,935l] 88/88 snapshots
+[2017-05-23 17:29:13,029l] Getting timemap for 'http://skirmishband.net'...
+[2017-05-23 17:29:13,821l] Timemap received!
+[2017-05-23 17:29:13,821l] Consistency mode: All timestamps: From/To
+[2017-05-23 17:29:13,821l] Starting browser...
+[2017-05-23 17:29:14,853l] Browser started!
+[2017-05-23 17:29:14,853l] Total snapshots: 1
+[2017-05-23 17:29:21,835l] 1/1 snapshots
+[2017-05-23 17:55:25,369l] Getting timemap for 'http://fs.life'...
+[2017-05-23 17:55:26,056l] Timemap received!
+[2017-05-23 17:55:26,056l] Consistency mode: One per Year
+[2017-05-23 17:55:26,056l] Starting browser...
+[2017-05-23 17:55:27,087l] Browser started!
+[2017-05-23 17:55:27,087l] Directory 'media/fs.life' does not exists, creating...
+[2017-05-23 17:55:27,088l] Total snapshots: 1
+[2017-05-23 17:55:29,389l] 1/1 snapshots
+[2017-05-23 18:32:24,810l] Getting timemap for 'http://seasonvar.ru'...
+[2017-05-23 18:32:29,236l] Timemap received!
+[2017-05-23 18:32:29,236l] Consistency mode: One per Year
+[2017-05-23 18:33:03,379l] Internal Server Error: /timeline
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 92, in timeline
+    images = loads(site_obj.images_json)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2017-05-23 18:34:13,912l] Getting timemap for 'http://seasonvar.ru'...
+[2017-05-23 18:34:19,320l] Timemap received!
+[2017-05-23 18:34:19,320l] Consistency mode: One per Year
+[2017-05-23 18:34:46,721l] Getting timemap for 'http://brb.to'...
+[2017-05-23 18:34:48,447l] Timemap received!
+[2017-05-23 18:34:48,448l] Consistency mode: One per Year
+[2017-05-23 18:36:47,735l] Getting timemap for 'http://brb.to'...
+[2017-05-23 18:36:49,233l] Timemap received!
+[2017-05-23 18:36:49,234l] Consistency mode: One per Year
+[2017-05-23 18:36:49,236l] Starting browser...
+[2017-05-23 18:36:50,266l] Browser started!
+[2017-05-23 18:36:50,266l] Total snapshots: 4
+[2017-05-23 18:47:32,595l] Getting timemap for 'http://brb.to'...
+[2017-05-23 18:47:34,237l] Timemap received!
+[2017-05-23 18:47:34,237l] Consistency mode: One per Year
+[2017-05-23 18:47:34,239l] Starting browser...
+[2017-05-23 18:47:35,265l] Browser started!
+[2017-05-23 18:47:35,265l] Directory 'media/brb.to' does not exists, creating...
+[2017-05-23 18:47:35,265l] Total snapshots: 4
+[2017-05-23 18:47:55,929l] 1/4 snapshots
+[2017-05-23 18:47:56,062l] Internal Server Error: /result/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 29, in result
+    urls_list = list(map(extract_domain, request.POST.get("urls_List").split('\r\n')))
+AttributeError: 'NoneType' object has no attribute 'split'
+[2017-05-23 18:47:57,889l] Not Found: /favicon.ico
+[2017-05-23 18:48:02,299l] Internal Server Error: /result/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 29, in result
+    urls_list = list(map(extract_domain, request.POST.get("urls_List").split('\r\n')))
+AttributeError: 'NoneType' object has no attribute 'split'
+[2017-05-23 18:48:18,156l] Getting timemap for 'http://costorico.net'...
+[2017-05-23 18:48:18,892l] Timemap received!
+[2017-05-23 18:48:18,893l] Consistency mode: One per Year
+[2017-05-23 18:48:18,893l] Starting browser...
+[2017-05-23 18:48:19,930l] Browser started!
+[2017-05-23 18:48:19,930l] Directory 'media/costorico.net' does not exists, creating...
+[2017-05-23 18:48:19,930l] Total snapshots: 13
+[2017-05-23 18:48:25,662l] 2/4 snapshots
+[2017-05-23 18:48:25,907l] 1/13 snapshots
+[2017-05-23 18:48:30,528l] 2/13 snapshots
+[2017-05-23 18:48:33,830l] 3/13 snapshots
+[2017-05-23 18:48:36,767l] 4/13 snapshots
+[2017-05-23 18:48:40,708l] 5/13 snapshots
+[2017-05-23 18:48:44,102l] 6/13 snapshots
+[2017-05-23 18:48:54,087l] 7/13 snapshots
+[2017-05-23 18:48:57,603l] 3/4 snapshots
+[2017-05-23 18:49:01,491l] 4/4 snapshots
+[2017-05-23 18:49:02,982l] 8/13 snapshots
+[2017-05-23 18:49:09,810l] 9/13 snapshots
+[2017-05-23 18:49:16,786l] 10/13 snapshots
+[2017-05-23 18:49:23,136l] 11/13 snapshots
+[2017-05-23 18:49:28,662l] 12/13 snapshots
+[2017-05-23 18:49:31,824l] 13/13 snapshots
+[2017-05-24 07:47:22,316l(brb.to)] Getting timemap for 'http://brb.to'...
+[2017-05-24 07:47:23,521l(brb.to)] Timemap received!
+[2017-05-24 07:47:23,522l(brb.to)] Consistency mode: One per Year
+[2017-05-24 07:47:23,523l(brb.to)] Starting browser...
+[2017-05-24 07:47:24,548l(brb.to)] Browser started!
+[2017-05-24 07:47:24,548l(brb.to)] Total snapshots: 4
+[2017-05-24 07:47:39,870l(brb.to)] 1/4 snapshots
+[2017-05-24 07:56:34,952(brb.to)] Getting timemap for 'http://brb.to'...
+[2017-05-24 07:56:35,911(brb.to)] Timemap received!
+[2017-05-24 07:56:35,912(brb.to)] Consistency mode: One per Year
+[2017-05-24 07:56:35,913(brb.to)] Starting browser...
+[2017-05-24 07:56:36,938(brb.to)] Browser started!
+[2017-05-24 07:56:36,938(brb.to)] Total snapshots: 4
+[2017-05-24 07:56:46,541(brb.to)] 1/4 snapshots
+[2017-05-24 07:57:02,120(brb.to)] 2/4 snapshots
+[2017-05-24 07:57:28,668(brb.to)] 3/4 snapshots
+[2017-05-24 07:57:32,776(brb.to)] 4/4 snapshots
+[2017-05-24 07:58:24,914(brb.to)] Getting timemap for 'http://brb.to'...
+[2017-05-24 07:58:26,413(brb.to)] Timemap received!
+[2017-05-24 07:58:26,414(brb.to)] Consistency mode: One per Year
+[2017-05-24 07:58:26,415(brb.to)] Starting browser...
+[2017-05-24 07:58:27,448(brb.to)] Browser started!
+[2017-05-24 07:58:27,449(brb.to)] Total snapshots: 4
+[2017-05-24 07:58:40,349(brb.to)] Not Found: /favicon.ico
+[2017-05-24 07:58:41,568(brb.to)] 1/4 snapshots
+[2017-05-24 07:58:47,002(brb.to)] Internal Server Error: /result/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 30, in result
+    urls_list = list(map(extract_domain, request.POST.get("urls_List").split('\r\n')))
+AttributeError: 'NoneType' object has no attribute 'split'
+[2017-05-24 07:59:01,105(brb.to)] 2/4 snapshots
+[2017-05-24 07:59:02,522(brb.to)] Getting timemap for 'http://brb.to'...
+[2017-05-24 07:59:03,402(brb.to)] Timemap received!
+[2017-05-24 07:59:03,403(brb.to)] Consistency mode: One per Year
+[2017-05-24 07:59:03,404(brb.to)] Starting browser...
+[2017-05-24 07:59:04,427(brb.to)] Browser started!
+[2017-05-24 07:59:04,427(brb.to)] Total snapshots: 4
+[2017-05-24 07:59:10,723(brb.to)] 1/4 snapshots
+[2017-05-24 07:59:14,350(brb.to)] 3/4 snapshots
+[2017-05-24 07:59:16,208(brb.to)] 4/4 snapshots
+[2017-05-24 07:59:16,242(brb.to)] 2/4 snapshots
+[2017-05-24 07:59:22,574(brb.to)] 3/4 snapshots
+[2017-05-24 07:59:24,396(brb.to)] 4/4 snapshots
+[2017-05-24 08:19:13,819(fs.to)] Getting timemap for 'http://fs.to'...
+[2017-05-24 08:19:16,873(fs.to)] Timemap received!
+[2017-05-24 08:19:16,874(fs.to)] Consistency mode: One per Year
+[2017-05-24 08:19:16,882(fs.to)] Starting browser...
+[2017-05-24 08:19:17,941(fs.to)] Browser started!
+[2017-05-24 08:19:17,942(fs.to)] Directory 'media/fs.to' does not exists, creating...
+[2017-05-24 08:19:17,942(fs.to)] Total snapshots: 4
+[2017-05-24 08:19:26,491(fs.to)] 1/4 snapshots
+[2017-05-24 08:19:32,641(fs.to)] 2/4 snapshots
+[2017-05-24 08:19:35,189(fs.to)] 3/4 snapshots
+[2017-05-24 08:19:37,723(fs.to)] 4/4 snapshots
+[2017-05-24 08:31:43,266(fs.to)] Getting timemap for 'http://fs.to'...
+[2017-05-24 08:31:45,104(fs.to)] Timemap received!
+[2017-05-24 08:31:45,105(fs.to)] Consistency mode: One per Year
+[2017-05-24 08:31:45,109(fs.to)] Starting browser...
+[2017-05-24 08:31:46,169(fs.to)] Browser started!
+[2017-05-24 08:31:46,170(fs.to)] Total snapshots: 4
+[2017-05-24 08:31:51,611(fs.to)] 1/4 snapshots
+[2017-05-24 08:31:54,373(fs.to)] 2/4 snapshots
+[2017-05-24 08:42:21,742(fs.life)] Getting timemap for 'http://fs.life'...
+[2017-05-24 08:42:22,358(fs.life)] Timemap received!
+[2017-05-24 08:42:22,358(fs.life)] Consistency mode: All available timestamps
+[2017-05-24 08:42:22,358(fs.life)] Starting browser...
+[2017-05-24 08:42:23,384(fs.life)] Browser started!
+[2017-05-24 08:42:23,385(fs.life)] Directory 'media/fs.life' does not exists, creating...
+[2017-05-24 08:42:23,385(fs.life)] Total snapshots: 1
+[2017-05-24 08:42:25,911(fs.life)] 1/1 snapshots
+[2017-05-24 08:42:39,077(fs.life)] Getting timemap for 'http://brb.to'...
+[2017-05-24 08:42:40,831(fs.life)] Timemap received!
+[2017-05-24 08:42:40,832(fs.life)] Consistency mode: All available timestamps
+[2017-05-24 08:42:40,833(fs.life)] Starting browser...
+[2017-05-24 08:42:41,852(fs.life)] Browser started!
+[2017-05-24 08:42:41,852(fs.life)] Total snapshots: 453
+[2017-05-24 08:42:56,045(fs.life)] 1/453 snapshots
+[2017-05-24 08:44:24,475(brb.to)] Getting timemap for 'http://brb.to'...
+[2017-05-24 08:44:25,316(brb.to)] Timemap received!
+[2017-05-24 08:44:25,317(brb.to)] Consistency mode: All available timestamps
+[2017-05-24 08:44:25,318(brb.to)] Starting browser...
+[2017-05-24 08:44:26,341(brb.to)] Browser started!
+[2017-05-24 08:44:26,342(brb.to)] Total snapshots: 453
+[2017-05-24 08:51:07,634(brb.to)] Getting timemap for 'http://brb.to'...
+[2017-05-24 08:51:08,453(brb.to)] Timemap received!
+[2017-05-24 08:51:08,453(brb.to)] Consistency mode: One per Year
+[2017-05-24 08:51:08,456(brb.to)] Starting browser...
+[2017-05-24 08:51:09,484(brb.to)] Browser started!
+[2017-05-24 08:51:09,485(brb.to)] Total snapshots: 4
+[2017-05-24 08:51:44,969(brb.to)] Getting timemap for 'http://brb.to'...
+[2017-05-24 08:51:45,829(brb.to)] Timemap received!
+[2017-05-24 08:51:45,834(brb.to)] Consistency mode: One per Year
+[2017-05-24 08:51:45,841(brb.to)] Starting browser...
+[2017-05-24 08:51:46,885(brb.to)] Browser started!
+[2017-05-24 08:51:46,885(brb.to)] Total snapshots: 4
+[2017-05-24 08:51:52,210(brb.to)] 1/4 snapshots
+[2017-05-24 09:01:10,831(fs.life)] Getting timemap for 'http://fs.life'...
+[2017-05-24 09:01:10,894(fs.life)] Internal Server Error: /resultdiv/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 106, in resultdiv
+    if request_dates[site.request_date]:
+KeyError: datetime.datetime(2017, 5, 24, 0, 0, tzinfo=<UTC>)
+[2017-05-24 09:01:11,465(fs.life)] Timemap received!
+[2017-05-24 09:01:11,466(fs.life)] Consistency mode: One per Year
+[2017-05-24 09:01:11,466(fs.life)] Starting browser...
+[2017-05-24 09:01:11,919(fs.life)] Internal Server Error: /resultdiv/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 106, in resultdiv
+    if request_dates[site.request_date]:
+KeyError: datetime.datetime(2017, 5, 24, 0, 0, tzinfo=<UTC>)
+[2017-05-24 09:01:12,507(fs.life)] Browser started!
+[2017-05-24 09:01:12,507(fs.life)] Total snapshots: 1
+[2017-05-24 09:01:12,915(fs.life)] Internal Server Error: /resultdiv/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 106, in resultdiv
+    if request_dates[site.request_date]:
+KeyError: datetime.datetime(2017, 5, 24, 0, 0, tzinfo=<UTC>)
+[2017-05-24 11:13:20,102(brb.to)] Getting timemap for 'http://averia.ws'...
+[2017-05-24 11:13:21,042(brb.to)] Timemap received!
+[2017-05-24 11:13:21,043(brb.to)] Consistency mode: One per Year
+[2017-05-24 11:13:21,044(brb.to)] Starting browser...
+[2017-05-24 11:13:22,118(brb.to)] Browser started!
+[2017-05-24 11:13:22,119(brb.to)] Directory 'media/averia.ws' does not exists, creating...
+[2017-05-24 11:13:22,119(brb.to)] Total snapshots: 4
+[2017-05-24 11:13:25,147(brb.to)] Getting timemap for 'http://brb.to'...
+[2017-05-24 11:13:25,641(brb.to)] Getting timemap for 'http://seasonvar.ru'...
+[2017-05-24 11:13:26,280(brb.to)] Timemap received!
+[2017-05-24 11:13:26,280(brb.to)] Consistency mode: One per Year
+[2017-05-24 11:13:26,282(brb.to)] Starting browser...
+[2017-05-24 11:13:27,316(brb.to)] Timemap received!
+[2017-05-24 11:13:27,317(brb.to)] Consistency mode: One per Year
+[2017-05-24 11:13:27,329(brb.to)] Starting browser...
+[2017-05-24 11:13:27,347(brb.to)] Browser started!
+[2017-05-24 11:13:27,349(brb.to)] Total snapshots: 4
+[2017-05-24 11:13:28,373(brb.to)] Browser started!
+[2017-05-24 11:13:28,373(brb.to)] Directory 'media/seasonvar.ru' does not exists, creating...
+[2017-05-24 11:13:28,373(brb.to)] Total snapshots: 9
+[2017-05-24 11:13:35,560(brb.to)] 1/4 snapshots
+[2017-05-24 11:13:39,548(brb.to)] 1/4 snapshots
+[2017-05-24 11:13:40,048(brb.to)] 2/4 snapshots
+[2017-05-24 11:13:42,317(brb.to)] 2/4 snapshots
+[2017-05-24 11:13:42,900(brb.to)] 1/9 snapshots
+[2017-05-24 11:13:44,871(brb.to)] 3/4 snapshots
+[2017-05-24 11:13:50,985(brb.to)] 3/4 snapshots
+[2017-05-24 11:13:54,617(brb.to)] 4/4 snapshots
+[2017-05-24 11:13:55,774(brb.to)] 2/9 snapshots
+[2017-05-24 11:13:59,139(brb.to)] 3/9 snapshots
+[2017-05-24 11:14:01,749(brb.to)] 4/4 snapshots
+[2017-05-24 11:14:11,857(brb.to)] 4/9 snapshots
+[2017-05-24 11:14:20,922(brb.to)] 5/9 snapshots
+[2017-05-24 11:14:30,380(brb.to)] 6/9 snapshots
+[2017-05-24 11:14:41,876(brb.to)] 7/9 snapshots
+[2017-05-24 11:14:57,577(brb.to)] 8/9 snapshots
+[2017-05-24 11:15:21,768(brb.to)] 9/9 snapshots
+[2017-05-24 11:28:49,297(brb.to)] Getting timemap for 'http://brb.to'...
+[2017-05-24 11:28:50,510(brb.to)] Timemap received!
+[2017-05-24 11:28:50,511(brb.to)] Consistency mode: One per Year
+[2017-05-24 11:28:50,514(brb.to)] Starting browser...
+[2017-05-24 11:28:51,565(brb.to)] Browser started!
+[2017-05-24 11:28:51,566(brb.to)] Total snapshots: 4
+[2017-05-24 11:28:57,631(brb.to)] 1/4 snapshots
+[2017-05-24 11:29:22,134(brb.to)] 2/4 snapshots
+[2017-05-24 11:29:47,006(brb.to)] 3/4 snapshots
+[2017-05-24 11:29:48,109(brb.to)] Not Found: /remove
+[2017-05-24 11:30:15,509(brb.to)] 4/4 snapshots
+[2017-05-24 11:35:37,193(brb.to)] Getting timemap for 'http://brb.to'...
+[2017-05-24 11:35:38,005(brb.to)] Timemap received!
+[2017-05-24 11:35:38,006(brb.to)] Consistency mode: One per Year
+[2017-05-24 11:35:38,009(brb.to)] Starting browser...
+[2017-05-24 11:35:39,070(brb.to)] Browser started!
+[2017-05-24 11:35:39,071(brb.to)] Total snapshots: 4
+[2017-05-24 11:35:41,967(brb.to)] Internal Server Error: /timeline
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 102, in timeline
+    'site': site})
+  File "/usr/local/lib/python3.5/dist-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.5/dist-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/template/backends/django.py", line 66, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.5/dist-packages/django/template/base.py", line 207, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.5/dist-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.5/dist-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.5/dist-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.5/dist-packages/django/template/defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.5/dist-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/usr/local/lib/python3.5/dist-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'remove' not found. 'remove' is not a valid view function or pattern name.
+[2017-05-24 11:35:44,254(brb.to)] 1/4 snapshots
+[2017-05-24 11:35:57,141(brb.to)] 2/4 snapshots
+[2017-05-24 11:36:10,181(brb.to)] 3/4 snapshots
+[2017-05-24 11:36:26,355(brb.to)] 4/4 snapshots
+[2017-05-24 11:42:39,188(brb.to)] Getting timemap for 'http://brb.to'...
+[2017-05-24 11:43:39,682(brb.to)] Internal Server Error: /remove
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 119, in remove
+    site_obj = Site.objects.filter(site_url=site)[0]
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2017-05-24 11:43:40,223(brb.to)] Internal Server Error: /remove
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 119, in remove
+    site_obj = Site.objects.filter(site_url=site)[0]
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2017-05-24 11:43:40,283(brb.to)] Getting timemap for 'http://brb.to'...
+[2017-05-24 11:43:40,554(brb.to)] Internal Server Error: /remove
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 119, in remove
+    site_obj = Site.objects.filter(site_url=site)[0]
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2017-05-24 11:43:40,895(brb.to)] Internal Server Error: /remove
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 119, in remove
+    site_obj = Site.objects.filter(site_url=site)[0]
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2017-05-24 11:43:41,237(brb.to)] Internal Server Error: /remove
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 119, in remove
+    site_obj = Site.objects.filter(site_url=site)[0]
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2017-05-24 11:43:41,574(brb.to)] Internal Server Error: /remove
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 119, in remove
+    site_obj = Site.objects.filter(site_url=site)[0]
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2017-05-24 11:43:41,913(brb.to)] Internal Server Error: /remove
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 119, in remove
+    site_obj = Site.objects.filter(site_url=site)[0]
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2017-05-24 11:43:42,250(brb.to)] Internal Server Error: /remove
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 119, in remove
+    site_obj = Site.objects.filter(site_url=site)[0]
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2017-05-24 11:43:42,545(brb.to)] Timemap received!
+[2017-05-24 11:43:42,545(brb.to)] Consistency mode: One per Year
+[2017-05-24 11:43:42,547(brb.to)] Starting browser...
+[2017-05-24 11:43:42,597(brb.to)] Internal Server Error: /remove
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 119, in remove
+    site_obj = Site.objects.filter(site_url=site)[0]
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2017-05-24 11:43:42,947(brb.to)] Internal Server Error: /remove
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 119, in remove
+    site_obj = Site.objects.filter(site_url=site)[0]
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2017-05-24 11:43:43,289(brb.to)] Internal Server Error: /remove
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 119, in remove
+    site_obj = Site.objects.filter(site_url=site)[0]
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2017-05-24 11:43:43,572(brb.to)] Browser started!
+[2017-05-24 11:43:43,572(brb.to)] Total snapshots: 4
+[2017-05-24 11:43:43,631(brb.to)] Internal Server Error: /remove
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 119, in remove
+    site_obj = Site.objects.filter(site_url=site)[0]
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2017-05-24 11:43:43,972(brb.to)] Internal Server Error: /remove
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 119, in remove
+    site_obj = Site.objects.filter(site_url=site)[0]
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2017-05-24 11:43:44,314(brb.to)] Internal Server Error: /remove
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 119, in remove
+    site_obj = Site.objects.filter(site_url=site)[0]
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2017-05-24 11:43:44,656(brb.to)] Internal Server Error: /remove
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 119, in remove
+    site_obj = Site.objects.filter(site_url=site)[0]
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2017-05-24 11:43:44,987(brb.to)] Internal Server Error: /remove
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 119, in remove
+    site_obj = Site.objects.filter(site_url=site)[0]
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2017-05-24 11:43:45,317(brb.to)] Internal Server Error: /remove
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 119, in remove
+    site_obj = Site.objects.filter(site_url=site)[0]
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2017-05-24 11:43:45,657(brb.to)] Internal Server Error: /remove
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 119, in remove
+    site_obj = Site.objects.filter(site_url=site)[0]
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2017-05-24 11:43:46,007(brb.to)] Internal Server Error: /remove
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 119, in remove
+    site_obj = Site.objects.filter(site_url=site)[0]
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2017-05-24 11:43:46,369(brb.to)] Internal Server Error: /remove
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 119, in remove
+    site_obj = Site.objects.filter(site_url=site)[0]
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2017-05-24 11:43:46,715(brb.to)] Internal Server Error: /remove
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 119, in remove
+    site_obj = Site.objects.filter(site_url=site)[0]
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2017-05-24 11:43:47,070(brb.to)] Internal Server Error: /remove
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 119, in remove
+    site_obj = Site.objects.filter(site_url=site)[0]
+  File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 289, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2017-05-24 11:50:11,120(brb.to)] Internal Server Error: /result/ia_history/static/ia_history/style.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 33, in result
+    urls_list = list(map(extract_domain, request.POST.get("urls_List").split('\r\n')))
+AttributeError: 'NoneType' object has no attribute 'split'
+[2017-05-24 11:50:11,701(brb.to)] Getting timemap for 'http://brb.to'...
+[2017-05-24 11:50:12,676(brb.to)] Timemap received!
+[2017-05-24 11:50:12,676(brb.to)] Consistency mode: One per Year
+[2017-05-24 11:50:12,678(brb.to)] Starting browser...
+[2017-05-24 11:50:13,710(brb.to)] Browser started!
+[2017-05-24 11:50:13,710(brb.to)] Total snapshots: 4
+[2017-05-24 11:50:40,007(brb.to)] Internal Server Error: /result/ia_history/static/ia_history/style.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 33, in result
+    urls_list = list(map(extract_domain, request.POST.get("urls_List").split('\r\n')))
+AttributeError: 'NoneType' object has no attribute 'split'
+[2017-05-24 11:50:43,629(brb.to)] 1/4 snapshots
+[2017-05-24 11:52:08,934(fs.to)] Getting timemap for 'http://fs.to'...
+[2017-05-24 11:52:10,308(fs.to)] Timemap received!
+[2017-05-24 11:52:10,308(fs.to)] Consistency mode: One per Year
+[2017-05-24 11:52:10,310(fs.to)] Starting browser...
+[2017-05-24 11:52:11,335(fs.to)] Browser started!
+[2017-05-24 11:52:11,335(fs.to)] Total snapshots: 4
+[2017-05-24 11:52:17,303(fs.to)] 1/4 snapshots
+[2017-05-24 11:52:19,637(fs.to)] 2/4 snapshots
+[2017-05-24 11:52:21,670(fs.to)] 3/4 snapshots
+[2017-05-24 11:52:24,679(fs.to)] 4/4 snapshots
+[2017-05-24 11:55:12,910(fs.to)] http://kadyrov24.com not available.
+[2017-05-24 12:11:25,823(kadyrov24.com)] http://kadyrov24.com not available.
+[2017-05-24 12:13:15,593(fs.life)] Getting timemap for 'http://fs.life'...
+[2017-05-24 12:13:19,468(fs.life)] Timemap received!
+[2017-05-24 12:13:19,469(fs.life)] Consistency mode: All available timestamps
+[2017-05-24 12:13:19,469(fs.life)] Starting browser...
+[2017-05-24 12:13:20,509(fs.life)] Browser started!
+[2017-05-24 12:13:20,509(fs.life)] Total snapshots: 1
+[2017-05-24 12:13:24,650(fs.life)] 1/1 snapshots
+[2017-05-25 10:36:58,607(fs.to)] Internal Server Error: /timeline
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 94, in timeline
+    images = sorted(loads(site_obj.images_json), reverse=True)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2017-05-25 10:37:00,108(fs.to)] Getting timemap for 'http://fs.to'...
+[2017-05-25 10:37:01,370(fs.to)] Timemap received!
+[2017-05-25 10:37:01,371(fs.to)] Consistency mode: One per Year
+[2017-05-25 10:37:01,382(fs.to)] Starting browser...
+[2017-05-25 10:37:02,473(fs.to)] Browser started!
+[2017-05-25 10:37:02,476(fs.to)] Total snapshots: 4
+[2017-05-25 10:37:07,857(fs.to)] 1/4 snapshots
+[2017-05-25 10:37:13,277(fs.to)] 2/4 snapshots
+[2017-05-25 10:37:36,303(fs.to)] 3/4 snapshots
+[2017-05-25 10:37:40,034(fs.to)] 4/4 snapshots
+[2017-05-25 10:45:35,231(fs.to)] http://fs.to not available.
+[2017-05-25 10:46:19,462(fs.to)] Internal Server Error: /remove
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 119, in remove
+    site_date = datetime.strptime(site_date_str, '%Y-%m-%d')
+TypeError: strptime() argument 1 must be str, not None
+[2017-05-25 10:53:05,726(fs.to)] Getting timemap for 'http://fs.to'...
+[2017-05-25 10:53:07,224(fs.to)] Timemap received!
+[2017-05-25 10:53:07,225(fs.to)] Consistency mode: One per Year
+[2017-05-25 10:53:07,230(fs.to)] Starting browser...
+[2017-05-25 10:53:08,300(fs.to)] Browser started!
+[2017-05-25 10:53:08,300(fs.to)] Total snapshots: 4
+[2017-05-25 10:53:15,162(fs.to)] 1/4 snapshots
+[2017-05-25 10:53:17,103(fs.to)] 2/4 snapshots
+[2017-05-25 10:53:20,216(fs.to)] 3/4 snapshots
+[2017-05-25 10:53:22,134(fs.to)] 4/4 snapshots
+[2017-05-25 10:54:10,278(fs.to)] Internal Server Error: /remove
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 123, in remove
+    site_obj.remove()
+AttributeError: 'Site' object has no attribute 'remove'
+[2017-05-25 10:57:47,492(fs.to)] Getting timemap for 'http://fs.to'...
+[2017-05-25 10:57:48,617(fs.to)] Timemap received!
+[2017-05-25 10:57:48,618(fs.to)] Consistency mode: One per Year
+[2017-05-25 10:57:48,619(fs.to)] Starting browser...
+[2017-05-25 10:57:49,655(fs.to)] Browser started!
+[2017-05-25 10:57:49,656(fs.to)] Total snapshots: 4
+[2017-05-25 10:57:55,170(fs.to)] 1/4 snapshots
+[2017-05-25 10:57:58,433(fs.to)] 2/4 snapshots
+[2017-05-25 10:57:59,935(fs.to)] 3/4 snapshots
+[2017-05-25 10:58:01,518(fs.to)] 4/4 snapshots
+[2017-05-25 12:13:25,800(123qweasfxcbv.com)] http://123qweasfxcbv.com not available.
+[2017-05-25 12:13:40,936(123qweasfxcbv.com)] Getting timemap for 'http://brb.to'...
+[2017-05-25 12:13:42,240(123qweasfxcbv.com)] Timemap received!
+[2017-05-25 12:13:42,242(123qweasfxcbv.com)] Consistency mode: All available timestamps
+[2017-05-25 12:13:42,244(123qweasfxcbv.com)] Starting browser...
+[2017-05-25 12:13:43,296(123qweasfxcbv.com)] Browser started!
+[2017-05-25 12:13:43,296(123qweasfxcbv.com)] Total snapshots: 453
+[2017-05-25 12:13:55,746(123qweasfxcbv.com)] 1/453 snapshots
+[2017-05-25 12:38:12,351(killerdesserts.com)] Getting timemap for 'http://killerdesserts.com'...
+[2017-05-25 12:38:14,603(killerdesserts.com)] Timemap received!
+[2017-05-25 12:38:14,604(killerdesserts.com)] Consistency mode: One per Year
+[2017-05-25 12:38:14,606(killerdesserts.com)] Starting browser...
+[2017-05-25 12:41:56,667(killerdesserts.com)] Getting timemap for 'http://killerdesserts.com'...
+[2017-05-25 12:42:00,942(killerdesserts.com)] Timemap received!
+[2017-05-25 12:42:06,969(killerdesserts.com)] Consistency mode: One per Year
+[2017-05-25 12:43:28,001(killerdesserts.com)] Starting browser...
+[2017-05-25 12:43:31,831(killerdesserts.com)] Browser started!
+[2017-05-25 12:43:34,005(killerdesserts.com)] Directory 'media/killerdesserts.com' does not exists, creating...
+[2017-05-25 12:43:48,873(killerdesserts.com)] Total snapshots: 12
+[2017-05-25 12:44:26,138(killerdesserts.com)] 1/12 snapshots
+[2017-05-25 12:45:01,247(killerdesserts.com)] 2/12 snapshots
+[2017-05-25 12:45:05,763(killerdesserts.com)] 3/12 snapshots
+[2017-05-25 12:45:15,013(killerdesserts.com)] 4/12 snapshots
+[2017-05-25 12:45:20,223(killerdesserts.com)] 5/12 snapshots
+[2017-05-25 12:45:29,917(killerdesserts.com)] 6/12 snapshots
+[2017-05-25 12:45:35,824(killerdesserts.com)] 7/12 snapshots
+[2017-05-25 12:45:41,628(killerdesserts.com)] 8/12 snapshots
+[2017-05-25 12:45:44,496(killerdesserts.com)] 9/12 snapshots
+[2017-05-25 12:45:52,187(killerdesserts.com)] 10/12 snapshots
+[2017-05-25 12:46:01,319(killerdesserts.com)] 11/12 snapshots
+[2017-05-25 12:46:10,822(killerdesserts.com)] 12/12 snapshots
+[2017-05-25 12:46:52,348(killerdesserts.com)] Getting timemap for 'http://killerdesserts.com'...
+[2017-05-25 12:46:53,269(killerdesserts.com)] Timemap received!
+[2017-05-25 12:46:53,269(killerdesserts.com)] Consistency mode: One per Year
+[2017-05-25 12:46:53,271(killerdesserts.com)] Starting browser...
+[2017-05-25 12:46:54,364(killerdesserts.com)] Browser started!
+[2017-05-25 12:46:54,365(killerdesserts.com)] Total snapshots: 12
+[2017-05-25 12:46:59,839(killerdesserts.com)] 1/12 snapshots
+[2017-05-25 12:47:02,194(killerdesserts.com)] 2/12 snapshots
+[2017-05-25 12:47:04,867(killerdesserts.com)] 3/12 snapshots
+[2017-05-25 12:47:08,356(killerdesserts.com)] 4/12 snapshots
+[2017-05-25 12:47:11,559(killerdesserts.com)] 5/12 snapshots
+[2017-05-25 12:47:14,647(killerdesserts.com)] 6/12 snapshots
+[2017-05-25 12:47:19,682(killerdesserts.com)] 7/12 snapshots
+[2017-05-25 12:47:24,277(killerdesserts.com)] 8/12 snapshots
+[2017-05-25 12:47:47,165(appalachianmountaininstitute.com)] Getting timemap for 'http://appalachianmountaininstitute.com'...
+[2017-05-25 12:47:47,922(appalachianmountaininstitute.com)] Timemap received!
+[2017-05-25 12:47:47,923(appalachianmountaininstitute.com)] Consistency mode: One per Year
+[2017-05-25 12:47:47,924(appalachianmountaininstitute.com)] Starting browser...
+[2017-05-25 12:47:48,986(appalachianmountaininstitute.com)] Browser started!
+[2017-05-25 12:47:48,986(appalachianmountaininstitute.com)] Directory 'media/appalachianmountaininstitute.com' does not exists, creating...
+[2017-05-25 12:47:48,986(appalachianmountaininstitute.com)] Total snapshots: 10
+[2017-05-25 12:47:54,163(appalachianmountaininstitute.com)] 1/10 snapshots
+[2017-05-25 12:47:55,367(appalachianmountaininstitute.com)] 2/10 snapshots
+[2017-05-25 12:49:04,719(appalachianmountaininstitute.com)] 3/10 snapshots
+[2017-05-25 12:49:06,448(appalachianmountaininstitute.com)] Getting timemap for 'http://killerdesserts.com'...
+[2017-05-25 12:49:07,265(appalachianmountaininstitute.com)] Timemap received!
+[2017-05-25 12:49:07,266(appalachianmountaininstitute.com)] Consistency mode: One per Year
+[2017-05-25 12:49:07,266(appalachianmountaininstitute.com)] Starting browser...
+[2017-05-25 12:49:08,313(appalachianmountaininstitute.com)] Browser started!
+[2017-05-25 12:49:08,313(appalachianmountaininstitute.com)] Total snapshots: 12
+[2017-05-25 12:49:12,577(appalachianmountaininstitute.com)] 1/12 snapshots
+[2017-05-25 12:49:16,470(appalachianmountaininstitute.com)] 2/12 snapshots
+[2017-05-25 12:49:18,671(appalachianmountaininstitute.com)] 4/10 snapshots
+[2017-05-25 12:49:19,119(appalachianmountaininstitute.com)] 3/12 snapshots
+[2017-05-25 12:50:42,259(appalachianmountaininstitute.com)] Getting timemap for 'http://appalachianmountaininstitute.com'...
+[2017-05-25 12:50:42,387(appalachianmountaininstitute.com)] Getting timemap for 'http://killerdesserts.com'...
+[2017-05-25 12:50:42,920(appalachianmountaininstitute.com)] Timemap received!
+[2017-05-25 12:50:42,921(appalachianmountaininstitute.com)] Consistency mode: One per Year
+[2017-05-25 12:50:42,923(appalachianmountaininstitute.com)] Starting browser...
+[2017-05-25 12:50:43,059(appalachianmountaininstitute.com)] Timemap received!
+[2017-05-25 12:50:43,060(appalachianmountaininstitute.com)] Consistency mode: One per Year
+[2017-05-25 12:50:43,062(appalachianmountaininstitute.com)] Starting browser...
+[2017-05-25 12:50:43,981(appalachianmountaininstitute.com)] Browser started!
+[2017-05-25 12:50:43,982(appalachianmountaininstitute.com)] Total snapshots: 10
+[2017-05-25 12:50:44,138(appalachianmountaininstitute.com)] Browser started!
+[2017-05-25 12:50:44,139(appalachianmountaininstitute.com)] Total snapshots: 12
+[2017-05-25 12:50:49,962(appalachianmountaininstitute.com)] 1/12 snapshots
+[2017-05-25 12:50:52,942(appalachianmountaininstitute.com)] 2/12 snapshots
+[2017-05-25 12:50:55,716(appalachianmountaininstitute.com)] 3/12 snapshots
+[2017-05-25 12:51:01,029(appalachianmountaininstitute.com)] 4/12 snapshots
+[2017-05-25 12:51:04,227(appalachianmountaininstitute.com)] 5/12 snapshots
+[2017-05-25 12:51:08,369(appalachianmountaininstitute.com)] 6/12 snapshots
+[2017-05-25 12:51:12,655(appalachianmountaininstitute.com)] 7/12 snapshots
+[2017-05-25 12:51:18,969(appalachianmountaininstitute.com)] 8/12 snapshots
+[2017-05-25 12:51:23,145(appalachianmountaininstitute.com)] 9/12 snapshots
+[2017-05-25 12:51:28,550(appalachianmountaininstitute.com)] 10/12 snapshots
+[2017-05-25 12:51:33,575(appalachianmountaininstitute.com)] 11/12 snapshots
+[2017-05-25 12:51:35,089(appalachianmountaininstitute.com)] 12/12 snapshots
+[2017-05-25 12:51:51,090(appalachianmountaininstitute.com)] 1/10 snapshots
+[2017-05-25 12:51:53,912(appalachianmountaininstitute.com)] 2/10 snapshots
+[2017-05-25 12:52:01,518(appalachianmountaininstitute.com)] 3/10 snapshots
+[2017-05-25 12:52:04,656(appalachianmountaininstitute.com)] 4/10 snapshots
+[2017-05-25 12:52:06,072(appalachianmountaininstitute.com)] 5/10 snapshots
+[2017-05-25 12:52:13,924(appalachianmountaininstitute.com)] 6/10 snapshots
+[2017-05-25 12:52:22,166(appalachianmountaininstitute.com)] 7/10 snapshots
+[2017-05-25 12:52:28,474(appalachianmountaininstitute.com)] 8/10 snapshots
+[2017-05-25 12:55:28,473] Getting timemap for 'http://appalachianmountaininstitute.com'...
+[2017-05-25 12:55:29,254] Timemap received!
+[2017-05-25 12:55:29,254] Consistency mode: One per Year
+[2017-05-25 12:55:29,255] Starting browser...
+[2017-05-25 12:55:30,325] Browser started!
+[2017-05-25 12:55:30,326] Total snapshots: 10
+[2017-05-25 12:55:37,808] 1/10 snapshots
+[2017-05-25 12:55:42,513] 2/10 snapshots
+[2017-05-25 12:55:43,578] 3/10 snapshots
+[2017-05-25 12:57:15,878] Getting timemap for 'http://appalachianmountaininstitute.com'...
+[2017-05-25 12:57:16,533] Timemap received!
+[2017-05-25 12:57:16,536] Consistency mode: One per Year
+[2017-05-25 12:57:16,538] Starting browser...
+[2017-05-25 12:57:17,584] Browser started!
+[2017-05-25 12:57:17,586] Total snapshots: 10
+[2017-05-25 12:57:28,834] 1/10 snapshots
+[2017-05-25 12:58:33,413] 2/10 snapshots
+[2017-05-25 12:58:38,790] 3/10 snapshots
+[2017-05-25 12:59:48,339] 4/10 snapshots
+[2017-05-25 12:59:50,085] 5/10 snapshots
+[2017-05-25 12:59:53,997] 6/10 snapshots
+[2017-05-25 13:00:00,345] 7/10 snapshots
+[2017-05-25 13:00:01,261] 8/10 snapshots
+[2017-05-25 13:00:12,259] 9/10 snapshots
+[2017-05-25 13:00:15,547] 10/10 snapshots
+[2017-05-25 13:00:40,196] Getting timemap for 'http://appalachianmountaininstitute.com'...
+[2017-05-25 13:00:41,008] Timemap received!
+[2017-05-25 13:00:41,008] Consistency mode: One per Year
+[2017-05-25 13:00:41,009] Starting browser...
+[2017-05-25 13:00:42,035] Browser started!
+[2017-05-25 13:00:42,036] Total snapshots: 10
+[2017-05-25 13:00:50,262] 1/10 snapshots
+[2017-05-25 13:01:56,455] 2/10 snapshots
+[2017-05-25 13:02:05,076] 3/10 snapshots
+[2017-05-25 13:03:09,952] 4/10 snapshots
+[2017-05-25 13:03:12,116] 5/10 snapshots
+[2017-05-25 13:03:18,872] 6/10 snapshots
+[2017-05-25 13:03:23,663] 7/10 snapshots
+[2017-05-25 13:03:24,477] 8/10 snapshots
+[2017-05-25 13:03:34,737] 9/10 snapshots
+[2017-05-25 13:03:36,557] 10/10 snapshots
+[2017-05-25 13:10:10,461] Getting timemap for 'http://appalachianmountaininstitute.com'...
+[2017-05-25 13:10:11,113] Timemap received!
+[2017-05-25 13:10:11,114] Consistency mode: One per Year
+[2017-05-25 13:10:11,115] Starting browser...
+[2017-05-25 13:10:12,168] Browser started!
+[2017-05-25 13:10:12,173] Total snapshots: 10
+[2017-05-25 13:10:22,805] 1/10 snapshots
+[2017-05-25 13:10:27,541] 2/10 snapshots
+[2017-05-25 13:17:55,856] Getting timemap for 'http://appalachianmountaininstitute.com'...
+[2017-05-25 13:17:57,043] Timemap received!
+[2017-05-25 13:17:57,044] Consistency mode: One per Year
+[2017-05-25 13:17:57,045] Starting browser...
+[2017-05-25 13:17:58,158] Browser started!
+[2017-05-25 13:17:58,159] Total snapshots: 10
+[2017-05-25 13:19:12,024] 1/10 snapshots
+[2017-05-25 13:19:16,584] 2/10 snapshots
+[2017-05-25 13:19:26,264] 3/10 snapshots
+[2017-05-25 13:19:29,521] 4/10 snapshots
+[2017-05-25 13:23:22,145] Internal Server Error: /result/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 69, in result
+    new_request = request.POST.clear * ()
+TypeError: can't multiply sequence by non-int of type 'method'
+[2017-05-25 13:23:22,773] Getting timemap for 'http://brb.to'...
+[2017-05-25 13:23:24,341] Timemap received!
+[2017-05-25 13:23:24,342] Consistency mode: One per Year
+[2017-05-25 13:23:24,345] Starting browser...
+[2017-05-25 13:23:25,483] Browser started!
+[2017-05-25 13:23:25,484] Total snapshots: 4
+[2017-05-25 14:06:23,185] Getting timemap for 'http://brb.to'...
+[2017-05-25 14:06:24,223] Timemap received!
+[2017-05-25 14:06:24,224] Consistency mode: One per Year
+[2017-05-25 14:06:24,260] Starting browser...
+[2017-05-25 14:06:25,384] Browser started!
+[2017-05-25 14:06:25,389] Total snapshots: 4
+[2017-05-25 14:06:43,937] 1/4 snapshots
+[2017-05-25 14:07:12,104] 2/4 snapshots
+[2017-05-25 14:07:40,273] 3/4 snapshots
+[2017-05-25 14:07:44,587] 4/4 snapshots
+[2017-05-25 14:35:10,825] Getting timemap for 'http://habrahabr.ru'...
+[2017-05-25 14:35:17,250] Timemap received!
+[2017-05-25 14:35:17,251] Consistency mode: One per Year
+[2017-05-25 14:35:17,303] Starting browser...
+[2017-05-25 14:35:18,337] Browser started!
+[2017-05-25 14:35:18,337] Directory 'media/habrahabr.ru' does not exists, creating...
+[2017-05-25 14:35:18,338] Total snapshots: 12
+[2017-05-25 14:35:34,187] 1/12 snapshots
+[2017-05-25 14:36:01,476] 2/12 snapshots
+[2017-05-25 14:36:05,573] Getting timemap for 'http://geektimes.ru'...
+[2017-05-25 14:36:07,100] Timemap received!
+[2017-05-25 14:36:07,101] Consistency mode: One per Year
+[2017-05-25 14:36:07,104] Starting browser...
+[2017-05-25 14:36:08,142] Browser started!
+[2017-05-25 14:36:08,143] Directory 'media/geektimes.ru' does not exists, creating...
+[2017-05-25 14:36:08,146] Total snapshots: 4
+[2017-05-25 14:36:22,871] 1/4 snapshots
+[2017-05-25 14:36:34,181] 3/12 snapshots
+[2017-05-25 14:36:38,222] 2/4 snapshots
+[2017-05-25 14:36:52,699] 3/4 snapshots
+[2017-05-25 14:36:54,029] 4/12 snapshots
+[2017-05-25 14:37:08,088] 4/4 snapshots
+[2017-05-25 14:37:14,026] 5/12 snapshots
+[2017-05-25 14:37:29,060] 6/12 snapshots
+[2017-05-25 14:37:52,558] 7/12 snapshots
+[2017-05-25 14:38:13,492] 8/12 snapshots
+[2017-05-25 14:38:28,105] Getting timemap for 'http://habrahabr.ru'...
+[2017-05-25 14:38:28,259] Getting timemap for 'http://geektimes.ru'...
+[2017-05-25 14:38:29,328] Timemap received!
+[2017-05-25 14:38:29,329] Consistency mode: One per Year
+[2017-05-25 14:38:29,336] Starting browser...
+[2017-05-25 14:38:30,391] Browser started!
+[2017-05-25 14:38:30,392] Total snapshots: 4
+[2017-05-25 14:38:32,268] Timemap received!
+[2017-05-25 14:38:32,268] Consistency mode: One per Year
+[2017-05-25 14:38:32,324] Starting browser...
+[2017-05-25 14:38:33,371] Browser started!
+[2017-05-25 14:38:33,371] Total snapshots: 12
+[2017-05-25 14:38:34,196] 1/12 snapshots
+[2017-05-25 14:38:34,900] 2/12 snapshots
+[2017-05-25 14:38:35,531] 3/12 snapshots
+[2017-05-25 14:38:36,137] 4/12 snapshots
+[2017-05-25 14:38:37,789] 5/12 snapshots
+[2017-05-25 14:38:38,432] 6/12 snapshots
+[2017-05-25 14:38:39,636] 7/12 snapshots
+[2017-05-25 14:38:40,675] 8/12 snapshots
+[2017-05-25 14:38:41,397] 9/12 snapshots
+[2017-05-25 14:38:42,296] 1/4 snapshots
+[2017-05-25 14:38:42,523] 10/12 snapshots
+[2017-05-25 14:38:43,253] 11/12 snapshots
+[2017-05-25 14:38:44,180] 12/12 snapshots
+[2017-05-25 14:38:51,438] 2/4 snapshots
+[2017-05-25 14:39:01,669] 3/4 snapshots
+[2017-05-25 14:39:04,312] 9/12 snapshots
+[2017-05-25 14:39:12,508] 4/4 snapshots
+[2017-05-25 14:39:23,897] 10/12 snapshots
+[2017-05-25 14:39:40,630] 11/12 snapshots
+[2017-05-25 14:40:13,948] 12/12 snapshots
+[2017-05-25 14:48:58,009] Getting timemap for 'http://habrahabr.ru'...
+[2017-05-25 14:48:58,126] Getting timemap for 'http://geektimes.ru'...
+[2017-05-25 14:48:59,408] Timemap received!
+[2017-05-25 14:48:59,409] Consistency mode: One per Year
+[2017-05-25 14:48:59,413] Starting browser...
+[2017-05-25 14:49:00,440] Browser started!
+[2017-05-25 14:49:00,441] Total snapshots: 4
+[2017-05-25 14:49:01,180] Timemap received!
+[2017-05-25 14:49:01,181] Consistency mode: One per Year
+[2017-05-25 14:49:01,206] Starting browser...
+[2017-05-25 14:49:02,244] Browser started!
+[2017-05-25 14:49:02,244] Total snapshots: 12
+[2017-05-25 14:49:19,216] 1/12 snapshots
+[2017-05-25 14:49:24,060] 1/4 snapshots
+[2017-05-25 14:49:44,402] 2/12 snapshots
+[2017-05-25 14:49:57,815] 2/4 snapshots
+[2017-05-25 14:50:01,452] 3/12 snapshots
+[2017-05-25 14:50:28,058] 4/12 snapshots
+[2017-05-25 14:50:38,758] 3/4 snapshots
+[2017-05-25 14:50:56,083] 5/12 snapshots
+[2017-05-25 14:51:43,715] 6/12 snapshots
+[2017-05-25 14:51:58,687] 7/12 snapshots
+[2017-05-25 14:52:21,046] 8/12 snapshots
+[2017-05-25 14:52:45,485] Internal Server Error: /timeline
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bopop/PycharmProjects/ia_scrapper/ia_history/views.py", line 100, in timeline
+    images = sorted(loads(site_obj.images_json), reverse=True)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2017-05-25 14:52:52,427] 9/12 snapshots
+[2017-05-25 14:53:05,317] Getting timemap for 'http://fs.life'...
+[2017-05-25 14:53:06,755] Timemap received!
+[2017-05-25 14:53:06,755] Consistency mode: One per Year
+[2017-05-25 14:53:06,755] Starting browser...
+[2017-05-25 14:53:07,794] Browser started!
+[2017-05-25 14:53:07,795] Total snapshots: 1
+[2017-05-25 14:53:11,376] 1/1 snapshots
+[2017-05-25 14:53:30,216] 10/12 snapshots
+[2017-05-25 14:54:38,792] Getting timemap for 'http://fs.life'...
+[2017-05-25 14:54:39,830] Timemap received!
+[2017-05-25 14:54:39,831] Consistency mode: One per Year
+[2017-05-25 14:54:39,832] Starting browser...
+[2017-05-25 14:54:40,893] Browser started!
+[2017-05-25 14:54:40,894] Total snapshots: 1
+[2017-05-25 14:54:43,958] 1/1 snapshots
+[2017-05-25 14:56:48,461] Getting timemap for 'http://fs.life'...
+[2017-05-25 14:56:49,778] Timemap received!
+[2017-05-25 14:56:49,778] Consistency mode: One per Year
+[2017-05-25 14:56:49,778] Starting browser...
+[2017-05-25 14:56:50,808] Browser started!
+[2017-05-25 14:56:50,809] Total snapshots: 1
+[2017-05-25 14:56:53,097] 1/1 snapshots
+[2017-05-25 14:56:53,167] fs.life finished!
+[2017-05-25 14:58:22,099] Getting timemap for 'http://habrahabr.ru'...
+[2017-05-25 14:58:22,278] Getting timemap for 'http://geektimes.ru'...
+[2017-05-25 14:58:26,385] Timemap received!
+[2017-05-25 14:58:26,387] Consistency mode: One per Year
+[2017-05-25 14:58:26,391] Starting browser...
+[2017-05-25 14:58:27,427] Browser started!
+[2017-05-25 14:58:27,428] Total snapshots: 4
+[2017-05-25 14:58:27,980] Timemap received!
+[2017-05-25 14:58:27,981] Consistency mode: One per Year
+[2017-05-25 14:58:28,025] Starting browser...
+[2017-05-25 14:58:29,049] Browser started!
+[2017-05-25 14:58:29,050] Total snapshots: 12
+[2017-05-25 14:58:37,251] 1/12 snapshots
+[2017-05-25 14:58:45,608] 1/4 snapshots
+[2017-05-25 14:58:45,940] 2/12 snapshots
+[2017-05-25 14:58:52,520] 3/12 snapshots
+[2017-05-25 14:59:00,105] 2/4 snapshots
+[2017-05-25 14:59:18,361] 3/4 snapshots
+[2017-05-25 14:59:19,506] 4/12 snapshots
+[2017-05-25 14:59:35,999] 5/12 snapshots
+[2017-05-25 14:59:54,720] 6/12 snapshots
+[2017-05-25 15:00:08,121] 4/4 snapshots
+[2017-05-25 15:00:08,150] geektimes.ru finished!
+[2017-05-25 15:00:15,155] 7/12 snapshots
+[2017-05-25 15:00:28,510] 8/12 snapshots
+[2017-05-25 15:00:33,091] 9/12 snapshots
+[2017-05-25 15:00:45,148] 10/12 snapshots
+[2017-05-25 15:01:02,024] 11/12 snapshots
+[2017-05-25 15:01:29,055] 12/12 snapshots
+[2017-05-25 15:01:29,072] habrahabr.ru finished!
+[2017-05-25 15:15:07,426] Getting timemap for 'http://kadyrov2012.com'...
+[2017-05-25 15:15:08,544] Timemap received!
+[2017-05-25 15:15:08,545] Consistency mode: One per month
+[2017-05-25 15:15:08,546] Starting browser...
+[2017-05-25 15:15:09,592] Browser started!
+[2017-05-25 15:15:09,592] Directory 'media/kadyrov2012.com' does not exists, creating...
+[2017-05-25 15:15:09,592] Total snapshots: 12
+[2017-05-25 15:15:21,174] 1/12 snapshots
+[2017-05-25 15:15:24,377] 2/12 snapshots
+[2017-05-25 15:15:34,362] 3/12 snapshots
+[2017-05-25 15:15:42,884] 4/12 snapshots
+[2017-05-25 15:15:45,029] 5/12 snapshots
+[2017-05-25 15:15:48,592] 6/12 snapshots
+[2017-05-25 15:15:56,312] 7/12 snapshots
+[2017-05-25 15:15:58,952] 8/12 snapshots
+[2017-05-25 15:16:00,270] 9/12 snapshots
+[2017-05-25 15:16:11,363] 10/12 snapshots
+[2017-05-25 15:16:15,076] 11/12 snapshots
+[2017-05-25 15:16:28,080] 12/12 snapshots
+[2017-05-25 15:16:28,112] kadyrov2012.com finished!
+[2017-05-25 15:17:14,863] Getting timemap for 'http://kadyrov2012.com'...
+[2017-05-25 15:17:15,544] Timemap received!
+[2017-05-25 15:20:29,844] Consistency mode: One per month
+[2017-05-25 15:20:29,848] Starting browser...
+[2017-05-25 15:20:30,903] Browser started!
+[2017-05-25 15:20:30,905] Total snapshots: 12
+[2017-05-25 15:20:54,674] Getting timemap for 'http://kadyrov2012.com'...
+[2017-05-25 15:20:55,748] Timemap received!
+[2017-05-25 15:20:55,749] Consistency mode: One per month
+[2017-05-25 15:20:55,749] Starting browser...
+[2017-05-25 15:20:56,780] Browser started!
+[2017-05-25 15:20:56,781] Total snapshots: 39
+[2017-05-25 15:21:14,530] 1/39 snapshots
+[2017-05-25 15:21:30,400] 2/39 snapshots
+[2017-05-25 15:21:42,605] 3/39 snapshots
+[2017-05-25 15:21:45,637] 4/39 snapshots
+[2017-05-25 15:21:58,137] 5/39 snapshots
+[2017-05-25 15:21:58,988] 6/39 snapshots
+[2017-05-25 15:35:31,062] Getting timemap for 'http://kadyrov2012.com'...
+[2017-05-25 15:35:31,842] Timemap received!
+[2017-05-25 15:35:31,842] Consistency mode: One per Year
+[2017-05-25 15:35:31,843] Starting browser...
+[2017-05-25 15:35:32,893] Browser started!
+[2017-05-25 15:35:32,893] Directory 'media/kadyrov2012.com_0' does not exists, creating...
+[2017-05-25 15:35:32,894] Total snapshots: 7
+[2017-05-25 15:35:49,469] 1/7 snapshots
+[2017-05-25 15:35:51,550] 2/7 snapshots
+[2017-05-25 15:36:09,912] 3/7 snapshots
+[2017-05-25 15:36:24,950] 4/7 snapshots
+[2017-05-25 15:36:27,469] 5/7 snapshots
+[2017-05-25 15:36:36,874] 6/7 snapshots
+[2017-05-25 15:36:45,371] 7/7 snapshots
+[2017-05-25 15:36:45,401] kadyrov2012.com finished!
+[2017-05-25 15:37:24,216] Getting timemap for 'http://kadyrov2012.com'...
+[2017-05-25 15:37:24,821] Timemap received!
+[2017-05-25 15:37:24,821] Consistency mode: One per Year
+[2017-05-25 15:37:24,821] Starting browser...
+[2017-05-25 15:37:25,844] Browser started!
+[2017-05-25 15:37:25,845] Total snapshots: 7
+[2017-05-25 15:37:31,868] 1/7 snapshots
+[2017-05-25 15:37:33,618] 2/7 snapshots
+[2017-05-25 15:37:40,176] 3/7 snapshots
+[2017-05-25 15:37:45,658] 4/7 snapshots
+[2017-05-25 15:37:47,979] 5/7 snapshots
+[2017-05-25 15:37:53,923] 6/7 snapshots
+[2017-05-25 15:38:00,483] 7/7 snapshots
+[2017-05-25 15:38:00,605] kadyrov2012.com finished!
+[2017-05-25 15:39:30,322] Getting timemap for 'http://kadyrov2012.com'...
+[2017-05-25 15:39:30,951] Timemap received!
+[2017-05-25 15:39:30,952] Consistency mode: All timestamps: From/To
+[2017-05-25 15:39:30,952] Starting browser...
+[2017-05-25 15:39:32,018] Browser started!
+[2017-05-25 15:39:32,018] Directory 'media/kadyrov2012.com_3' does not exists, creating...
+[2017-05-25 15:39:32,018] Total snapshots: 8
+[2017-05-25 15:39:43,964] 1/8 snapshots
+[2017-05-25 15:40:04,731] Getting timemap for 'http://kadyrov2012.com'...
+[2017-05-25 15:40:05,374] Timemap received!
+[2017-05-25 15:40:05,374] Consistency mode: One per Year
+[2017-05-25 15:40:05,375] Starting browser...
+[2017-05-25 15:40:06,449] Browser started!
+[2017-05-25 15:40:06,450] Total snapshots: 7
+[2017-05-25 15:40:11,714] 1/7 snapshots
+[2017-05-25 15:45:52,141] Getting timemap for 'http://kadyrov2012.com'...
+[2017-05-25 15:45:53,060] Timemap received!
+[2017-05-25 15:45:53,061] Consistency mode: One per Year
+[2017-05-25 15:45:53,063] Starting browser...
+[2017-05-25 15:45:54,108] Browser started!
+[2017-05-25 15:45:54,109] Total snapshots: 7
+[2017-05-25 15:46:09,143] 1/7 snapshots
+[2017-05-25 15:46:19,075] 2/7 snapshots
+[2017-05-25 15:46:20,383] 3/7 snapshots
+[2017-05-25 15:46:32,210] 4/7 snapshots
+[2017-05-25 15:46:33,736] 5/7 snapshots
+[2017-05-25 15:46:48,117] 6/7 snapshots
+[2017-05-25 15:46:57,555] 7/7 snapshots
+[2017-05-25 15:46:57,583] kadyrov2012.com finished!
+[2017-05-25 15:47:32,357] Getting timemap for 'http://kadyrov2012.com'...
+[2017-05-25 15:47:32,994] Timemap received!
+[2017-05-25 15:47:32,995] Consistency mode: All timestamps: From/To
+[2017-05-25 15:47:32,996] Starting browser...
+[2017-05-25 15:47:34,058] Browser started!
+[2017-05-25 15:47:34,063] Total snapshots: 8
+[2017-05-25 15:47:40,087] 1/8 snapshots
+[2017-05-25 15:47:44,709] 2/8 snapshots
+[2017-05-25 15:47:53,898] 3/8 snapshots
+[2017-05-25 15:47:57,561] 4/8 snapshots
+[2017-05-25 15:48:01,049] 5/8 snapshots
+[2017-05-25 15:48:04,567] 6/8 snapshots
+[2017-05-25 15:48:06,772] 7/8 snapshots
+[2017-05-25 15:48:09,394] 8/8 snapshots
+[2017-05-25 15:48:09,414] kadyrov2012.com finished!

@@ -12,8 +12,8 @@ class InputForm(forms.Form):
 
     mode = forms.ChoiceField(choices=CHOICES, widget=forms.RadioSelect)
 
-    start_date = forms.DateField(widget=SelectDateWidget, label="From")
-    end_date = forms.DateField(widget=SelectDateWidget, label="To")
+    start_date = forms.DateField(widget=SelectDateWidget(years=range(1996, 2025)), label="From")
+    end_date = forms.DateField(widget=SelectDateWidget(years=range(1996, 2025)), label="To")
 
 
 

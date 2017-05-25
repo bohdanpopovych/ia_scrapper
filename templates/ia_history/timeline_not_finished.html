@@ -1,0 +1,44 @@
+{% load staticfiles %}
+<html>
+<head>
+    <title>Page corrupted</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+            function findGetParameter(parameterName) {
+                var result = null,
+                    tmp = [];
+                location.search
+                .substr(1)
+                    .split("&")
+                    .forEach(function (item) {
+                    tmp = item.split("=");
+                    if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
+                });
+                return result;
+            }
+
+            function call_remove(url) {
+                if(confirm("Do You really want to remove {{ site }}'s timeline?")) {
+                    var site_date = findGetParameter('date');
+                    $.get("{% url 'remove' %}?site={{ site }}&date=" + site_date, function (data) {
+                        alert("Timeline removed!");
+                        window.history.back();
+                    });
+                }
+            }
+    </script>
+
+</head>
+<body>
+<h2><u>Sorry, but this page is not available.</u></h2>
+<br>
+<h3>This timeline is not available.<br>This could be caused due to one of these reasons: </h3>
+<ul>
+    <li>Timeline processing was interrupted</li>
+    <li>Timeline was already deleted</li>
+    <li>You clicked on timeline, which is not finished yet</li>
+</ul>
+<h4>You can delete it and try making timeline of this site again.</h4>
+<input type="button" value="Remove timeline" onclick="call_remove('{{ site }}')"/>
+</body>
+</html>

@@ -1,7 +1,12 @@
+import os
+from collections import defaultdict
+from datetime import datetime
 from json import loads
 from urllib.parse import urlparse
 
+from django.http import HttpResponse
 from django.shortcuts import render, render_to_response
+from django.utils import timezone
 
 from .forms import InputForm
 from .models import Site
@@ -26,43 +31,49 @@ def result(request):
     if request.is_ajax():
         return resultdiv(request)
 
-    urls_list = list(map(extract_domain, request.POST.get("urls_List").split('\r\n')))
+    temp = request.POST.get('urls_List')
 
-    consistency_mode = int(request.POST.get("mode"))
+    if temp:
 
-    begin_time = int("{:4}{:02}{:02}{}".format(
-        int(request.POST.get("start_date_year")),
-        int(request.POST.get("start_date_month")),
-        int(request.POST.get("start_date_day")),
-        '000000'))
+        urls_list = list(map(extract_domain, request.POST.get("urls_List").split('\r\n')))
 
-    end_time = int("{:4}{:02}{:02}{}".format(
-        int(request.POST.get("end_date_year")),
-        int(request.POST.get("end_date_month")),
-        int(request.POST.get("end_date_day")),
-        '000000'))
+        consistency_mode = int(request.POST.get("mode"))
 
-    # removing all data from operations, made earlier
-    # Site.objects.all().delete()
+        begin_time = int("{:4}{:02}{:02}{}".format(
+            int(request.POST.get("start_date_year")),
+            int(request.POST.get("start_date_month")),
+            int(request.POST.get("start_date_day")),
+            '000000'))
 
-    for site in urls_list:
-        if not site:
-            urls_list.remove(site)
-        else:
-            site_obj, created = Site.objects.get_or_create(site_url=site)
+        end_time = int("{:4}{:02}{:02}{}".format(
+            int(request.POST.get("end_date_year")),
+            int(request.POST.get("end_date_month")),
+            int(request.POST.get("end_date_day")),
+            '000000'))
 
-            if not created:
-                site_obj.delete()
+        for site in urls_list:
+            if not site:
+                urls_list.remove(site)
+            else:
+                site_obj, created = Site.objects.get_or_create(
+                    site_url=site,
+                    consistency_mode=consistency_mode,
+                    request_date=timezone.now().date()
+                )
 
-            site_obj.make_snapshots_async_and_save(site_obj, begin_time, end_time, consistency_mode)
+                if not created:
+                    if site_obj.isFinished() and site_obj.consistency_mode == consistency_mode:
+                        # Removing object from DB and files from folder in case user already made
+                        # one timeline of this site and now wants another one
+                        site_obj.delete()
 
-    return render(request, 'ia_history/result.html',
-                  {'total_count': len(urls_list)}
-                  )
+                site_obj.make_snapshots_async_and_save(
+                    begin_time, end_time, consistency_mode)
+
+    return render(request, 'ia_history/result.html', {})
 
 
 def timeline(request):
-
     def timestamp_to_text(file_name):
         # Function to provide link text from timestamp
         timestamp = file_name.split('_')[1].split('.')[0]
@@ -75,32 +86,70 @@ def timeline(request):
 
     site = request.GET.get('site')
 
-    def make_link_to_timestamp(file_name):
-        timestamp = file_name.split('_')[1].split('.')[0]
-        return "https://web.archive.org/web/{}/{}".format(timestamp, site)
+    try:
 
-    site_obj = Site.objects.filter(site_url=site)[0]
+        def make_link_to_timestamp(file_name):
+            timestamp = file_name.split('_')[1].split('.')[0]
+            return "https://web.archive.org/web/{}/{}".format(timestamp, site)
 
-    if not site_obj.isAvailable():
-        return render(request, 'ia_history/not_available.html', {
-            'site': site_obj.site_url
-        })
+        site_obj = Site.objects.filter(site_url=site)[0]
 
-    images = loads(site_obj.images_json)
-    links = list(map(make_link_to_timestamp, images))
-    labels = list(map(timestamp_to_text, images))
+        if not site_obj.isAvailable():
+            return render(request, 'ia_history/not_available.html', {
+                'site': site_obj.site_url
+            })
 
-    zipped_result = zip(images, links, labels)
+        images = sorted(loads(site_obj.images_json), reverse=True)
+        links = list(map(make_link_to_timestamp, images))
+        labels = list(map(timestamp_to_text, images))
 
-    return render(request, 'ia_history/timeline.html', {'images': zipped_result})
+        zipped_result = zip(images, links, labels)
+
+        return render(request, 'ia_history/timeline.html',
+                      {'images': zipped_result,
+                       'site': site})
+
+    except Exception as ex:
+        return render(request, 'ia_history/timeline_not_finished.html',
+                      {'site': site})
 
 
 def resultdiv(request):
-    all_sites = Site.objects.all()
-    # ready_sites = list()
-    # for item in all_sites:
-    #     if item.isReady():
-    #         ready_sites.append(item.site_url)
+    all_sites = Site.objects.all().order_by('request_date')
+    request_dates = defaultdict(list)
 
-    return render_to_response('ia_history/resultdiv.html',
-                              {'sites': all_sites})
+    for site in all_sites:
+        request_dates[site.request_date.strftime("%Y-%m-%d")].append(site)
+
+    zipped = zip(request_dates.keys(), request_dates.values())
+
+    return render_to_response('ia_history/resultdiv.html', {'dates': zipped})
+
+
+def remove(request):
+    site = request.GET.get('site')
+    site_date_str = request.GET.get('date')
+    consistensy_mode = request.GET.get('mode')
+    site_date = datetime.strptime(site_date_str, '%Y-%m-%d')
+    site_obj = Site.objects.filter(site_url=site, request_date=site_date).first()
+
+    folder = str()
+
+    if site_obj:
+        site_obj.delete()
+        folder = 'media/{}_{}'.format(site, consistensy_mode)
+
+    if os.path.exists(folder):
+        # Removing existing files from folder
+        for the_file in os.listdir(folder):
+            file_path = os.path.join(folder, the_file)
+            try:
+                if os.path.isfile(file_path):
+                    os.unlink(file_path)
+            except Exception as e:
+                pass
+
+    return HttpResponse('')
+
+
+
