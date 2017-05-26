@@ -210,6 +210,8 @@ class Site(models.Model):
         self.save()
 
         logger.info("{} finished!".format(domain))
+
+        driver.close()
         return True
 
     @background
