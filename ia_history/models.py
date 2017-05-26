@@ -67,7 +67,7 @@ class Site(models.Model):
                 result = str(item.split(',')[2]).replace('"', '')
                 return int(result)
             except Exception as ex:
-                print('Item:{}\n{}'.format(item, ex))
+                logger.error('Item:{}\n{}'.format(item, ex))
 
         site_url = self.site_url
 
@@ -94,10 +94,10 @@ class Site(models.Model):
         if not is_available(site_url):
             logging.error('{} not available.'.format(site_url))
             self.status = "(Not available)"
-            self.images_json = ""
-            self.save()
+            self.images_json = "{}"
             self.available = False
             self.ready = True
+            self.save()
             return False
 
         # First slice -- [2:-3] -- is to remove incorrect characters at the beginning: "b'" and "'\n"

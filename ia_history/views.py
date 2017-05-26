@@ -122,7 +122,7 @@ def resultdiv(request):
     for site in all_sites:
         request_dates[site.request_date.strftime("%Y-%m-%d")].append(site)
 
-    zipped = zip(list(request_dates.keys()),
+    zipped = zip(reversed(list(request_dates.keys())),
                  reversed(list(request_dates.values())))
 
     return render_to_response('ia_history/resultdiv.html', {'dates': zipped})
