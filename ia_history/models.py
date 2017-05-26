@@ -59,12 +59,15 @@ class Site(models.Model):
             return 'available' in response
 
         def extract_timestamp(item):
-            # Here we are extracting timestamp from response
-            # Since JSON, provided by archive.com is not valid, we do it manually
-            # by splitting response string and selecting correct value from it
-            # and replacing quotes then to have a possibility to convert them to numbers
-            result = str(item.split(',')[2]).replace('"', '')
-            return int(result)
+            try:
+                # Here we are extracting timestamp from response
+                # Since JSON, provided by archive.com is not valid, we do it manually
+                # by splitting response string and selecting correct value from it
+                # and replacing quotes then to have a possibility to convert them to numbers
+                result = str(item.split(',')[2]).replace('"', '')
+                return int(result)
+            except Exception as ex:
+                print('Item:{}\n{}'.format(item, ex))
 
         site_url = self.site_url
 
