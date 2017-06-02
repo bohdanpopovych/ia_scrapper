@@ -10,8 +10,6 @@ from django.db import models
 from django.utils import timezone
 from selenium import webdriver
 
-from .backgrounddecorator import background
-
 
 class SiteManager(models.Manager):
     def create_Site(self, site_url):
@@ -51,7 +49,7 @@ class Site(models.Model):
         site = cls(site_url=site_url)
         return site
 
-    def __make_snapshots(self, begin_time, end_time, consistency_mode):
+    def __make_snapshots_phantom(self, begin_time, end_time, consistency_mode):
 
         def is_available(url):
             check_url = 'http://archive.org/wayback/available?url=' + url
@@ -166,7 +164,7 @@ class Site(models.Model):
         max_value = len(timestamps)
         logger.info("Total snapshots: {}".format(max_value))
 
-        self.status = "({}/{})".format(0, max_value)
+        self.status = "(0/{})".format(max_value)
         self.save()
 
         for i, timestamp in enumerate(timestamps):
@@ -176,19 +174,13 @@ class Site(models.Model):
             driver.get(snapshot_url)
 
             # This script adds default background to page, since PhantomJS can do "transparent" snapshot sometimes,
-            # and removes archive.com top block from page (last line)
             driver.execute_script("""(function() {
-                var style = document.createElement('style'), text = document.createTextNode('body { background: #fff }');
+                var style = document.createElement('style'),
+                    text = document.createTextNode('body { background: #fff }');
+                    
                 style.setAttribute('type', 'text/css');
                 style.appendChild(text);
                 document.head.insertBefore(style, document.head.firstChild);
-
-                /*obj = document.getElementById("wm-ipp");
-                if (document.contains(obj) &&
-                    obj !== 'null' &&
-                    obj !== 'undefined') {
-                    obj.remove();
-                }*/
             })();""")
 
             file_name = '{}/snapshot_{}.jpg'.format(folder, timestamp)
@@ -214,6 +206,7 @@ class Site(models.Model):
         driver.close()
         return True
 
-    @background
-    def make_snapshots_in_background(self, begin_time, end_time, consistency_mode):
-        return self.__make_snapshots(begin_time, end_time, consistency_mode)
+    def make_snapshots(self, begin_time, end_time, consistency_mode):
+        result = self.__make_snapshots_phantom(begin_time, end_time, consistency_mode)
+        return result
+

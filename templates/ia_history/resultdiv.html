@@ -1,14 +1,14 @@
 {% load staticfiles %}
 <div id="o_{{ object.id }}">
+       {% for key, value in dates.items|dictsortreversed:0 %}
+           <h3>{{ key }}</h3>
+           <ul>
+           {% for site in value %}
+                <a href="{% url 'timeline' %}?site={{ site.site_url }}&date={{ key }}&mode={{ site.consistency_mode }}">{{site.site_url}} {{ site.status }}</a><br>
+           {% endfor %}
 
-        {% for date, sites in dates %}
-            <h3>{{ date }}</h3>
-            <ul>
-                {% for site in sites %}
-                    <li>
-                        <a href="{% url 'timeline' %}?site={{ site.site_url }}&date={{ date }}&mode={{ site.consistency_mode }}">{{site.site_url}} {{ site.status }}</a><br>
-                    </li>
-                {% endfor %}
-            </ul>
-        {% endfor %}
+           </ul>
+       {% endfor %}
+
+
 </div>

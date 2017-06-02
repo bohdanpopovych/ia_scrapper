@@ -2,6 +2,7 @@ import os
 from collections import defaultdict
 from datetime import datetime
 from json import loads
+from multiprocessing import Pool
 from urllib.parse import urlparse
 
 from django.http import HttpResponse
@@ -51,6 +52,8 @@ def result(request):
             int(request.POST.get("end_date_day")),
             '000000'))
 
+        pool = Pool(4)
+
         for site in urls_list:
             if not site:
                 urls_list.remove(site)
@@ -67,14 +70,15 @@ def result(request):
                         # one timeline of this site and now wants another one
                         site_obj.delete()
 
-                site_obj.make_snapshots_in_background(
-                    begin_time, end_time, consistency_mode)
+                pool.apply_async(site_obj.make_snapshots,
+                                 [begin_time, end_time, consistency_mode])
+
+        pool.close()
 
     return render(request, 'ia_history/result.html', {})
 
 
 def timeline(request):
-
     def timestamp_to_text(file_name):
         # Function to provide link text from timestamp
         timestamp = file_name.split('_')[-1].split('.')[0]
@@ -116,16 +120,13 @@ def timeline(request):
 
 
 def resultdiv(request):
-    all_sites = Site.objects.all().order_by('request_date')
+    all_sites = Site.objects.order_by('-request_date')
     request_dates = defaultdict(list)
 
     for site in all_sites:
         request_dates[site.request_date.strftime("%Y-%m-%d")].append(site)
 
-    zipped = zip(reversed(list(request_dates.keys())),
-                 reversed(list(request_dates.values())))
-
-    return render_to_response('ia_history/resultdiv.html', {'dates': zipped})
+    return render_to_response('ia_history/resultdiv.html', {'dates': dict(request_dates)})
 
 
 def remove(request):
@@ -152,6 +153,3 @@ def remove(request):
                 pass
 
     return HttpResponse('')
-
-
-
