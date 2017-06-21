@@ -2,7 +2,7 @@ import os
 from collections import defaultdict
 from datetime import datetime
 from json import loads
-from multiprocessing.pool import ThreadPool
+from multiprocessing.pool import Pool
 from urllib.parse import urlparse
 
 from django.http import HttpResponse
@@ -52,7 +52,7 @@ def result(request):
             int(request.POST.get("end_date_day")),
             '000000'))
 
-        pool = ThreadPool(1)
+        pool = Pool(4)
 
         for site in urls_list:
             if not site:

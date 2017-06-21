@@ -225,3 +225,299 @@
 [2017-06-03 11:20:10,378] Not Found: /http:/58.83.181.11/queryall
 [2017-06-03 11:20:16,991] Not Found: /cgi/common.cgi
 [2017-06-03 11:20:16,995] Not Found: /command.php
+[2017-06-21 15:54:31,732] Starting new HTTP connection (1): archive.org
+[2017-06-21 15:54:32,541] Getting timemap for 'http://twitch.tv'...
+[2017-06-21 15:54:32,542] Starting new HTTP connection (1): web.archive.org
+[2017-06-21 15:54:34,478] Timemap received!
+[2017-06-21 15:54:34,478] Consistency mode: One per Year
+[2017-06-21 15:54:34,511] Starting browser...
+[2017-06-21 15:54:35,541] Browser started!
+[2017-06-21 15:54:35,541] Directory 'media/twitch.tv_0' does not exists, creating...
+[2017-06-21 15:54:35,541] Total snapshots: 12
+[2017-06-21 15:54:44,685] 1/12 snapshots
+[2017-06-21 15:55:04,026] 2/12 snapshots
+[2017-06-21 15:55:05,552] 3/12 snapshots
+[2017-06-21 15:55:22,645] 4/12 snapshots
+[2017-06-21 15:55:37,481] 5/12 snapshots
+[2017-06-21 15:56:02,410] 6/12 snapshots
+[2017-06-21 15:56:10,668] 7/12 snapshots
+[2017-06-21 15:56:12,240] 8/12 snapshots
+[2017-06-21 15:56:26,058] 9/12 snapshots
+[2017-06-21 15:56:40,056] 10/12 snapshots
+[2017-06-21 15:56:41,511] 11/12 snapshots
+[2017-06-21 15:56:43,105] 12/12 snapshots
+[2017-06-21 15:56:43,114] twitch.tv finished!
+[2017-06-21 15:56:43,126] Starting new HTTP connection (1): archive.org
+[2017-06-21 15:56:43,182] Getting timemap for 'http://vk.com'...
+[2017-06-21 15:56:43,183] Starting new HTTP connection (1): web.archive.org
+[2017-06-21 15:56:48,467] Timemap received!
+[2017-06-21 15:56:48,467] Consistency mode: One per Year
+[2017-06-21 15:56:48,613] Starting browser...
+[2017-06-21 15:56:49,636] Browser started!
+[2017-06-21 15:56:49,636] Directory 'media/vk.com_0' does not exists, creating...
+[2017-06-21 15:56:49,636] Total snapshots: 18
+[2017-06-21 15:57:05,326] 1/18 snapshots
+[2017-06-21 15:57:08,973] 2/18 snapshots
+[2017-06-21 15:57:10,951] 3/18 snapshots
+[2017-06-21 15:57:17,731] 4/18 snapshots
+[2017-06-21 15:57:21,089] 5/18 snapshots
+[2017-06-21 15:57:36,983] 6/18 snapshots
+[2017-06-21 15:57:42,707] 7/18 snapshots
+[2017-06-21 16:02:35,636] Starting new HTTP connection (1): archive.org
+[2017-06-21 16:02:35,638] Starting new HTTP connection (1): archive.org
+[2017-06-21 16:02:35,648] Starting new HTTP connection (1): archive.org
+[2017-06-21 16:02:35,661] Starting new HTTP connection (1): archive.org
+[2017-06-21 16:02:35,805] Getting timemap for 'http://upwork.com'...
+[2017-06-21 16:02:35,807] Getting timemap for 'http://realpython.com'...
+[2017-06-21 16:02:35,809] Starting new HTTP connection (1): web.archive.org
+[2017-06-21 16:02:35,809] Starting new HTTP connection (1): web.archive.org
+[2017-06-21 16:02:35,832] Getting timemap for 'http://facebook.com'...
+[2017-06-21 16:02:35,833] Starting new HTTP connection (1): web.archive.org
+[2017-06-21 16:02:35,855] Timemap received!
+[2017-06-21 16:02:35,855] Consistency mode: One per Year
+[2017-06-21 16:02:35,855] Starting browser...
+[2017-06-21 16:02:35,892] Timemap received!
+[2017-06-21 16:02:35,892] Consistency mode: One per Year
+[2017-06-21 16:02:35,892] Starting browser...
+[2017-06-21 16:02:35,985] Getting timemap for 'http://python.org'...
+[2017-06-21 16:02:35,986] Starting new HTTP connection (1): web.archive.org
+[2017-06-21 16:02:36,889] Browser started!
+[2017-06-21 16:02:36,889] Directory 'media/upwork.com_0' does not exists, creating...
+[2017-06-21 16:02:36,889] Total snapshots: 0
+[2017-06-21 16:02:36,906] upwork.com finished!
+[2017-06-21 16:02:36,927] Starting new HTTP connection (1): archive.org
+[2017-06-21 16:02:36,934] Browser started!
+[2017-06-21 16:02:36,934] Directory 'media/facebook.com_0' does not exists, creating...
+[2017-06-21 16:02:36,934] Total snapshots: 0
+[2017-06-21 16:02:36,954] facebook.com finished!
+[2017-06-21 16:02:36,959] Starting new HTTP connection (1): archive.org
+[2017-06-21 16:02:37,003] Timemap received!
+[2017-06-21 16:02:37,003] Consistency mode: One per Year
+[2017-06-21 16:02:37,034] Starting browser...
+[2017-06-21 16:02:37,778] Timemap received!
+[2017-06-21 16:02:37,779] Consistency mode: One per Year
+[2017-06-21 16:02:37,779] Starting browser...
+[2017-06-21 16:02:38,056] Browser started!
+[2017-06-21 16:02:38,057] Directory 'media/python.org_0' does not exists, creating...
+[2017-06-21 16:02:38,057] Total snapshots: 21
+[2017-06-21 16:02:38,170] Getting timemap for 'http://forpost.lviv.ua'...
+[2017-06-21 16:02:38,172] Starting new HTTP connection (1): web.archive.org
+[2017-06-21 16:02:38,812] Browser started!
+[2017-06-21 16:02:38,812] Directory 'media/realpython.com_0' does not exists, creating...
+[2017-06-21 16:02:38,812] Total snapshots: 6
+[2017-06-21 16:02:39,756] Getting timemap for 'http://apidog.ru'...
+[2017-06-21 16:02:39,757] Starting new HTTP connection (1): web.archive.org
+[2017-06-21 16:02:40,472] Timemap received!
+[2017-06-21 16:02:40,472] Consistency mode: One per Year
+[2017-06-21 16:02:40,472] Item:["ua,lviv,forpost)/", "20161219050633", "http://forpost.lviv.ua:80/", "text/html", "200", "ERJKXD6OQYXUKWNCMINRB27UZ5QJDOMX", "-", "-", "10143", "13725800", "alexa20161219-16/51_55_20161219050458_crawl301.arc.gz"],
+invalid literal for int() with base 10: 'forpost)/'
+[2017-06-21 16:02:40,472] Item:["ua,lviv,forpost)/", "20170130113012", "http://forpost.lviv.ua/", "text/html", "200", "MKUHWXCUH7EYUTNFTZ7O3VRGTEWJ4LK5", "-", "-", "11685", "782029711", "NO404-GDELT-20170130111812-crawl816/NO404-GDELT-20170130112200-01937.warc.gz"],
+invalid literal for int() with base 10: 'forpost)/'
+[2017-06-21 16:02:40,472] Item:["ua,lviv,forpost)/", "20170519023343", "http://forpost.lviv.ua/", "text/html", "200", "FSF2QLEBO3O65VKNFD7U2434UGDU725X", "-", "-", "15462", "565321434", "SURV-20170517010419-crawl836/SURV-20170518220357-00024.warc.gz"],
+invalid literal for int() with base 10: 'forpost)/'
+[2017-06-21 16:02:40,473] Item:["ua,lviv,forpost)/", "20170603205347", "http://forpost.lviv.ua/", "text/html", "200", "YXWFTCFOARNCEDJNUCK6DEZSIEQKN5XD", "-", "-", "16631", "281231089", "WIDE-20170603005950-crawl801/WIDE-20170603010940-00017.warc.gz"],
+invalid literal for int() with base 10: 'forpost)/'
+[2017-06-21 16:02:40,473] Item:["ua,lviv,forpost)/", "20170612063506", "http://forpost.lviv.ua/", "text/html", "200", "CYLRKBIBHNY5OWPNXZ53KIKO6IBB5SNU", "-", "-", "16576", "56430703", "NO404-GDELT-20170612063243-crawl816/NO404-GDELT-20170612063243-00502.warc.gz"]]
+invalid literal for int() with base 10: 'forpost)/'
+[2017-06-21 16:02:40,473] Starting browser...
+[2017-06-21 16:02:40,817] Timemap received!
+[2017-06-21 16:02:40,818] Consistency mode: One per Year
+[2017-06-21 16:02:40,818] Starting browser...
+[2017-06-21 16:02:41,489] Browser started!
+[2017-06-21 16:02:41,489] Directory 'media/forpost.lviv.ua_0' does not exists, creating...
+[2017-06-21 16:02:41,489] Total snapshots: 1
+[2017-06-21 16:02:41,840] Browser started!
+[2017-06-21 16:02:41,841] Directory 'media/apidog.ru_0' does not exists, creating...
+[2017-06-21 16:02:41,841] Total snapshots: 5
+[2017-06-21 16:02:42,135] 1/5 snapshots
+[2017-06-21 16:02:42,645] 2/5 snapshots
+[2017-06-21 16:02:42,695] 1/1 snapshots
+[2017-06-21 16:02:42,705] forpost.lviv.ua finished!
+[2017-06-21 16:02:42,712] Starting new HTTP connection (1): archive.org
+[2017-06-21 16:02:42,910] 3/5 snapshots
+[2017-06-21 16:02:43,612] Getting timemap for 'http://python-rq.org'...
+[2017-06-21 16:02:43,613] Starting new HTTP connection (1): web.archive.org
+[2017-06-21 16:02:43,843] Timemap received!
+[2017-06-21 16:02:43,843] Consistency mode: One per Year
+[2017-06-21 16:02:43,844] Starting browser...
+[2017-06-21 16:02:44,093] 1/21 snapshots
+[2017-06-21 16:02:44,873] Browser started!
+[2017-06-21 16:02:44,873] Directory 'media/python-rq.org_0' does not exists, creating...
+[2017-06-21 16:02:44,873] Total snapshots: 6
+[2017-06-21 16:02:44,877] 4/5 snapshots
+[2017-06-21 16:02:45,132] 1/6 snapshots
+[2017-06-21 16:02:45,306] 2/6 snapshots
+[2017-06-21 16:02:45,566] 3/6 snapshots
+[2017-06-21 16:02:45,722] 4/6 snapshots
+[2017-06-21 16:02:45,883] 5/6 snapshots
+[2017-06-21 16:02:46,130] 6/6 snapshots
+[2017-06-21 16:02:46,139] python-rq.org finished!
+[2017-06-21 16:02:46,143] Starting new HTTP connection (1): archive.org
+[2017-06-21 16:02:46,967] 1/6 snapshots
+[2017-06-21 16:02:47,075] 5/5 snapshots
+[2017-06-21 16:02:47,085] apidog.ru finished!
+[2017-06-21 16:02:47,091] Starting new HTTP connection (1): archive.org
+[2017-06-21 16:02:47,292] Getting timemap for 'http://chess.com'...
+[2017-06-21 16:02:47,293] Starting new HTTP connection (1): web.archive.org
+[2017-06-21 16:02:48,697] Timemap received!
+[2017-06-21 16:02:48,697] Consistency mode: One per Year
+[2017-06-21 16:02:48,708] Starting browser...
+[2017-06-21 16:02:49,727] Browser started!
+[2017-06-21 16:02:49,727] Directory 'media/chess.com_0' does not exists, creating...
+[2017-06-21 16:02:49,727] Total snapshots: 22
+[2017-06-21 16:02:49,879] Getting timemap for 'http://ukr.net'...
+[2017-06-21 16:02:49,880] Starting new HTTP connection (1): web.archive.org
+[2017-06-21 16:02:51,417] Timemap received!
+[2017-06-21 16:02:51,417] Consistency mode: One per Year
+[2017-06-21 16:02:51,458] Starting browser...
+[2017-06-21 16:02:52,424] 1/22 snapshots
+[2017-06-21 16:02:52,477] Browser started!
+[2017-06-21 16:02:52,477] Directory 'media/ukr.net_0' does not exists, creating...
+[2017-06-21 16:02:52,477] Total snapshots: 19
+[2017-06-21 16:02:52,779] 1/19 snapshots
+[2017-06-21 16:02:53,079] 2/19 snapshots
+[2017-06-21 16:02:53,372] 3/19 snapshots
+[2017-06-21 16:02:53,665] 4/19 snapshots
+[2017-06-21 16:02:53,946] 5/19 snapshots
+[2017-06-21 16:02:54,239] 6/19 snapshots
+[2017-06-21 16:02:54,548] 7/19 snapshots
+[2017-06-21 16:02:54,831] 8/19 snapshots
+[2017-06-21 16:02:55,173] 9/19 snapshots
+[2017-06-21 16:02:55,595] 10/19 snapshots
+[2017-06-21 16:02:55,627] 2/21 snapshots
+[2017-06-21 16:02:55,847] 11/19 snapshots
+[2017-06-21 16:02:56,161] 12/19 snapshots
+[2017-06-21 16:02:56,248] 2/22 snapshots
+[2017-06-21 16:02:56,411] 13/19 snapshots
+[2017-06-21 16:02:56,657] 14/19 snapshots
+[2017-06-21 16:02:56,911] 15/19 snapshots
+[2017-06-21 16:02:57,155] 16/19 snapshots
+[2017-06-21 16:02:57,401] 17/19 snapshots
+[2017-06-21 16:02:57,646] 18/19 snapshots
+[2017-06-21 16:02:57,899] 19/19 snapshots
+[2017-06-21 16:02:57,908] ukr.net finished!
+[2017-06-21 16:02:57,915] Starting new HTTP connection (1): archive.org
+[2017-06-21 16:02:58,007] Getting timemap for 'http://pastebin.com'...
+[2017-06-21 16:02:58,009] Starting new HTTP connection (1): web.archive.org
+[2017-06-21 16:02:59,506] Timemap received!
+[2017-06-21 16:02:59,506] Consistency mode: One per Year
+[2017-06-21 16:02:59,542] Starting browser...
+[2017-06-21 16:03:00,006] 3/22 snapshots
+[2017-06-21 16:03:00,098] 2/6 snapshots
+[2017-06-21 16:03:00,567] Browser started!
+[2017-06-21 16:03:00,567] Directory 'media/pastebin.com_0' does not exists, creating...
+[2017-06-21 16:03:00,567] Total snapshots: 16
+[2017-06-21 16:03:01,124] 1/16 snapshots
+[2017-06-21 16:03:01,283] 2/16 snapshots
+[2017-06-21 16:03:01,532] 3/16 snapshots
+[2017-06-21 16:03:01,789] 4/16 snapshots
+[2017-06-21 16:03:02,037] 5/16 snapshots
+[2017-06-21 16:03:02,183] 6/16 snapshots
+[2017-06-21 16:03:02,427] 7/16 snapshots
+[2017-06-21 16:03:02,684] 8/16 snapshots
+[2017-06-21 16:03:02,929] 9/16 snapshots
+[2017-06-21 16:03:03,180] 10/16 snapshots
+[2017-06-21 16:03:03,434] 11/16 snapshots
+[2017-06-21 16:03:03,589] 12/16 snapshots
+[2017-06-21 16:03:03,735] 13/16 snapshots
+[2017-06-21 16:03:03,988] 14/16 snapshots
+[2017-06-21 16:03:04,239] 15/16 snapshots
+[2017-06-21 16:03:04,489] 16/16 snapshots
+[2017-06-21 16:03:04,498] pastebin.com finished!
+[2017-06-21 16:03:04,504] Starting new HTTP connection (1): archive.org
+[2017-06-21 16:03:04,681] Getting timemap for 'http://ithappens.ru'...
+[2017-06-21 16:03:04,683] Starting new HTTP connection (1): web.archive.org
+[2017-06-21 16:03:05,132] Timemap received!
+[2017-06-21 16:03:05,132] Consistency mode: One per Year
+[2017-06-21 16:03:05,133] Starting browser...
+[2017-06-21 16:03:06,148] Browser started!
+[2017-06-21 16:03:06,148] Directory 'media/ithappens.ru_0' does not exists, creating...
+[2017-06-21 16:03:06,148] Total snapshots: 10
+[2017-06-21 16:03:06,596] 1/10 snapshots
+[2017-06-21 16:03:06,842] 3/21 snapshots
+[2017-06-21 16:03:06,933] 2/10 snapshots
+[2017-06-21 16:03:07,199] 3/10 snapshots
+[2017-06-21 16:03:07,458] 4/10 snapshots
+[2017-06-21 16:03:07,728] 5/10 snapshots
+[2017-06-21 16:03:07,979] 6/10 snapshots
+[2017-06-21 16:03:08,237] 7/10 snapshots
+[2017-06-21 16:03:08,512] 8/10 snapshots
+[2017-06-21 16:03:08,777] 9/10 snapshots
+[2017-06-21 16:03:09,024] 10/10 snapshots
+[2017-06-21 16:03:09,036] ithappens.ru finished!
+[2017-06-21 16:03:09,041] Starting new HTTP connection (1): archive.org
+[2017-06-21 16:03:09,715] 4/22 snapshots
+[2017-06-21 16:03:12,572] 5/22 snapshots
+[2017-06-21 16:03:12,889] 6/22 snapshots
+[2017-06-21 16:03:16,933] 7/22 snapshots
+[2017-06-21 16:03:18,718] 4/21 snapshots
+[2017-06-21 16:03:20,536] 8/22 snapshots
+[2017-06-21 16:03:20,554] 5/21 snapshots
+[2017-06-21 16:03:23,179] 6/21 snapshots
+[2017-06-21 16:03:27,079] 9/22 snapshots
+[2017-06-21 16:03:28,073] 3/6 snapshots
+[2017-06-21 16:03:31,582] 10/22 snapshots
+[2017-06-21 16:03:31,626] 7/21 snapshots
+[2017-06-21 16:03:35,766] 8/21 snapshots
+[2017-06-21 16:03:38,320] 11/22 snapshots
+[2017-06-21 16:03:39,188] http://radioroks.ua not available.
+[2017-06-21 16:03:39,195] Starting new HTTP connection (1): archive.org
+[2017-06-21 16:03:39,802] Getting timemap for 'http://steamcommunity.com'...
+[2017-06-21 16:03:39,804] Starting new HTTP connection (1): web.archive.org
+[2017-06-21 16:03:40,076] 12/22 snapshots
+[2017-06-21 16:03:40,356] 9/21 snapshots
+[2017-06-21 16:03:43,055] Timemap received!
+[2017-06-21 16:03:43,055] Consistency mode: One per Year
+[2017-06-21 16:03:43,166] Starting browser...
+[2017-06-21 16:03:44,195] Browser started!
+[2017-06-21 16:03:44,196] Directory 'media/steamcommunity.com_0' does not exists, creating...
+[2017-06-21 16:03:44,196] Total snapshots: 11
+[2017-06-21 16:03:44,581] 1/11 snapshots
+[2017-06-21 16:03:44,789] 13/22 snapshots
+[2017-06-21 16:03:44,890] 2/11 snapshots
+[2017-06-21 16:03:45,148] 3/11 snapshots
+[2017-06-21 16:03:45,394] 4/11 snapshots
+[2017-06-21 16:03:45,644] 5/11 snapshots
+[2017-06-21 16:03:45,896] 6/11 snapshots
+[2017-06-21 16:03:46,058] 7/11 snapshots
+[2017-06-21 16:03:46,304] 8/11 snapshots
+[2017-06-21 16:03:46,554] 9/11 snapshots
+[2017-06-21 16:03:46,800] 10/11 snapshots
+[2017-06-21 16:03:47,115] 11/11 snapshots
+[2017-06-21 16:03:47,130] steamcommunity.com finished!
+[2017-06-21 16:03:47,641] 4/6 snapshots
+[2017-06-21 16:03:50,426] 14/22 snapshots
+[2017-06-21 16:03:53,825] 10/21 snapshots
+[2017-06-21 16:03:54,222] 15/22 snapshots
+[2017-06-21 16:03:59,865] 16/22 snapshots
+[2017-06-21 16:04:02,551] 17/22 snapshots
+[2017-06-21 16:04:04,485] 11/21 snapshots
+[2017-06-21 16:04:06,890] 5/6 snapshots
+[2017-06-21 16:04:07,657] 12/21 snapshots
+[2017-06-21 16:04:07,911] 18/22 snapshots
+[2017-06-21 16:04:11,659] 19/22 snapshots
+[2017-06-21 16:04:14,398] 20/22 snapshots
+[2017-06-21 16:04:15,553] 13/21 snapshots
+[2017-06-21 16:04:16,102] Starting new HTTP connection (1): archive.org
+[2017-06-21 16:04:16,103] Starting new HTTP connection (1): archive.org
+[2017-06-21 16:04:16,144] Getting timemap for 'http://facebook.com'...
+[2017-06-21 16:04:16,145] Starting new HTTP connection (1): web.archive.org
+[2017-06-21 16:04:16,252] http://upwork.com not available.
+[2017-06-21 16:04:16,348] Timemap received!
+[2017-06-21 16:04:16,348] Consistency mode: One per Year
+[2017-06-21 16:04:16,348] Starting browser...
+[2017-06-21 16:04:17,473] Browser started!
+[2017-06-21 16:04:17,475] Total snapshots: 0
+[2017-06-21 16:04:17,493] facebook.com finished!
+[2017-06-21 16:04:17,770] 21/22 snapshots
+[2017-06-21 16:04:21,596] 22/22 snapshots
+[2017-06-21 16:04:21,606] chess.com finished!
+[2017-06-21 16:04:23,253] 6/6 snapshots
+[2017-06-21 16:04:23,266] realpython.com finished!
+[2017-06-21 16:04:23,525] 14/21 snapshots
+[2017-06-21 16:04:26,197] 15/21 snapshots
+[2017-06-21 16:04:37,257] 16/21 snapshots
+[2017-06-21 16:04:46,224] 17/21 snapshots
+[2017-06-21 16:04:52,216] 18/21 snapshots
+[2017-06-21 16:05:03,821] 19/21 snapshots
+[2017-06-21 16:05:09,858] 20/21 snapshots
