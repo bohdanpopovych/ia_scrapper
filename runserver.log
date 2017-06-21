@@ -1,0 +1,564 @@
+System check identified some issues:
+
+WARNINGS:
+ia_history.Site.request_date: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 1 issue (0 silenced).
+[02/Jun/2017 15:05:06] "GET / HTTP/1.1" 200 6944
+[02/Jun/2017 15:05:06] "GET /static/ia_history/style.css HTTP/1.1" 200 287
+Not Found: /favicon.ico
+[02/Jun/2017 15:05:06] "GET /favicon.ico HTTP/1.1" 404 2713
+[02/Jun/2017 15:05:49] "GET /result/ HTTP/1.1" 200 1078
+[02/Jun/2017 15:05:49] "GET /resultdiv/ HTTP/1.1" 200 4145
+[02/Jun/2017 15:05:50] "GET /resultdiv/ HTTP/1.1" 200 4145
+[02/Jun/2017 15:05:50] "GET /resultdiv/ HTTP/1.1" 200 4145
+[02/Jun/2017 15:05:51] "GET /resultdiv/ HTTP/1.1" 200 4145
+[02/Jun/2017 15:05:51] "GET /resultdiv/ HTTP/1.1" 200 4145
+[02/Jun/2017 15:05:52] "GET /resultdiv/ HTTP/1.1" 200 4145
+[02/Jun/2017 15:05:52] "GET /resultdiv/ HTTP/1.1" 200 4145
+[02/Jun/2017 15:05:53] "GET /resultdiv/ HTTP/1.1" 200 4145
+[02/Jun/2017 15:05:53] "GET /resultdiv/ HTTP/1.1" 200 4145
+[02/Jun/2017 15:05:54] "GET /resultdiv/ HTTP/1.1" 200 4145
+[02/Jun/2017 15:05:54] "GET /resultdiv/ HTTP/1.1" 200 4145
+[02/Jun/2017 15:05:54] "GET /resultdiv/ HTTP/1.1" 200 4145
+[02/Jun/2017 15:05:55] "GET /resultdiv/ HTTP/1.1" 200 4145
+[02/Jun/2017 15:05:55] "GET /resultdiv/ HTTP/1.1" 200 4145
+[02/Jun/2017 15:05:56] "GET /resultdiv/ HTTP/1.1" 200 4145
+[02/Jun/2017 15:05:56] "GET /resultdiv/ HTTP/1.1" 200 4145
+[02/Jun/2017 15:05:57] "GET /resultdiv/ HTTP/1.1" 200 4145
+[02/Jun/2017 15:05:57] "GET /resultdiv/ HTTP/1.1" 200 4145
+[02/Jun/2017 15:05:58] "GET /resultdiv/ HTTP/1.1" 200 4145
+[02/Jun/2017 15:05:58] "GET /resultdiv/ HTTP/1.1" 200 4145
+[02/Jun/2017 15:05:59] "GET /resultdiv/ HTTP/1.1" 200 4145
+[02/Jun/2017 15:05:59] "GET /resultdiv/ HTTP/1.1" 200 4145
+[02/Jun/2017 15:06:00] "GET /resultdiv/ HTTP/1.1" 200 4145
+[02/Jun/2017 15:06:00] "GET /resultdiv/ HTTP/1.1" 200 4145
+[02/Jun/2017 15:06:01] "GET /resultdiv/ HTTP/1.1" 200 4145
+[02/Jun/2017 15:06:01] "GET /resultdiv/ HTTP/1.1" 200 4145
+[02/Jun/2017 15:06:01] "GET /timeline?site=slowlyrollingcamera.com&date=2017-05-26&mode=2 HTTP/1.1" 200 1593
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1447: RuntimeWarning: DateTimeField Site.request_date received a naive datetime (2017-05-26 00:00:00) while time zone support is active.
+  RuntimeWarning)
+[02/Jun/2017 15:06:04] "GET /remove?site=slowlyrollingcamera.com&date=2017-05-26 HTTP/1.1" 200 0
+[02/Jun/2017 15:06:05] "GET /resultdiv/ HTTP/1.1" 200 4000
+[02/Jun/2017 15:06:06] "GET /resultdiv/ HTTP/1.1" 200 4000
+[02/Jun/2017 15:06:06] "GET /resultdiv/ HTTP/1.1" 200 4000
+[02/Jun/2017 15:06:07] "GET /resultdiv/ HTTP/1.1" 200 4000
+[02/Jun/2017 15:06:07] "GET /resultdiv/ HTTP/1.1" 200 4000
+[02/Jun/2017 15:06:07] "GET /resultdiv/ HTTP/1.1" 200 4000
+[02/Jun/2017 15:06:08] "GET /timeline?site=taln2014.org&date=2017-05-26&mode=2 HTTP/1.1" 200 1560
+[02/Jun/2017 15:06:08] "GET /resultdiv/ HTTP/1.1" 200 4000
+[02/Jun/2017 15:06:09] "GET /resultdiv/ HTTP/1.1" 200 4000
+[02/Jun/2017 15:06:09] "GET /resultdiv/ HTTP/1.1" 200 4000
+[02/Jun/2017 15:06:10] "GET /resultdiv/ HTTP/1.1" 200 4000
+[02/Jun/2017 15:06:12] "GET /remove?site=taln2014.org&date=2017-05-26 HTTP/1.1" 200 0
+[02/Jun/2017 15:06:14] "GET /resultdiv/ HTTP/1.1" 200 3877
+[02/Jun/2017 15:06:14] "GET /resultdiv/ HTTP/1.1" 200 3877
+[02/Jun/2017 15:06:15] "GET /resultdiv/ HTTP/1.1" 200 3877
+[02/Jun/2017 15:06:15] "GET /resultdiv/ HTTP/1.1" 200 3877
+[02/Jun/2017 15:06:16] "GET /resultdiv/ HTTP/1.1" 200 3877
+[02/Jun/2017 15:06:16] "GET /timeline?site=yerbamateteagourd.com&date=2017-05-26&mode=2 HTTP/1.1" 200 1587
+[02/Jun/2017 15:06:16] "GET /resultdiv/ HTTP/1.1" 200 3877
+[02/Jun/2017 15:06:22] "GET /remove?site=yerbamateteagourd.com&date=2017-05-26 HTTP/1.1" 200 0
+[02/Jun/2017 15:06:24] "GET /resultdiv/ HTTP/1.1" 200 3736
+[02/Jun/2017 15:06:25] "GET /resultdiv/ HTTP/1.1" 200 3736
+[02/Jun/2017 15:06:25] "GET /resultdiv/ HTTP/1.1" 200 3736
+[02/Jun/2017 15:06:26] "GET /resultdiv/ HTTP/1.1" 200 3736
+[02/Jun/2017 15:06:26] "GET /resultdiv/ HTTP/1.1" 200 3736
+[02/Jun/2017 15:06:27] "GET /resultdiv/ HTTP/1.1" 200 3736
+[02/Jun/2017 15:06:27] "GET /timeline?site=dosdeus.com&date=2017-05-26&mode=2 HTTP/1.1" 200 1557
+[02/Jun/2017 15:06:27] "GET /resultdiv/ HTTP/1.1" 200 3736
+[02/Jun/2017 15:06:30] "GET /remove?site=dosdeus.com&date=2017-05-26 HTTP/1.1" 200 0
+[02/Jun/2017 15:06:32] "GET /resultdiv/ HTTP/1.1" 200 3615
+[02/Jun/2017 15:06:33] "GET /resultdiv/ HTTP/1.1" 200 3615
+[02/Jun/2017 15:06:33] "GET /resultdiv/ HTTP/1.1" 200 3615
+[02/Jun/2017 15:06:34] "GET /resultdiv/ HTTP/1.1" 200 3615
+[02/Jun/2017 15:06:34] "GET /resultdiv/ HTTP/1.1" 200 3615
+[02/Jun/2017 15:06:34] "GET /timeline?site=duracellcloud.com&date=2017-05-26&mode=2 HTTP/1.1" 200 1575
+[02/Jun/2017 15:06:34] "GET /resultdiv/ HTTP/1.1" 200 3615
+[02/Jun/2017 15:06:37] "GET /remove?site=duracellcloud.com&date=2017-05-26 HTTP/1.1" 200 0
+[02/Jun/2017 15:06:38] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:39] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:39] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:40] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:40] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:41] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:41] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:42] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:42] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:43] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:43] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:43] "GET /timeline?site=dosdeus.com&date=2017-05-26&mode=1 HTTP/1.1" 200 7927
+[02/Jun/2017 15:06:44] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:44] "GET /resultdiv/ HTTP/1.1" 200 3482
+Not Found: /media/dosdeus.com_1/snapshot_20160504110050.jpg
+[02/Jun/2017 15:06:44] "GET /media/dosdeus.com_1/snapshot_20160504110050.jpg HTTP/1.1" 404 1863
+Not Found: /media/dosdeus.com_1/snapshot_20160315161956.jpg
+[02/Jun/2017 15:06:44] "GET /media/dosdeus.com_1/snapshot_20160315161956.jpg HTTP/1.1" 404 1863
+Not Found: /media/dosdeus.com_1/snapshot_20160403061251.jpg
+[02/Jun/2017 15:06:44] "GET /media/dosdeus.com_1/snapshot_20160403061251.jpg HTTP/1.1" 404 1863
+Not Found: /media/dosdeus.com_1/snapshot_20160220235344.jpg
+[02/Jun/2017 15:06:44] "GET /media/dosdeus.com_1/snapshot_20160220235344.jpg HTTP/1.1" 404 1863
+Not Found: /media/dosdeus.com_1/snapshot_20160113233556.jpg
+[02/Jun/2017 15:06:44] "GET /media/dosdeus.com_1/snapshot_20160113233556.jpg HTTP/1.1" 404 1863
+Not Found: /media/dosdeus.com_1/snapshot_20151114022518.jpg
+[02/Jun/2017 15:06:44] "GET /media/dosdeus.com_1/snapshot_20151114022518.jpg HTTP/1.1" 404 1863
+Not Found: /media/dosdeus.com_1/snapshot_20170202065823.jpg
+[02/Jun/2017 15:06:44] "GET /media/dosdeus.com_1/snapshot_20170202065823.jpg HTTP/1.1" 404 1863
+Not Found: /media/dosdeus.com_1/snapshot_20161220163616.jpg
+[02/Jun/2017 15:06:44] "GET /media/dosdeus.com_1/snapshot_20161220163616.jpg HTTP/1.1" 404 1863
+Not Found: /media/dosdeus.com_1/snapshot_20161002161119.jpg
+[02/Jun/2017 15:06:44] "GET /media/dosdeus.com_1/snapshot_20161002161119.jpg HTTP/1.1" 404 1863
+Not Found: /media/dosdeus.com_1/snapshot_20150910171320.jpg
+[02/Jun/2017 15:06:44] "GET /media/dosdeus.com_1/snapshot_20150910171320.jpg HTTP/1.1" 404 1863
+Not Found: /media/dosdeus.com_1/snapshot_20150801083127.jpg
+[02/Jun/2017 15:06:45] "GET /media/dosdeus.com_1/snapshot_20150801083127.jpg HTTP/1.1" 404 1863
+Not Found: /media/dosdeus.com_1/snapshot_20150516165803.jpg
+[02/Jun/2017 15:06:45] "GET /media/dosdeus.com_1/snapshot_20150516165803.jpg HTTP/1.1" 404 1863
+Not Found: /media/dosdeus.com_1/snapshot_20150309025626.jpg
+[02/Jun/2017 15:06:45] "GET /media/dosdeus.com_1/snapshot_20150309025626.jpg HTTP/1.1" 404 1863
+Not Found: /media/dosdeus.com_1/snapshot_20141221142432.jpg
+[02/Jun/2017 15:06:45] "GET /media/dosdeus.com_1/snapshot_20141221142432.jpg HTTP/1.1" 404 1863
+Not Found: /media/dosdeus.com_1/snapshot_20140902134924.jpg
+[02/Jun/2017 15:06:45] "GET /media/dosdeus.com_1/snapshot_20140902134924.jpg HTTP/1.1" 404 1863
+Not Found: /media/dosdeus.com_1/snapshot_20140517053504.jpg
+[02/Jun/2017 15:06:45] "GET /media/dosdeus.com_1/snapshot_20140517053504.jpg HTTP/1.1" 404 1863
+Not Found: /media/dosdeus.com_1/snapshot_20130829212125.jpg
+[02/Jun/2017 15:06:45] "GET /media/dosdeus.com_1/snapshot_20130829212125.jpg HTTP/1.1" 404 1863
+Not Found: /media/dosdeus.com_1/snapshot_20130713074309.jpg
+[02/Jun/2017 15:06:45] "GET /media/dosdeus.com_1/snapshot_20130713074309.jpg HTTP/1.1" 404 1863
+[02/Jun/2017 15:06:48] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:49] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:49] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:50] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:50] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:51] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:51] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:52] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:52] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:52] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:53] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:53] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:54] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:54] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:55] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:56] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:57] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:57] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:58] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:58] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:59] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:06:59] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:07:00] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:07:00] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:07:01] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:07:01] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:07:02] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:07:02] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:07:03] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:07:03] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:07:04] "GET /resultdiv/ HTTP/1.1" 200 3482
+[02/Jun/2017 15:07:04] "GET /resultdiv/ HTTP/1.1" 200 3482
+Performing system checks...
+
+June 02, 2017 - 15:04:44
+Django version 1.11.1, using settings 'ia_scrapper.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+System check identified some issues:
+
+WARNINGS:
+ia_history.Site.request_date: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 1 issue (0 silenced).
+[02/Jun/2017 15:10:14] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:14] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:15] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:15] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:16] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:16] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:17] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:17] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:18] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:18] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:19] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:19] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:19] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:20] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:21] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:21] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:21] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:22] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:23] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:23] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:24] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:24] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:24] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:25] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:26] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:26] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:27] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:27] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:28] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:28] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:29] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:10:29] "GET /resultdiv/ HTTP/1.1" 200 31
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1389: RuntimeWarning: DateTimeField Site.request_date received a naive datetime (2017-06-02 00:00:00) while time zone support is active.
+  RuntimeWarning)
+[02/Jun/2017 15:15:44] "POST /result/ HTTP/1.1" 200 1078
+[02/Jun/2017 15:15:44] "GET /resultdiv/ HTTP/1.1" 200 2246
+[02/Jun/2017 15:15:45] "GET /resultdiv/ HTTP/1.1" 200 2246
+[02/Jun/2017 15:15:45] "GET /resultdiv/ HTTP/1.1" 200 2246
+[02/Jun/2017 15:15:46] "GET /resultdiv/ HTTP/1.1" 200 2246
+[02/Jun/2017 15:15:47] "GET /resultdiv/ HTTP/1.1" 200 2246
+[02/Jun/2017 15:15:47] "GET /resultdiv/ HTTP/1.1" 200 2246
+[02/Jun/2017 15:15:48] "GET /resultdiv/ HTTP/1.1" 200 2246
+[02/Jun/2017 15:15:49] "GET /resultdiv/ HTTP/1.1" 200 2246
+[02/Jun/2017 15:15:50] "GET /resultdiv/ HTTP/1.1" 200 2246
+[02/Jun/2017 15:15:50] "GET /resultdiv/ HTTP/1.1" 200 2246
+[02/Jun/2017 15:15:51] "GET /resultdiv/ HTTP/1.1" 200 2246
+[02/Jun/2017 15:15:52] "GET /resultdiv/ HTTP/1.1" 200 2246
+[02/Jun/2017 15:15:52] "GET /resultdiv/ HTTP/1.1" 200 2246
+[02/Jun/2017 15:15:53] "GET /resultdiv/ HTTP/1.1" 200 2246
+[02/Jun/2017 15:15:54] "GET /resultdiv/ HTTP/1.1" 200 2246
+[02/Jun/2017 15:15:55] "GET /resultdiv/ HTTP/1.1" 200 2234
+[02/Jun/2017 15:15:56] "GET /resultdiv/ HTTP/1.1" 200 2222
+[02/Jun/2017 15:15:57] "GET /resultdiv/ HTTP/1.1" 200 2222
+[02/Jun/2017 15:15:57] "GET /resultdiv/ HTTP/1.1" 200 2222
+[02/Jun/2017 15:15:58] "GET /resultdiv/ HTTP/1.1" 200 2222
+[02/Jun/2017 15:15:58] "GET /resultdiv/ HTTP/1.1" 200 2222
+[02/Jun/2017 15:15:59] "GET /resultdiv/ HTTP/1.1" 200 2222
+[02/Jun/2017 15:16:00] "GET /resultdiv/ HTTP/1.1" 200 2222
+[02/Jun/2017 15:16:02] "GET /resultdiv/ HTTP/1.1" 200 2222
+[02/Jun/2017 15:16:03] "GET /resultdiv/ HTTP/1.1" 200 2222
+[02/Jun/2017 15:16:06] "GET /resultdiv/ HTTP/1.1" 200 2222
+[02/Jun/2017 15:16:08] "GET /resultdiv/ HTTP/1.1" 200 2222
+[02/Jun/2017 15:16:10] "GET /resultdiv/ HTTP/1.1" 200 2222
+[02/Jun/2017 15:16:12] "GET / HTTP/1.1" 200 6944
+[02/Jun/2017 15:16:13] "GET /resultdiv/ HTTP/1.1" 200 2222
+[02/Jun/2017 15:16:19] "GET /result/ HTTP/1.1" 200 1078
+[02/Jun/2017 15:16:21] "GET /resultdiv/ HTTP/1.1" 200 2222
+System check identified some issues:
+
+WARNINGS:
+ia_history.Site.request_date: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 1 issue (0 silenced).
+[02/Jun/2017 15:23:30] "GET / HTTP/1.1" 200 6944
+Internal Server Error: /result/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/ia_scrapper/ia_history/views.py", line 55, in result
+    pool = Pool(4)
+  File "/usr/lib/python3.5/multiprocessing/context.py", line 118, in Pool
+    context=self.get_context())
+  File "/usr/lib/python3.5/multiprocessing/pool.py", line 186, in __init__
+    self._task_handler.start()
+  File "/usr/lib/python3.5/threading.py", line 844, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+[02/Jun/2017 15:26:57] "POST /result/ HTTP/1.1" 500 80391
+System check identified some issues:
+
+WARNINGS:
+ia_history.Site.request_date: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 1 issue (0 silenced).
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1389: RuntimeWarning: DateTimeField Site.request_date received a naive datetime (2017-06-02 00:00:00) while time zone support is active.
+  RuntimeWarning)
+[02/Jun/2017 15:28:00] "POST /result/ HTTP/1.1" 200 1078
+[02/Jun/2017 15:28:00] "GET /resultdiv/ HTTP/1.1" 200 4352
+[02/Jun/2017 15:28:01] "GET /resultdiv/ HTTP/1.1" 200 4352
+[02/Jun/2017 15:28:02] "GET /resultdiv/ HTTP/1.1" 200 4352
+[02/Jun/2017 15:28:02] "GET /resultdiv/ HTTP/1.1" 200 4352
+[02/Jun/2017 15:28:03] "GET /resultdiv/ HTTP/1.1" 200 4352
+[02/Jun/2017 15:28:03] "GET /resultdiv/ HTTP/1.1" 200 4346
+[02/Jun/2017 15:28:04] "GET /resultdiv/ HTTP/1.1" 200 4346
+[02/Jun/2017 15:28:04] "GET /resultdiv/ HTTP/1.1" 200 4346
+[02/Jun/2017 15:28:05] "GET /resultdiv/ HTTP/1.1" 200 4346
+[02/Jun/2017 15:28:05] "GET /resultdiv/ HTTP/1.1" 200 4346
+[02/Jun/2017 15:28:06] "GET /resultdiv/ HTTP/1.1" 200 4346
+[02/Jun/2017 15:28:06] "GET /resultdiv/ HTTP/1.1" 200 4346
+[02/Jun/2017 15:28:07] "GET /resultdiv/ HTTP/1.1" 200 4346
+[02/Jun/2017 15:28:07] "GET /resultdiv/ HTTP/1.1" 200 4346
+[02/Jun/2017 15:28:07] "GET /resultdiv/ HTTP/1.1" 200 4346
+[02/Jun/2017 15:28:08] "GET /resultdiv/ HTTP/1.1" 200 4346
+[02/Jun/2017 15:28:09] "GET /resultdiv/ HTTP/1.1" 200 4346
+[02/Jun/2017 15:28:10] "GET /resultdiv/ HTTP/1.1" 200 4346
+[02/Jun/2017 15:28:10] "GET /resultdiv/ HTTP/1.1" 200 4346
+[02/Jun/2017 15:28:11] "GET /resultdiv/ HTTP/1.1" 200 4346
+[02/Jun/2017 15:28:11] "GET /resultdiv/ HTTP/1.1" 200 4346
+[02/Jun/2017 15:28:13] "GET /resultdiv/ HTTP/1.1" 200 4346
+[02/Jun/2017 15:28:32] "GET /resultdiv/ HTTP/1.1" 200 4346
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1389: RuntimeWarning: DateTimeField Site.request_date received a naive datetime (2017-06-02 00:00:00) while time zone support is active.
+  RuntimeWarning)
+Process ForkPoolWorker-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.5/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python3.5/multiprocessing/pool.py", line 119, in worker
+    result = (True, func(*args, **kwds))
+  File "/home/ubuntu/ia_scrapper/ia_history/models.py", line 210, in make_snapshots
+    result = self.__make_snapshots_phantom(begin_time, end_time, consistency_mode)
+  File "/home/ubuntu/ia_scrapper/ia_history/models.py", line 187, in __make_snapshots_phantom
+    screen = driver.get_screenshot_as_png()
+  File "/usr/local/lib/python3.5/dist-packages/selenium/webdriver/remote/webdriver.py", line 863, in get_screenshot_as_png
+    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "/usr/local/lib/python3.5/dist-packages/selenium/webdriver/remote/webdriver.py", line 873, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "/usr/local/lib/python3.5/dist-packages/selenium/webdriver/remote/webdriver.py", line 250, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/usr/local/lib/python3.5/dist-packages/selenium/webdriver/remote/remote_connection.py", line 464, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/usr/local/lib/python3.5/dist-packages/selenium/webdriver/remote/remote_connection.py", line 526, in _request
+    resp = opener.open(request, timeout=self._timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 466, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.5/urllib/request.py", line 484, in _open
+    '_open', req)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 1282, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/usr/lib/python3.5/urllib/request.py", line 1257, in do_open
+    r = h.getresponse()
+  File "/usr/lib/python3.5/http/client.py", line 1197, in getresponse
+    response.begin()
+  File "/usr/lib/python3.5/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.5/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+System check identified some issues:
+
+WARNINGS:
+ia_history.Site.request_date: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 1 issue (0 silenced).
+[02/Jun/2017 15:29:53] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:29:53] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:29:54] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:29:54] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:29:55] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:29:55] "GET /resultdiv/ HTTP/1.1" 200 31
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1389: RuntimeWarning: DateTimeField Site.request_date received a naive datetime (2017-06-02 00:00:00) while time zone support is active.
+  RuntimeWarning)
+[02/Jun/2017 15:29:58] "POST /result/ HTTP/1.1" 200 1078
+[02/Jun/2017 15:29:59] "GET /resultdiv/ HTTP/1.1" 200 2246
+[02/Jun/2017 15:29:59] "GET /resultdiv/ HTTP/1.1" 200 2246
+[02/Jun/2017 15:30:00] "GET /resultdiv/ HTTP/1.1" 200 2246
+[02/Jun/2017 15:30:00] "GET /resultdiv/ HTTP/1.1" 200 2246
+[02/Jun/2017 15:30:01] "GET /resultdiv/ HTTP/1.1" 200 2246
+[02/Jun/2017 15:30:01] "GET /resultdiv/ HTTP/1.1" 200 2246
+[02/Jun/2017 15:30:02] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:30:02] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:30:03] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:30:03] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:30:03] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:30:04] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:30:04] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:30:05] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:30:05] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:30:06] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:30:06] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:30:07] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:30:07] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:30:08] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:30:08] "GET /resultdiv/ HTTP/1.1" 200 2240
+System check identified some issues:
+
+WARNINGS:
+ia_history.Site.request_date: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 1 issue (0 silenced).
+[02/Jun/2017 15:38:46] "GET / HTTP/1.1" 200 6944
+[02/Jun/2017 15:38:48] "GET /result/ HTTP/1.1" 200 1078
+[02/Jun/2017 15:38:48] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:38:49] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:38:49] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:38:49] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:38:50] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:38:50] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:38:51] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:38:51] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:38:52] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:38:52] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:38:53] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:38:53] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:38:53] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:38:54] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:38:54] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:38:55] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:38:55] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:38:56] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:38:56] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:38:57] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:38:57] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:38:57] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:38:58] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:38:58] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:38:59] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:38:59] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:00] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:00] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:01] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:01] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:02] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:02] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:02] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:03] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:03] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:04] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:04] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:04] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:05] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:05] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:06] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:06] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:07] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:07] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:07] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:08] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:08] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:09] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:09] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:10] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:10] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:11] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:11] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:12] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:12] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:13] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:13] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:14] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:14] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:14] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:15] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:15] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:39:16] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:39:16] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:39:17] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:39:17] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:39:18] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:39:18] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:39:18] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:39:19] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:39:19] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:39:20] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:39:20] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:39:21] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:39:21] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:39:21] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:39:22] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:39:22] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:39:23] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:39:23] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:39:24] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:39:24] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:39:25] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:39:25] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:39:26] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:39:26] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:39:27] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:39:27] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:39:27] "GET /resultdiv/ HTTP/1.1" 200 31
+[02/Jun/2017 15:39:28] "GET /resultdiv/ HTTP/1.1" 200 31
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1389: RuntimeWarning: DateTimeField Site.request_date received a naive datetime (2017-06-02 00:00:00) while time zone support is active.
+  RuntimeWarning)
+[02/Jun/2017 15:39:40] "POST /result/ HTTP/1.1" 200 1078
+[02/Jun/2017 15:39:40] "GET /resultdiv/ HTTP/1.1" 200 2246
+[02/Jun/2017 15:39:41] "GET /resultdiv/ HTTP/1.1" 200 2246
+[02/Jun/2017 15:39:41] "GET /resultdiv/ HTTP/1.1" 200 2246
+[02/Jun/2017 15:39:42] "GET /resultdiv/ HTTP/1.1" 200 2246
+[02/Jun/2017 15:39:42] "GET /resultdiv/ HTTP/1.1" 200 2246
+[02/Jun/2017 15:39:43] "GET /resultdiv/ HTTP/1.1" 200 2246
+[02/Jun/2017 15:39:43] "GET /resultdiv/ HTTP/1.1" 200 2246
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1389: RuntimeWarning: DateTimeField Site.request_date received a naive datetime (2017-06-02 00:00:00) while time zone support is active.
+  RuntimeWarning)
+[02/Jun/2017 15:39:44] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:44] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:45] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:45] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:45] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:46] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:46] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:47] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:47] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:48] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:49] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:49] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:39:50] "GET /resultdiv/ HTTP/1.1" 200 2240
+[02/Jun/2017 15:42:04] "GET /resultdiv/ HTTP/1.1" 200 2240
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1389: RuntimeWarning: DateTimeField Site.request_date received a naive datetime (2017-06-02 00:00:00) while time zone support is active.
+  RuntimeWarning)
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1389: RuntimeWarning: DateTimeField Site.request_date received a naive datetime (2017-06-02 00:00:00) while time zone support is active.
+  RuntimeWarning)
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1389: RuntimeWarning: DateTimeField Site.request_date received a naive datetime (2017-06-02 00:00:00) while time zone support is active.
+  RuntimeWarning)
+[02/Jun/2017 16:03:36] "GET / HTTP/1.1" 200 6944
+Not Found: /http:/www.baidu.com/
+[02/Jun/2017 16:23:23] "GET http://www.baidu.com/ HTTP/1.1" 404 1658
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1389: RuntimeWarning: DateTimeField Site.request_date received a naive datetime (2017-06-02 00:00:00) while time zone support is active.
+  RuntimeWarning)
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1389: RuntimeWarning: DateTimeField Site.request_date received a naive datetime (2017-06-02 00:00:00) while time zone support is active.
+  RuntimeWarning)
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1389: RuntimeWarning: DateTimeField Site.request_date received a naive datetime (2017-06-02 00:00:00) while time zone support is active.
+  RuntimeWarning)
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1389: RuntimeWarning: DateTimeField Site.request_date received a naive datetime (2017-06-02 00:00:00) while time zone support is active.
+  RuntimeWarning)
+/usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1389: RuntimeWarning: DateTimeField Site.request_date received a naive datetime (2017-06-02 00:00:00) while time zone support is active.
+  RuntimeWarning)
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 313, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 636, in process_request
+    t.start()
+  File "/usr/lib/python3.5/threading.py", line 844, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 313, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 636, in process_request
+    t.start()
+  File "/usr/lib/python3.5/threading.py", line 844, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 313, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 636, in process_request
+    t.start()
+  File "/usr/lib/python3.5/threading.py", line 844, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+Not Found: /http:/58.83.181.11/queryall
+Not Found: /w00tw00t.at.ISC.SANS.DFind:)
+[03/Jun/2017 11:19:57] "GET http://58.83.181.11/queryall?arg=NTQuMTUzLjI0LjE2OSY4MCZodHRw HTTP/1.1" 404 1711
+Not Found: /http:/58.83.181.11/queryall
+[03/Jun/2017 11:20:16] "GET /w00tw00t.at.ISC.SANS.DFind:) HTTP/1.1" 404 2794
+[03/Jun/2017 11:20:16] "GET http://58.83.181.11/queryall?arg=NTQuMTUzLjI0LjE2OSY4MCZodHRw HTTP/1.1" 404 1711
+[03/Jun/2017 11:20:16] "GET /timeline?site=fundourcommunity.com&date=2017-05-27&mode=0 HTTP/1.1" 200 1584
+Not Found: /cgi/common.cgi
+[03/Jun/2017 11:20:16] "GET /cgi/common.cgi HTTP/1.0" 404 2722
+Not Found: /command.php
+[03/Jun/2017 11:20:16] "POST /command.php HTTP/1.0" 404 2714
+[03/Jun/2017 11:20:22] "GET /timeline?site=fundourcommunity.com&date=2017-05-27&mode=0 HTTP/1.1" 200 1584
+[03/Jun/2017 11:21:15] "GET / HTTP/1.1" 200 6944
+[03/Jun/2017 11:21:15] "GET / HTTP/1.0" 200 6944
+[03/Jun/2017 11:21:14] "GET / HTTP/1.1" 200 6944
+[03/Jun/2017 11:21:20] "GET / HTTP/1.1" 200 6944

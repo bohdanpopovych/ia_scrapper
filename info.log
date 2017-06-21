@@ -1,0 +1,227 @@
+[2017-06-02 15:15:43,622] Starting new HTTP connection (1): archive.org
+[2017-06-02 15:15:43,723] Starting new HTTP connection (1): archive.org
+[2017-06-02 15:15:43,821] Starting new HTTP connection (1): archive.org
+[2017-06-02 15:15:44,047] Starting new HTTP connection (1): archive.org
+[2017-06-02 15:15:44,793] Getting timemap for 'http://explorewithmwnf.net'...
+[2017-06-02 15:15:44,794] Starting new HTTP connection (1): web.archive.org
+[2017-06-02 15:15:45,203] Getting timemap for 'http://hoprace.com'...
+[2017-06-02 15:15:45,204] Starting new HTTP connection (1): web.archive.org
+[2017-06-02 15:15:45,778] Getting timemap for 'http://dpmagic.com'...
+[2017-06-02 15:15:45,810] Starting new HTTP connection (1): web.archive.org
+[2017-06-02 15:15:45,841] Getting timemap for 'http://espace-loisirs-nature.com'...
+[2017-06-02 15:15:45,842] Starting new HTTP connection (1): web.archive.org
+[2017-06-02 15:15:45,941] Timemap received!
+[2017-06-02 15:15:45,941] Consistency mode: One per month
+[2017-06-02 15:15:45,942] Starting browser...
+[2017-06-02 15:15:46,275] Timemap received!
+[2017-06-02 15:15:46,275] Consistency mode: One per month
+[2017-06-02 15:15:46,276] Starting browser...
+[2017-06-02 15:15:46,823] Timemap received!
+[2017-06-02 15:15:46,824] Consistency mode: One per month
+[2017-06-02 15:15:46,824] Starting browser...
+[2017-06-02 15:15:46,859] Timemap received!
+[2017-06-02 15:15:46,922] Consistency mode: One per month
+[2017-06-02 15:15:46,922] Starting browser...
+[2017-06-02 15:15:54,594] Browser started!
+[2017-06-02 15:15:54,625] Directory 'media/explorewithmwnf.net_1' does not exists, creating...
+[2017-06-02 15:15:54,627] Total snapshots: 12
+[2017-06-02 15:15:54,659] Browser started!
+[2017-06-02 15:15:54,659] Directory 'media/dpmagic.com_1' does not exists, creating...
+[2017-06-02 15:15:54,659] Total snapshots: 76
+[2017-06-02 15:15:55,351] Browser started!
+[2017-06-02 15:15:55,351] Directory 'media/hoprace.com_1' does not exists, creating...
+[2017-06-02 15:15:55,351] Total snapshots: 21
+[2017-06-02 15:15:55,380] Browser started!
+[2017-06-02 15:15:55,380] Directory 'media/espace-loisirs-nature.com_1' does not exists, creating...
+[2017-06-02 15:15:55,380] Total snapshots: 48
+[2017-06-02 15:27:59,887] Starting new HTTP connection (1): archive.org
+[2017-06-02 15:28:00,441] Getting timemap for 'http://dpmagic.com'...
+[2017-06-02 15:28:00,442] Starting new HTTP connection (1): web.archive.org
+[2017-06-02 15:28:00,926] Timemap received!
+[2017-06-02 15:28:00,926] Consistency mode: One per Year
+[2017-06-02 15:28:00,983] Starting browser...
+[2017-06-02 15:28:03,314] Browser started!
+[2017-06-02 15:28:03,315] Directory 'media/dpmagic.com_0' does not exists, creating...
+[2017-06-02 15:28:03,316] Total snapshots: 14
+[2017-06-02 15:29:58,131] Starting new HTTP connection (1): archive.org
+[2017-06-02 15:29:58,243] Getting timemap for 'http://dpmagic.com'...
+[2017-06-02 15:29:58,244] Starting new HTTP connection (1): web.archive.org
+[2017-06-02 15:29:58,409] Timemap received!
+[2017-06-02 15:29:58,409] Consistency mode: One per Year
+[2017-06-02 15:29:58,410] Starting browser...
+[2017-06-02 15:30:01,815] Browser started!
+[2017-06-02 15:30:01,841] Total snapshots: 14
+[2017-06-02 15:39:40,057] Starting new HTTP connection (1): archive.org
+[2017-06-02 15:39:40,607] Getting timemap for 'http://dpmagic.com'...
+[2017-06-02 15:39:40,608] Starting new HTTP connection (1): web.archive.org
+[2017-06-02 15:39:40,868] Timemap received!
+[2017-06-02 15:39:40,868] Consistency mode: One per Year
+[2017-06-02 15:39:40,869] Starting browser...
+[2017-06-02 15:39:43,998] Browser started!
+[2017-06-02 15:39:43,999] Total snapshots: 14
+[2017-06-02 15:42:04,642] Starting new HTTP connection (1): archive.org
+[2017-06-02 15:42:05,063] Getting timemap for 'http://espace-loisirs-nature.com'...
+[2017-06-02 15:42:05,064] Starting new HTTP connection (1): web.archive.org
+[2017-06-02 15:42:05,557] Timemap received!
+[2017-06-02 15:42:05,557] Consistency mode: One per Year
+[2017-06-02 15:42:05,558] Starting browser...
+[2017-06-02 15:42:08,721] Browser started!
+[2017-06-02 15:42:08,721] Directory 'media/espace-loisirs-nature.com_0' does not exists, creating...
+[2017-06-02 15:42:08,747] Total snapshots: 13
+[2017-06-02 15:42:23,112] Starting new HTTP connection (1): archive.org
+[2017-06-02 15:42:23,344] Getting timemap for 'http://explorewithmwnf.net'...
+[2017-06-02 15:42:23,345] Starting new HTTP connection (1): web.archive.org
+[2017-06-02 15:42:23,478] Timemap received!
+[2017-06-02 15:42:23,478] Consistency mode: One per Year
+[2017-06-02 15:42:23,478] Starting browser...
+[2017-06-02 15:42:26,630] Browser started!
+[2017-06-02 15:42:26,631] Directory 'media/explorewithmwnf.net_0' does not exists, creating...
+[2017-06-02 15:42:26,632] Total snapshots: 4
+[2017-06-02 15:42:37,097] 1/4 snapshots
+[2017-06-02 15:45:01,702] 2/4 snapshots
+[2017-06-02 15:47:19,047] 3/4 snapshots
+[2017-06-02 15:51:11,227] 4/4 snapshots
+[2017-06-02 15:51:11,523] explorewithmwnf.net finished!
+[2017-06-02 15:51:14,282] Starting new HTTP connection (1): archive.org
+[2017-06-02 15:51:14,768] Getting timemap for 'http://hoprace.com'...
+[2017-06-02 15:51:14,867] Starting new HTTP connection (1): web.archive.org
+[2017-06-02 15:51:15,450] Timemap received!
+[2017-06-02 15:51:15,519] Consistency mode: One per Year
+[2017-06-02 15:51:15,521] Starting browser...
+[2017-06-02 15:54:36,670] Starting new HTTP connection (1): archive.org
+[2017-06-02 15:54:48,627] Getting timemap for 'http://ianwoodsports.com'...
+[2017-06-02 15:54:58,906] Starting new HTTP connection (1): web.archive.org
+[2017-06-02 15:55:29,648] Timemap received!
+[2017-06-02 15:55:29,969] Consistency mode: One per Year
+[2017-06-02 15:56:32,137] Starting browser...
+[2017-06-02 16:03:21,354] Browser started!
+[2017-06-02 16:03:21,381] Directory 'media/ianwoodsports.com_0' does not exists, creating...
+[2017-06-02 16:03:21,382] Total snapshots: 14
+[2017-06-02 16:03:30,295] 1/14 snapshots
+[2017-06-02 16:03:36,269] 2/14 snapshots
+[2017-06-02 16:03:58,359] 3/14 snapshots
+[2017-06-02 16:05:01,157] 4/14 snapshots
+[2017-06-02 16:11:27,334] 5/14 snapshots
+[2017-06-02 16:11:48,255] 6/14 snapshots
+[2017-06-02 16:13:11,109] 7/14 snapshots
+[2017-06-02 16:16:28,176] 8/14 snapshots
+[2017-06-02 16:23:20,517] Not Found: /http:/www.baidu.com/
+[2017-06-02 16:29:37,392] 9/14 snapshots
+[2017-06-02 16:56:31,680] 10/14 snapshots
+[2017-06-02 17:00:30,212] 11/14 snapshots
+[2017-06-02 17:00:46,333] Starting new HTTP connection (1): archive.org
+[2017-06-02 17:00:47,471] Getting timemap for 'http://slowlyrollingcamera.com'...
+[2017-06-02 17:00:47,472] Starting new HTTP connection (1): web.archive.org
+[2017-06-02 17:00:48,566] Timemap received!
+[2017-06-02 17:00:48,566] Consistency mode: One per Year
+[2017-06-02 17:00:48,566] Starting browser...
+[2017-06-02 17:00:50,688] Browser started!
+[2017-06-02 17:00:50,717] Directory 'media/slowlyrollingcamera.com_0' does not exists, creating...
+[2017-06-02 17:00:50,719] Total snapshots: 4
+[2017-06-02 17:00:54,337] 1/4 snapshots
+[2017-06-02 17:01:30,091] Starting new HTTP connection (1): archive.org
+[2017-06-02 17:01:30,248] Getting timemap for 'http://taln2014.org'...
+[2017-06-02 17:01:30,249] Starting new HTTP connection (1): web.archive.org
+[2017-06-02 17:01:30,539] Timemap received!
+[2017-06-02 17:01:30,540] Consistency mode: One per Year
+[2017-06-02 17:01:30,540] Starting browser...
+[2017-06-02 17:01:32,754] Browser started!
+[2017-06-02 17:01:32,755] Directory 'media/taln2014.org_0' does not exists, creating...
+[2017-06-02 17:01:32,773] Total snapshots: 4
+[2017-06-02 17:01:39,306] 1/4 snapshots
+[2017-06-02 17:02:39,049] Starting new HTTP connection (1): archive.org
+[2017-06-02 17:03:09,130] http://yerbamateteagourd.com not available.
+[2017-06-02 17:03:09,176] Starting new HTTP connection (1): archive.org
+[2017-06-02 17:03:09,467] Getting timemap for 'http://dosdeus.com'...
+[2017-06-02 17:03:09,468] Starting new HTTP connection (1): web.archive.org
+[2017-06-02 17:03:09,710] Timemap received!
+[2017-06-02 17:03:09,710] Consistency mode: One per Year
+[2017-06-02 17:03:09,711] Starting browser...
+[2017-06-02 17:03:11,845] Browser started!
+[2017-06-02 17:03:11,845] Directory 'media/dosdeus.com_0' does not exists, creating...
+[2017-06-02 17:03:11,870] Total snapshots: 5
+[2017-06-02 17:03:17,485] 1/5 snapshots
+[2017-06-02 17:03:25,690] 2/5 snapshots
+[2017-06-02 17:03:43,530] 3/5 snapshots
+[2017-06-02 17:05:17,253] 4/5 snapshots
+[2017-06-02 17:18:21,846] 5/5 snapshots
+[2017-06-02 17:18:22,466] dosdeus.com finished!
+[2017-06-02 17:18:22,617] Starting new HTTP connection (1): archive.org
+[2017-06-02 17:18:23,838] Getting timemap for 'http://duracellcloud.com'...
+[2017-06-02 17:18:23,839] Starting new HTTP connection (1): web.archive.org
+[2017-06-02 17:18:27,652] Timemap received!
+[2017-06-02 17:18:27,652] Consistency mode: One per Year
+[2017-06-02 17:18:27,652] Starting browser...
+[2017-06-02 17:18:54,140] Browser started!
+[2017-06-02 17:18:54,186] Directory 'media/duracellcloud.com_0' does not exists, creating...
+[2017-06-02 17:18:54,206] Total snapshots: 4
+[2017-06-02 17:19:09,842] 1/4 snapshots
+[2017-06-02 17:19:16,411] 2/4 snapshots
+[2017-06-02 17:19:23,012] 3/4 snapshots
+[2017-06-02 17:19:26,485] 4/4 snapshots
+[2017-06-02 17:19:27,566] duracellcloud.com finished!
+[2017-06-02 17:19:28,337] Starting new HTTP connection (1): archive.org
+[2017-06-02 17:19:30,397] Getting timemap for 'http://thethirdstreetgallery.com'...
+[2017-06-02 17:19:30,398] Starting new HTTP connection (1): web.archive.org
+[2017-06-02 17:19:31,818] Timemap received!
+[2017-06-02 17:19:31,818] Consistency mode: One per Year
+[2017-06-02 17:19:31,886] Starting browser...
+[2017-06-02 17:20:07,643] Starting new HTTP connection (1): archive.org
+[2017-06-02 17:20:08,723] Getting timemap for 'http://satanaslapelicula.com'...
+[2017-06-02 17:20:08,724] Starting new HTTP connection (1): web.archive.org
+[2017-06-02 17:20:09,779] Timemap received!
+[2017-06-02 17:20:09,779] Consistency mode: One per Year
+[2017-06-02 17:20:09,780] Starting browser...
+[2017-06-02 17:20:48,948] Starting new HTTP connection (1): archive.org
+[2017-06-02 17:20:57,627] Getting timemap for 'http://3dsview.com'...
+[2017-06-02 17:20:57,838] Starting new HTTP connection (1): web.archive.org
+[2017-06-02 17:20:58,925] Timemap received!
+[2017-06-02 17:20:58,926] Consistency mode: One per Year
+[2017-06-02 17:20:58,926] Starting browser...
+[2017-06-02 17:21:43,259] Starting new HTTP connection (1): archive.org
+[2017-06-02 17:21:44,853] Getting timemap for 'http://imprevu-cafe.com'...
+[2017-06-02 17:21:44,854] Starting new HTTP connection (1): web.archive.org
+[2017-06-02 17:21:46,650] Timemap received!
+[2017-06-02 17:21:46,748] Consistency mode: One per Year
+[2017-06-02 17:21:46,798] Starting browser...
+[2017-06-02 17:22:30,909] Starting new HTTP connection (1): archive.org
+[2017-06-02 17:22:31,167] Getting timemap for 'http://yerbamateteagourd.com '...
+[2017-06-02 17:22:31,169] Starting new HTTP connection (1): web.archive.org
+[2017-06-02 17:22:31,674] Timemap received!
+[2017-06-02 17:22:31,674] Consistency mode: One per Year
+[2017-06-02 17:22:31,675] Starting browser...
+[2017-06-02 17:25:16,911] Starting new HTTP connection (1): archive.org
+[2017-06-02 17:25:18,563] Getting timemap for 'http://dosdeus.com'...
+[2017-06-02 17:25:18,564] Starting new HTTP connection (1): web.archive.org
+[2017-06-02 17:25:20,178] Timemap received!
+[2017-06-02 17:25:20,178] Consistency mode: One per Year
+[2017-06-02 17:25:20,179] Starting browser...
+[2017-06-02 17:25:59,341] Starting new HTTP connection (1): archive.org
+[2017-06-02 17:25:59,973] Getting timemap for 'http://duracellcloud.com'...
+[2017-06-02 17:25:59,974] Starting new HTTP connection (1): web.archive.org
+[2017-06-02 17:26:00,021] Timemap received!
+[2017-06-02 17:26:00,021] Consistency mode: One per Year
+[2017-06-02 17:26:00,021] Starting browser...
+[2017-06-02 17:27:55,383] Starting new HTTP connection (1): archive.org
+[2017-06-02 17:28:01,573] Getting timemap for 'http://chuitna.org'...
+[2017-06-02 17:28:04,973] Starting new HTTP connection (1): web.archive.org
+[2017-06-02 17:28:09,843] Timemap received!
+[2017-06-02 17:28:09,943] Consistency mode: One per Year
+[2017-06-02 17:28:10,043] Starting browser...
+[2017-06-02 17:34:09,177] Starting new HTTP connection (1): archive.org
+[2017-06-02 17:34:13,727] Getting timemap for 'http://slowlyrollingcamera.com'...
+[2017-06-02 17:34:13,787] Starting new HTTP connection (1): web.archive.org
+[2017-06-02 17:34:15,321] Timemap received!
+[2017-06-02 17:34:15,321] Consistency mode: One per Year
+[2017-06-02 17:34:15,321] Starting browser...
+[2017-06-02 17:38:17,440] Starting new HTTP connection (1): archive.org
+[2017-06-02 17:38:22,229] Getting timemap for 'http://taln2014.org'...
+[2017-06-02 17:38:22,379] Starting new HTTP connection (1): web.archive.org
+[2017-06-02 17:38:25,199] Timemap received!
+[2017-06-02 17:38:25,689] Consistency mode: One per Year
+[2017-06-02 17:38:25,689] Starting browser...
+[2017-06-03 11:19:27,296] Not Found: /http:/58.83.181.11/queryall
+[2017-06-03 11:19:57,219] Not Found: /w00tw00t.at.ISC.SANS.DFind:)
+[2017-06-03 11:20:10,378] Not Found: /http:/58.83.181.11/queryall
+[2017-06-03 11:20:16,991] Not Found: /cgi/common.cgi
+[2017-06-03 11:20:16,995] Not Found: /command.php
