@@ -26,7 +26,7 @@ cssselect==1.0.1
 decorators==0.1.1
 defer==1.0.6
 distro-info===0.14build1
-Django==1.11
+Django==1.11.28
 django-extensions==1.5.5
 django-jquery==3.1.0
 docopt==0.6.2
