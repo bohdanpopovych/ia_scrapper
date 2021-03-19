@@ -37,7 +37,7 @@ httplib2==0.9.1
 idna==2.1
 incremental==16.10.1
 internetarchive==1.5.0
-Jinja2==2.8
+Jinja2==2.11.3
 jsonpatch==0.4
 kombu==3.0.37
 language-selector==0.1
