@@ -43,7 +43,7 @@ kombu==3.0.37
 language-selector==0.1
 LibAppArmor==2.10.95
 louis==2.6.5
-lxml==3.6.4
+lxml==4.6.3
 Mako==1.0.4
 MarkupSafe==0.23
 memento-client==0.5.3
